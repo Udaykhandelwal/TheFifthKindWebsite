@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The5thkind.ai — AI Video, Clone &amp; Brand Films</title>
+  <meta name="description" content="The5thkind.ai — India's premier AI content studio. AI Product Videos, AI Clone Videos, Character Films, Reel Edits &amp; Brand Films that make your brand impossible to ignore." />
+  <meta name="keywords" content="AI video, AI clone video, brand film, reel editing, AI content studio, AI marketing, India" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#f97316" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="The5thkind.ai" />
+  <meta property="og:title" content="The5thkind.ai — AI Video &amp; Brand Films" />
+  <meta property="og:description" content="AI-powered content creation that makes your brand impossible to ignore. AI Videos, Clone Films, Reels &amp; more." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&q=80&auto=format" />
+  <meta property="og:url" content="https://the5thkind.ai" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The5thkind.ai — AI Video &amp; Brand Films" />
+  <meta name="twitter:description" content="AI-powered content that grabs attention, holds it, and converts." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&q=80&auto=format" />
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23f97316'/><text x='4' y='24' font-family='Arial Black,sans-serif' font-weight='900' font-size='18' fill='white'>5K</text></svg>" />
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect width='180' height='180' rx='40' fill='%23f97316'/><text x='22' y='135' font-family='Arial Black,sans-serif' font-weight='900' font-size='100' fill='white'>5K</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== PRELOADER ===== -->
+  <div id="preloader">
+    <div class="pre-inner">
+      <div class="pre-logo">The5thkind<span>.ai</span></div>
+      <div class="pre-bar"><div class="pre-fill" id="preFill"></div></div>
+      <div class="pre-pct" id="prePct">0%</div>
+    </div>
+  </div>
+
+  <!-- Scroll Progress -->
+  <div id="scrollProgress"></div>
+
+  <!-- Background Grid -->
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        The5thkind<span>.ai</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact" class="nav-cta">Let's Talk →</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mob-menu" id="mobMenu">
+    <a href="#about">About</a>
+    <a href="#process">Process</a>
+    <a href="#services">Services</a>
+    <a href="#why">Why Us</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="bg-orb orb1" aria-hidden="true"></div>
+    <div class="bg-orb orb2" aria-hidden="true"></div>
+    <div class="bg-orb orb3" aria-hidden="true"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span> AI Content Studio &nbsp;&middot;&nbsp; India
+      </div>
+      <h1 class="hero-title">
+        <span class="hl">Your brand,</span>
+        <span class="hl">on screen.</span>
+        <span class="hl accent gradient-text">Powered</span>
+        <span class="hl accent gradient-text">by AI.</span>
+      </h1>
+      <p class="hero-desc">AI Product Videos, Clone Videos, Brand Films &amp; Reel Edits &mdash; content that grabs attention, holds it, and converts.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-fill btn-glow">Book a Free Brief →</a>
+        <a href="#work" class="btn-ghost">View Our Work</a>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-avatars">
+          <span class="trust-av" style="background:#f97316">RS</span>
+          <span class="trust-av" style="background:#6366f1">AK</span>
+          <span class="trust-av" style="background:#10b981">PM</span>
+          <span class="trust-av" style="background:#f59e0b">SR</span>
+        </div>
+        <span class="trust-text">Trusted by <strong>50+</strong> brands across India</span>
+      </div>
+    </div>
+    <div class="hero-3d" id="hero3d">
+      <canvas id="heroCanvas"></canvas>
+    </div>
+    <!-- Gradient fade -->
+    <div class="hero-fade"></div>
+    <!-- Bottom ticker -->
+    <div class="hero-ticker">
+      <div class="ticker-track">
+        <span>AI Product Video</span><span class="dot">·</span>
+        <span>AI Clone Video</span><span class="dot">·</span>
+        <span>Brand Films</span><span class="dot">·</span>
+        <span>Voice Cloning</span><span class="dot">·</span>
+        <span>Reel Editing</span><span class="dot">·</span>
+        <span>AI Characters</span><span class="dot">·</span>
+        <span>Cinematic Edit</span><span class="dot">·</span>
+        <span>Story Videos</span><span class="dot">·</span>
+        <span>Ad Films</span><span class="dot">·</span>
+        <span>AI Product Video</span><span class="dot">·</span>
+        <span>AI Clone Video</span><span class="dot">·</span>
+        <span>Brand Films</span><span class="dot">·</span>
+        <span>Voice Cloning</span><span class="dot">·</span>
+        <span>Reel Editing</span><span class="dot">·</span>
+        <span>AI Characters</span><span class="dot">·</span>
+        <span>Cinematic Edit</span><span class="dot">·</span>
+        <span>Story Videos</span><span class="dot">·</span>
+        <span>Ad Films</span><span class="dot">·</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PILLARS ===== -->
+  <section class="pillars fade-section">
+    <div class="container">
+      <div class="pillars-grid">
+        <div class="pillar" data-delay="0">
+          <span class="pillar-num">1.0</span>
+          <h3>Story First</h3>
+          <p>Every video starts with a sharp concept and script &mdash; no generic AI output, ever.</p>
+        </div>
+        <div class="pillar sep" data-delay="0.1">
+          <span class="pillar-num">2.0</span>
+          <h3>Built to Convert</h3>
+          <p>AI visuals engineered to stop the scroll, hold attention, and drive real action.</p>
+        </div>
+        <div class="pillar" data-delay="0.2">
+          <span class="pillar-num">3.0</span>
+          <h3>Fast &amp; Premium</h3>
+          <p>Studio-quality deliverables in days &mdash; not weeks. No compromises on craft.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SHOWREEL ===== -->
+  <section class="showreel-section">
+    <div class="showreel-bg-word" aria-hidden="true">SHOWREEL</div>
+    <div class="container">
+      <p class="section-label center">SHOWREEL 2026</p>
+      <h2 class="center">See what AI can create<br /><span class="muted">for your brand.</span></h2>
+      <p class="sub center" style="max-width:480px;margin-inline:auto;">Watch how we transform simple briefs into cinematic AI videos that stop the scroll and drive results.</p>
+      <div class="showreel-video-wrap">
+        <video class="showreel-vid" src="Video/And%20this%20is%20how%20we%20make%20AI%20reels!%23aivideo%20%23aicontent%20%23aicreators%20%23futureofcontent.mp4" autoplay muted loop playsinline></video>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FULL STACK ===== -->
+  <section id="about" class="stack-section">
+    <div class="container">
+      <p class="section-label">WHAT WE CREATE</p>
+      <h2>One studio. Full pipeline.<br /><span class="muted">From concept to content.</span></h2>
+    </div>
+    <div class="marquee-wrap">
+      <div class="marquee-content">
+        <div class="m-pill lit">AI Product Video</div>
+        <div class="m-pill">AI Clone Video</div>
+        <div class="m-pill lit">Voice Cloning</div>
+        <div class="m-pill">Brand Films</div>
+        <div class="m-pill lit">Your Brand</div>
+        <div class="m-pill">Reel Editing</div>
+        <div class="m-pill lit">AI Characters</div>
+        <div class="m-pill">Story Videos</div>
+        <div class="m-pill lit">Ad Films</div>
+        <div class="m-pill">Whatsapp Automation</div>
+        <div class="m-pill lit">AI Voice Agent</div>
+        <!-- Duplicate set -->
+        <div class="m-pill lit">AI Product Video</div>
+        <div class="m-pill">AI Clone Video</div>
+        <div class="m-pill lit">Voice Cloning</div>
+        <div class="m-pill">Brand Films</div>
+        <div class="m-pill lit">Your Brand</div>
+        <div class="m-pill">Reel Editing</div>
+        <div class="m-pill lit">AI Characters</div>
+        <div class="m-pill">Story Videos</div>
+        <div class="m-pill lit">Ad Films</div>
+        <div class="m-pill">Whatsapp Automation</div>
+        <div class="m-pill lit">AI Voice Agent</div>
+      </div>
+    </div>
+    <div class="container">
+      <p class="powered-by">Powered by industry-leading AI tools &amp; studios</p>
+      <div class="tech-row">
+        <span class="tech-chip">HeyGen</span>
+        <span class="tech-chip">RunwayML</span>
+        <span class="tech-chip">ElevenLabs</span>
+        <span class="tech-chip">Sora</span>
+        <span class="tech-chip">Kling AI</span>
+        <span class="tech-chip">Adobe Premiere</span>
+        <span class="tech-chip">CapCut</span>
+        <span class="tech-chip">DaVinci Resolve</span>
+        <span class="tech-chip">Twilio</span>
+        <span class="tech-chip">Google Cloud</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section id="process" class="process-section">
+    <div class="container">
+      <p class="section-label">OUR PROCESS</p>
+      <h2>How we work</h2>
+      <div class="steps" id="stepsAccordion">
+
+        <div class="step active">
+          <div class="step-head">
+            <span class="step-idx">01 / 06</span>
+            <h3>Brief &amp; Concept</h3>
+            <span class="step-icon">+</span>
+          </div>
+          <div class="step-body">
+            <p>We immerse in your brand, product, and audience to build the perfect video concept &mdash; no templates, no guesswork.</p>
+            <span class="step-tag">Discovery &amp; Strategy</span>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-head">
+            <span class="step-idx">02 / 06</span>
+            <h3>Script &amp; Storyboard</h3>
+            <span class="step-icon">+</span>
+          </div>
+          <div class="step-body">
+            <p>A sharp script and visual storyboard are crafted before a single frame is generated &mdash; ensuring every second earns its place.</p>
+            <span class="step-tag">Pre-Production</span>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-head">
+            <span class="step-idx">03 / 06</span>
+            <h3>AI Production</h3>
+            <span class="step-icon">+</span>
+          </div>
+          <div class="step-body">
+            <p>We deploy leading AI models &mdash; HeyGen, RunwayML, Sora, Kling, ElevenLabs &mdash; to generate visuals, clones, and characters at studio quality.</p>
+            <span class="step-tag">AI Generation</span>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-head">
+            <span class="step-idx">04 / 06</span>
+            <h3>Edit &amp; Audio</h3>
+            <span class="step-icon">+</span>
+          </div>
+          <div class="step-body">
+            <p>Professional editing, voice cloning, music curation, sound design, and colour grading for a cinematic, premium finish.</p>
+            <span class="step-tag">Post-Production</span>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-head">
+            <span class="step-idx">05 / 06</span>
+            <h3>Deliver &amp; Launch</h3>
+            <span class="step-icon">+</span>
+          </div>
+          <div class="step-body">
+            <p>All files delivered in your required formats. We guide you on platform-specific optimisation, captions, and launch strategy.</p>
+            <span class="step-tag">Go Live</span>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-head">
+            <span class="step-idx">06 / 06</span>
+            <h3>Grow &amp; Iterate</h3>
+            <span class="step-icon">+</span>
+          </div>
+          <div class="step-body">
+            <p>We monitor results, optimise campaigns, and iterate continuously to compound your growth month over month.</p>
+            <span class="step-tag">Ongoing Partnership</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <p class="section-label">ONE-TIME SERVICES</p>
+      <h2>AI-powered content &amp; marketing<br /><span class="muted">for your business.</span></h2>
+      <div class="svc-grid">
+
+        <div class="svc-card reveal">
+          <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
+          <h3>AI Product Video</h3>
+          <p class="svc-meta">15 – 45 sec</p>
+          <p>Showcase your product with stunning AI-generated visuals, a clean concept, and a polished edit that grabs attention from the first frame.</p>
+          <ul class="svc-includes">
+            <li>AI visuals</li>
+            <li>Basic concept</li>
+            <li>Clean edit</li>
+          </ul>
+          <a href="#contact" class="svc-link">Get Started →</a>
+        </div>
+
+        <div class="svc-card reveal highlight">
+          <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <h3>AI Clone Video</h3>
+          <p class="svc-meta">Up to 30 sec</p>
+          <p>Put your brand on camera — without stepping in front of one. A hyper-realistic AI clone delivers your message with your voice and likeness.</p>
+          <ul class="svc-includes">
+            <li>Script guidance</li>
+            <li>AI clone generation</li>
+            <li>Editing + voice clone</li>
+          </ul>
+          <a href="#contact" class="svc-link">Get Started →</a>
+        </div>
+
+        <div class="svc-card reveal">
+          <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+          <h3>AI Character &amp; Story Video</h3>
+          <p class="svc-meta">Custom length</p>
+          <p>Tell your brand story through AI-crafted characters and cinematic scenes — perfect for ads, pitches, and social storytelling.</p>
+          <ul class="svc-includes">
+            <li>Concept + character design</li>
+            <li>AI scene generation</li>
+            <li>Cinematic edit</li>
+          </ul>
+          <a href="#contact" class="svc-link">Get Started →</a>
+        </div>
+
+        <div class="svc-card reveal">
+          <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/><line x1="17" y1="17" x2="22" y2="17"/></svg></div>
+          <h3>Reel Edit</h3>
+          <p class="svc-meta">No AI creation</p>
+          <p>Got the footage? We'll transform your raw clips into a scroll-stopping reel with professional cuts, transitions, music, and captions.</p>
+          <ul class="svc-includes">
+            <li>Professional editing</li>
+            <li>Transitions &amp; effects</li>
+            <li>Music &amp; captions</li>
+          </ul>
+          <a href="#contact" class="svc-link">Get Started →</a>
+        </div>
+
+        <div class="svc-card reveal">
+          <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+          <h3>Brand &amp; Ad Film</h3>
+          <p class="svc-meta">1 – 3 mins</p>
+          <p>A fully produced brand film or ad that communicates your story, values, and offer — compelling enough to convert viewers into customers.</p>
+          <ul class="svc-includes">
+            <li>Full production</li>
+            <li>Script &amp; direction</li>
+            <li>Colour grade &amp; sound</li>
+          </ul>
+          <a href="#contact" class="svc-link">Get Started →</a>
+        </div>
+
+        <div class="svc-card reveal">
+          <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+          <h3>WhatsApp Automation</h3>
+          <p class="svc-meta">24/7 Support</p>
+          <p>Automate customer interactions on WhatsApp with AI-powered chatbots that handle inquiries, bookings, and support — keeping your business responsive around the clock.</p>
+          <ul class="svc-includes">
+            <li>AI chatbot setup</li>
+            <li>Custom responses</li>
+            <li>Integration &amp; training</li>
+          </ul>
+          <a href="#contact" class="svc-link">Get Started →</a>
+        </div>
+
+        <div class="svc-card reveal">
+          <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v1a7 7 0 0 1-14 0v-1"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg></div>
+          <h3>AI Voice Agent</h3>
+          <p class="svc-meta">Conversational AI</p>
+          <p>Deploy intelligent voice agents that engage customers via phone calls, providing information, taking orders, or resolving issues with natural, human-like conversations.</p>
+          <ul class="svc-includes">
+            <li>Voice cloning</li>
+            <li>Scripted responses</li>
+            <li>Real-time interaction</li>
+          </ul>
+          <a href="#contact" class="svc-link">Get Started →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section id="why" class="why-section">
+    <div class="container">
+      <div class="why-top">
+        <div class="why-text">
+          <p class="section-label">WHY THE5THKIND.AI</p>
+          <h2>For those building<br /><em>something that matters.</em></h2>
+        </div>
+        <div class="why-tabs">
+          <button class="w-tab active">SMEs</button>
+          <button class="w-tab">Enterprises</button>
+          <button class="w-tab">Startups</button>
+          <button class="w-tab">Traditional Businesses</button>
+        </div>
+      </div>
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <span class="why-check">✓</span>
+          <span>Non-technical friendly</span>
+        </div>
+        <div class="why-card reveal">
+          <span class="why-check">✓</span>
+          <span>Transparent pricing</span>
+        </div>
+        <div class="why-card reveal">
+          <span class="why-check">✓</span>
+          <span>Unified digital ecosystem</span>
+        </div>
+        <div class="why-card reveal">
+          <span class="why-check">✓</span>
+          <span>Long-term partnerships</span>
+        </div>
+        <div class="why-card reveal">
+          <span class="why-check">✓</span>
+          <span>Results-driven approach</span>
+        </div>
+        <div class="why-card reveal">
+          <span class="why-check">✓</span>
+          <span>Dedicated point of contact</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GLOBE / WORLD ===== -->
+  <section id="world" class="world-section">
+    <div class="world-left">
+      <p class="section-label">GLOBAL REACH</p>
+      <h2>Our services, delivered<br />to the whole world.</h2>
+      <p>From local startups to global enterprises, we deliver our full range of services wherever you are.</p>
+      <a href="#contact" class="btn-fill">Learn More →</a>
+    </div>
+    <div class="world-right">
+      <p class="globe-hint">Drag to rotate</p>
+      <canvas id="globeCanvas"></canvas>
+    </div>
+  </section>
+
+  <!-- ===== WORK ===== -->
+  <section id="work" class="work-section">
+    <div class="container">
+      <p class="section-label">SELECTED WORK</p>
+      <h2>Projects we're proud of.</h2>
+      <div class="work-grid">
+
+        <a href="#contact" class="work-card reveal" data-video="Video/aiProduct.mp4">
+          <div class="work-thumb wt-ai-product">
+            <video class="work-vid" src="Video/aiProduct.mp4" autoplay muted loop playsinline></video>
+          </div>
+          <div class="work-meta">
+            <h3>AI Product Commercial</h3>
+            <div class="work-pills">
+              <span>AI Visuals</span><span>Product</span><span>30 sec</span>
+            </div>
+          </div>
+          <div class="work-hover">View Project →</div>
+        </a>
+
+        <a href="#contact" class="work-card reveal" data-video="Video/aiCharacter.mp4">
+          <div class="work-thumb wt-clone">
+            <video class="work-vid" src="Video/aiCharacter.mp4" autoplay muted loop playsinline></video>
+          </div>
+          <div class="work-meta">
+            <h3>Founder AI Clone Campaign</h3>
+            <div class="work-pills">
+              <span>Clone</span><span>Voice Clone</span><span>30 sec</span>
+            </div>
+          </div>
+          <div class="work-hover">View Project →</div>
+        </a>
+
+        <a href="#contact" class="work-card work-card-reel reveal" data-video="Video/100%25%20AI.%20%F0%9F%A4%AFNo%20Model%20%E2%80%A2%20No%20Camera%20%E2%80%A2%20No%20Action%20%20Send%20us%20your%20product%20photo%20(even%20from%20your%20phone!),.mp4">
+          <div class="work-thumb">
+            <video class="work-vid" src="Video/100%25%20AI.%20%F0%9F%A4%AFNo%20Model%20%E2%80%A2%20No%20Camera%20%E2%80%A2%20No%20Action%20%20Send%20us%20your%20product%20photo%20(even%20from%20your%20phone!),.mp4" autoplay muted loop playsinline></video>
+          </div>
+          <div class="work-meta">
+            <h3>AI Product Shoot — No Camera</h3>
+            <div class="work-pills">
+              <span>AI Visuals</span><span>Product</span><span>Reel</span>
+            </div>
+          </div>
+          <div class="work-hover">View Project →</div>
+        </a>
+
+        <a href="#contact" class="work-card work-card-reel reveal" data-video="Video/R.I.P%20Vecna%20%F0%9F%98%AD%F0%9F%98%AD%23strangerthings5%20%20%23strangerthings%20%23fyppppppppppppppppppppppppppppppppppppppppppp.mp4">
+          <div class="work-thumb">
+            <video class="work-vid" src="Video/R.I.P%20Vecna%20%F0%9F%98%AD%F0%9F%98%AD%23strangerthings5%20%20%23strangerthings%20%23fyppppppppppppppppppppppppppppppppppppppppppp.mp4" autoplay muted loop playsinline></video>
+          </div>
+          <div class="work-meta">
+            <h3>AI Character VFX Reel</h3>
+            <div class="work-pills">
+              <span>VFX</span><span>Character</span><span>Reel</span>
+            </div>
+          </div>
+          <div class="work-hover">View Project →</div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section id="testimonials" class="testi-section">
+    <div class="container">
+      <p class="section-label center">TESTIMONIALS</p>
+      <h2 class="center">What our clients say</h2>
+      <p class="sub center">Real feedback from businesses who trusted us with their brand story.</p>
+
+      <div class="testi-slider" id="testiSlider">
+        <div class="testi active">
+          <div class="testi-avatar-wrap">
+            <div class="testi-avatar" style="--av:#f97316">RS</div>
+          </div>
+          <div class="testi-stars">★★★★★</div>
+          <blockquote>&ldquo;The AI product video they made for us was jaw-dropping. Our Instagram reach tripled in the first week and we got DMs asking who made it.&rdquo;</blockquote>
+          <div class="testi-author">
+            <cite>Riya Sharma</cite>
+            <span class="testi-role">Founder, GlowCraft Skincare</span>
+          </div>
+        </div>
+        <div class="testi">
+          <div class="testi-avatar-wrap">
+            <div class="testi-avatar" style="--av:#6366f1">AK</div>
+          </div>
+          <div class="testi-stars">★★★★★</div>
+          <blockquote>&ldquo;The AI clone video felt incredibly real. Our clients thought I filmed it personally. It saved us an entire shoot day and looked more professional than anything we'd done before.&rdquo;</blockquote>
+          <div class="testi-author">
+            <cite>Arjun Kapoor</cite>
+            <span class="testi-role">CEO, TalentFirst HR</span>
+          </div>
+        </div>
+        <div class="testi">
+          <div class="testi-avatar-wrap">
+            <div class="testi-avatar" style="--av:#10b981">PM</div>
+          </div>
+          <div class="testi-stars">★★★★★</div>
+          <blockquote>&ldquo;They delivered the reel series in 3 days. Every video was polished, on-brand, and our engagement rate went up 4x. Worth every rupee.&rdquo;</blockquote>
+          <div class="testi-author">
+            <cite>Priya Mehra</cite>
+            <span class="testi-role">Marketing Head, FitLife Studios</span>
+          </div>
+        </div>
+        <div class="testi">
+          <div class="testi-avatar-wrap">
+            <div class="testi-avatar" style="--av:#f59e0b">SR</div>
+          </div>
+          <div class="testi-stars">★★★★★</div>
+          <blockquote>&ldquo;The brand film they produced captured everything we stand for in under 2 minutes. Clients keep referring to it before meetings &mdash; it does the selling for us.&rdquo;</blockquote>
+          <div class="testi-author">
+            <cite>Suresh Rao</cite>
+            <span class="testi-role">Director, Heritage Crafts Co.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-dots" id="testiDots">
+        <button class="td active"></button>
+        <button class="td"></button>
+        <button class="td"></button>
+        <button class="td"></button>
+      </div>
+
+      <div class="stats-row">
+        <div class="stat">
+          <div class="stat-n" data-to="50" data-suffix="+">0</div>
+          <div class="stat-l">VIDEOS DELIVERED</div>
+        </div>
+        <div class="stat">
+          <div class="stat-n" data-to="4.9" data-dec data-suffix="/5">0</div>
+          <div class="stat-l">SATISFACTION</div>
+        </div>
+        <div class="stat">
+          <div class="stat-n" data-to="3" data-suffix=" Days">0</div>
+          <div class="stat-l">AVG. TURNAROUND</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq" class="faq-section">
+    <div class="container">
+      <p class="section-label">FAQ</p>
+      <h2>Common questions</h2>
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <button class="faq-q">What services does The5thkind.ai offer?</button>
+          <div class="faq-a">We specialise in AI-powered content creation &mdash; including AI Product Videos (15&ndash;45 sec), AI Clone Videos (up to 30 sec), AI Character &amp; Story Videos, Reel Editing, and full Brand &amp; Ad Films (1&ndash;3 min). Every deliverable is crafted to make your brand impossible to ignore.</div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">What exactly is an AI Clone Video?</button>
+          <div class="faq-a">An AI Clone Video creates a hyper-realistic digital version of you (or a representative) that speaks on camera. We clone your voice and likeness so your brand appears on screen professionally &mdash; without a physical shoot. Perfect for explainers, ads, and pitch videos.</div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">How fast do you deliver?</button>
+          <div class="faq-a">Most videos are delivered within 3&ndash;5 business days after the brief is finalised. Rush delivery is available. We never compromise quality for speed &mdash; you get both.</div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">I have no footage or photos &mdash; can you still make a video?</button>
+          <div class="faq-a">Absolutely. That&rsquo;s the entire point of AI production. We generate all visuals, characters, and environments from scratch &mdash; you only need to brief us on your brand and message.</div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">How much do your services cost?</button>
+          <div class="faq-a">Pricing depends on the type and length of video. We offer transparent, no-hidden-fee pricing. Contact us for a custom quote &mdash; most projects are quoted within 24 hours.</div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">Do you work with businesses outside your city?</button>
+          <div class="faq-a">Yes. We serve clients across India and internationally. Every service is delivered remotely with the same quality, communication, and results &mdash; no physical meetings required.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p class="section-label">LET'S TALK</p>
+          <h2>Let&rsquo;s create<br />something extraordinary.</h2>
+          <p style="margin-bottom:2rem;">Tell us about your brand and we&rsquo;ll come back with a concept within 24 hours. No commitment required.</p>
+          <div class="contact-details">
+            <a href="mailto:udaykhandelwal09@gmail.com" class="contact-detail-item">
+              <span class="cd-icon">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </span>
+              udaykhandelwal09@gmail.com
+            </a>
+            <a href="https://wa.me/918296008838" target="_blank" rel="noopener noreferrer" class="contact-detail-item">
+              <span class="cd-icon">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              </span>
+              +91 82960 08838
+            </a>
+            <a href="tel:+918296008838" class="contact-detail-item">
+              <span class="cd-icon">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </span>
+              +91 82960 08838
+            </a>
+            <div class="contact-detail-item contact-address">
+              <span class="cd-icon">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <span>529, 8th Cross Nanjappa Road,<br />Shantinagar, Bangalore</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form id="contactForm" class="c-form" novalidate>
+            <div class="fg">
+              <input type="text" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="fg">
+              <input type="email" name="email" placeholder="Email Address" required />
+            </div>
+            <div class="fg">
+              <input type="text" name="company" placeholder="Business / Company" />
+            </div>
+            <div class="fg">
+              <textarea name="message" placeholder="Tell us about your project..." rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn-fill full">Send Message →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA STRIP ===== -->
+  <section class="cta-strip">
+    <div class="container center">
+      <p class="cta-eyebrow">Ready to go viral?</p>
+      <h2 class="cta-heading">Content that <span class="gradient-text">converts.</span><br />Starting today.</h2>
+      <p class="cta-sub">Your first consultation is free &mdash; no strings attached.</p>
+      <a href="mailto:udaykhandelwal09@gmail.com" class="btn-fill btn-glow btn-lg">Book a Free Brief →</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="foot-brand">
+          <div class="foot-logo">The5thkind<span>.ai</span></div>
+          <p>India&rsquo;s premier AI content studio &mdash; videos that grab attention, hold it, and convert.</p>
+          <div class="foot-socials">
+            <a href="https://www.instagram.com/the5thkind.ai/" target="_blank" rel="noopener noreferrer" class="foot-social" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://youtube.com/@the5thkind.ai" target="_blank" rel="noopener noreferrer" class="foot-social" aria-label="YouTube">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.97C18.88 4 12 4 12 4s-6.88 0-8.59.45A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.97C5.12 20 12 20 12 20s6.88 0 8.59-.45a2.78 2.78 0 0 0 1.95-1.97A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+            </a>
+            <a href="https://linkedin.com/company/the5thkind.ai" target="_blank" rel="noopener noreferrer" class="foot-social" aria-label="LinkedIn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://wa.me/918296008838" target="_blank" rel="noopener noreferrer" class="foot-social" aria-label="WhatsApp">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            </a>
+          </div>
+        </div>
+        <nav class="foot-nav">
+          <div class="foot-col">
+            <h4>SERVICES</h4>
+            <a href="#services">AI Product Video</a>
+            <a href="#services">AI Clone Video</a>
+            <a href="#services">Brand &amp; Ad Film</a>
+            <a href="#services">Reel Edit</a>
+            <a href="#services">WhatsApp Automation</a>
+            <a href="#services">AI Voice Agent</a>
+          </div>
+          <div class="foot-col">
+            <h4>COMPANY</h4>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="foot-col">
+            <h4>CONTACT</h4>
+            <a href="mailto:udaykhandelwal09@gmail.com">udaykhandelwal09@gmail.com</a>
+            <a href="tel:+918296008838">+91 82960 08838</a>
+            <a href="https://wa.me/918296008838" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <span class="foot-address">529, 8th Cross Nanjappa Rd,<br />Shantinagar, Bangalore</span>
+          </div>
+        </nav>
+      </div>
+      <div class="footer-btm">
+        <span>&copy; 2026 The5thkind.ai &mdash; Uday Khandelwal. All rights reserved.</span>
+        <span class="foot-brand-mark">THE5THKIND.AI</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING WHATSAPP ===== -->
+  <a href="https://wa.me/918296008838" target="_blank" rel="noopener noreferrer" class="fab-whatsapp" aria-label="Chat on WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="fab-label">Chat with us</span>
+  </a>
+
+  <!-- VIDEO MODAL -->
+  <div id="videoModal" class="video-modal" role="dialog" aria-modal="true" aria-label="Video player">
+    <button class="vm-close" id="vmClose" aria-label="Close video">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="vm-inner">
+      <video id="vmPlayer" controls playsinline preload="none"></video>
+    </div>
+  </div>
+
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
