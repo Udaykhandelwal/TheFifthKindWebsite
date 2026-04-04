@@ -685,6 +685,45 @@ p  { font-size: 0.975rem; line-height: 1.75; color: var(--fg2); }
 .svc-card.highlight .svc-link { color: #fff; }
 
 /* ============================================================
+   CLIENTS
+   ============================================================ */
+.clients-section {
+  padding: 7rem 0;
+  background: var(--bg2);
+}
+.clients-section h2 { margin-bottom: 1rem; }
+.clients-section .sub { margin-bottom: 3rem; }
+
+.clients-marquee-wrap {
+  overflow: hidden;
+  padding: 1.75rem 0;
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}
+.clients-marquee-content {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+  animation: scrollLeft 35s linear infinite;
+}
+.client-pill {
+  padding: 0.75rem 1.75rem;
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--fg2);
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.client-pill:hover {
+  border-color: rgba(249,115,22,0.35);
+  background: rgba(249,115,22,0.06);
+  color: var(--accent);
+}
+
+/* ============================================================
    WHY US
    ============================================================ */
 .why-section {
