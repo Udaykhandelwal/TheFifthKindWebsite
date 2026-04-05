@@ -755,19 +755,20 @@ function initTabs() {
 function initForm() {
   const form = document.getElementById('contactForm');
   if (!form) return;
+  const btn = form.querySelector('button[type="submit"]');
+  const status = document.getElementById('formStatus');
+  if (!btn || !status) return;
+
   form.addEventListener('submit', e => {
-    e.preventDefault();
-    const btn  = form.querySelector('button[type="submit"]');
-    const orig = btn.textContent;
-    btn.textContent = 'Message Sent ✓';
-    btn.style.background = '#22c55e';
+    if (!form.reportValidity()) {
+      e.preventDefault();
+      return;
+    }
+
+    status.textContent = 'Sending your inquiry...';
+    status.classList.remove('is-success', 'is-error');
+    btn.textContent = 'Sending...';
     btn.disabled = true;
-    setTimeout(() => {
-      btn.textContent = orig;
-      btn.style.background = '';
-      btn.disabled = false;
-      form.reset();
-    }, 3500);
   });
 }
 

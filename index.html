@@ -735,7 +735,16 @@
           </div>
         </div>
         <div class="contact-right">
-          <form id="contactForm" class="c-form" novalidate>
+          <form
+            id="contactForm"
+            class="c-form"
+            action="https://formsubmit.co/ajax/udaykhandelwal09@gmail.com"
+            method="POST"
+            novalidate
+          >
+            <input type="hidden" name="_subject" value="New inquiry from The Fifth Kind website" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="hp-field" />
             <div class="fg">
               <input type="text" name="name" placeholder="Your Name" required />
             </div>
@@ -746,9 +755,10 @@
               <input type="text" name="company" placeholder="Business / Company" />
             </div>
             <div class="fg">
-              <textarea name="message" placeholder="Tell us about your project..." rows="4"></textarea>
+              <textarea name="message" placeholder="Tell us about your project..." rows="4" required></textarea>
             </div>
             <button type="submit" class="btn-fill full">Send Message →</button>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
           </form>
         </div>
       </div>
