@@ -1,14 +1,11 @@
 /* ============================================================
-   THE5THKIND.AI — ENHANCED SCRIPT v2
-   Advanced Three.js shader sphere · orbiting rings · enhanced
-   globe with satellite · magnetic buttons · cursor particles
-   · 3D card tilt · text scramble · preloader
+   THE5THKIND.AI — SCRIPT v3
+   Bug fixes · typing animation · toast notifications ·
+   Three.js pause · tab panels · testimonial arrows ·
+   AJAX form · smooth scroll · aria enhancements
    ============================================================ */
 'use strict';
 
-/* ──────────────────────────────────────────────────────────
-   GLOBALS & UTILS
-   ────────────────────────────────────────────────────────── */
 const IS_MOBILE  = window.innerWidth < 768;
 const IS_LOW_END = IS_MOBILE || (navigator.hardwareConcurrency || 4) <= 2;
 const lerp  = (a, b, t) => a + (b - a) * t;
@@ -53,6 +50,89 @@ function initScrollProgress() {
 }
 
 /* ──────────────────────────────────────────────────────────
+   HERO TYPING ANIMATION
+   ────────────────────────────────────────────────────────── */
+function initTyping() {
+  const el = document.getElementById('typedWord');
+  if (!el) return;
+  const words = ['D2C brands.', 'tech founders.', 'ambitious startups.', 'retail businesses.', 'enterprise teams.', 'Indian brands.'];
+  let wIdx = 0, cIdx = 0, deleting = false;
+
+  function tick() {
+    const current = words[wIdx];
+    if (!deleting) {
+      el.textContent = current.slice(0, ++cIdx);
+      if (cIdx === current.length) {
+        deleting = true;
+        setTimeout(tick, 2000);
+        return;
+      }
+      setTimeout(tick, 65);
+    } else {
+      el.textContent = current.slice(0, --cIdx);
+      if (cIdx === 0) {
+        deleting = false;
+        wIdx = (wIdx + 1) % words.length;
+        setTimeout(tick, 350);
+        return;
+      }
+      setTimeout(tick, 38);
+    }
+  }
+  setTimeout(tick, 1400);
+}
+
+/* ──────────────────────────────────────────────────────────
+   SOCIAL PROOF TOASTS
+   ────────────────────────────────────────────────────────── */
+function initToasts() {
+  const container = document.getElementById('toastContainer');
+  if (!container || IS_MOBILE) return;
+
+  const messages = [
+    { icon: '📍', text: 'New brief submitted', sub: '2 min ago' },
+    { icon: '🎬', text: 'AI Product Video delivered', sub: 'Today' },
+    { icon: '⭐', text: '5-star review received', sub: 'Just now' },
+    { icon: '🚀', text: 'New project: Brand Film', sub: '1 hour ago' },
+    { icon: '📩', text: 'Inquiry from Delhi', sub: '5 min ago' },
+    { icon: '✅', text: 'AI Clone Video approved', sub: 'Today' },
+    { icon: '🎯', text: 'New brief from Mumbai', sub: '12 min ago' },
+  ];
+
+  let idx = 0;
+
+  function showToast() {
+    const msg = messages[idx % messages.length];
+    idx++;
+
+    const toast = document.createElement('div');
+    toast.className = 'toast';
+    toast.innerHTML = `
+      <span class="toast-icon">${msg.icon}</span>
+      <div class="toast-body">
+        <span class="toast-text">${msg.text}</span>
+        <span class="toast-sub">${msg.sub}</span>
+      </div>`;
+    container.appendChild(toast);
+
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => toast.classList.add('show'));
+    });
+
+    setTimeout(() => {
+      toast.classList.remove('show');
+      setTimeout(() => toast.remove(), 500);
+    }, 5000);
+  }
+
+  // First toast after 8s, then every 30-45s
+  setTimeout(() => {
+    showToast();
+    setInterval(showToast, 35000 + Math.random() * 10000);
+  }, 8000);
+}
+
+/* ──────────────────────────────────────────────────────────
    ENHANCED CURSOR + PARTICLE TRAIL
    ────────────────────────────────────────────────────────── */
 function initCursorEnhanced() {
@@ -62,7 +142,6 @@ function initCursorEnhanced() {
   if (!dot || !trail) return;
 
   let mx = 0, my = 0, tx = 0, ty = 0;
-
   const TRAIL = 14;
   const pts   = [];
   for (let i = 0; i < TRAIL; i++) {
@@ -202,6 +281,24 @@ function initNavEnhanced() {
 }
 
 /* ──────────────────────────────────────────────────────────
+   SMOOTH SCROLL WITH NAV OFFSET
+   ────────────────────────────────────────────────────────── */
+function initSmoothScroll() {
+  const NAV_H = 80;
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', e => {
+      const id = link.getAttribute('href').slice(1);
+      if (!id) return;
+      const target = document.getElementById(id);
+      if (!target) return;
+      e.preventDefault();
+      const top = target.getBoundingClientRect().top + window.scrollY - NAV_H;
+      window.scrollTo({ top, behavior: 'smooth' });
+    });
+  });
+}
+
+/* ──────────────────────────────────────────────────────────
    REVEAL + SECTION LABEL SCRAMBLE
    ────────────────────────────────────────────────────────── */
 function initRevealEnhanced() {
@@ -249,8 +346,6 @@ function initParallaxEnhanced() {
 
 /* ============================================================
    THREE.JS — HERO SHADER SPHERE
-   FBM noise-displaced icosahedron · 3-point dynamic lighting
-   fresnel rim · specular · orbiting dashed rings · star field
    ============================================================ */
 function initHeroShader() {
   if (typeof THREE === 'undefined') return;
@@ -271,7 +366,6 @@ function initHeroShader() {
   const camera = new THREE.PerspectiveCamera(44, W / H, 0.1, 100);
   camera.position.z = 4.6;
 
-  /* ── VERTEX — FBM gradient noise displacement ── */
   const vertexShader = `
     uniform float uTime;
     varying vec3  vNormal;
@@ -319,7 +413,6 @@ function initHeroShader() {
     }
   `;
 
-  /* ── FRAGMENT — 3-point lighting + fresnel rim + emissive peaks ── */
   const fragmentShader = `
     uniform float uTime;
     uniform vec3  uL1; uniform vec3 uL2; uniform vec3 uL3;
@@ -373,18 +466,15 @@ function initHeroShader() {
   const sphere = new THREE.Mesh(new THREE.IcosahedronGeometry(1.1, detail), heroMat);
   scene.add(sphere);
 
-  /* ── Wireframe overlay ── */
   scene.add(new THREE.Mesh(
     new THREE.IcosahedronGeometry(1.13, 2),
     new THREE.MeshBasicMaterial({ color: 0xf97316, wireframe: true, transparent: true, opacity: 0.045 })
   ));
 
-  /* ── Core breathe glow ── */
   const coreM = new THREE.MeshBasicMaterial({ color: 0xff6810, transparent: true, opacity: 0.07 });
   const core  = new THREE.Mesh(new THREE.SphereGeometry(0.72, 16, 16), coreM);
   scene.add(core);
 
-  /* ── Orbiting rings ── */
   function makeRing(r, segs, color, opacity, dashed) {
     const pts = [];
     for (let i = 0; i <= segs; i++) {
@@ -408,7 +498,6 @@ function initHeroShader() {
   ring3.rotation.x = Math.PI * 0.76; ring3.rotation.y = Math.PI * 0.32;
   scene.add(ring1, ring2, ring3);
 
-  /* ── Orbital particle swarms ── */
   function makeOrbPts(r, n, color) {
     const pos = new Float32Array(n * 3);
     for (let i = 0; i < n; i++) {
@@ -432,7 +521,6 @@ function initHeroShader() {
   orb3.rotation.copy(ring3.rotation);
   scene.add(orb1, orb2, orb3);
 
-  /* ── Background star field ── */
   if (!IS_LOW_END) {
     const N=1800, sp=new Float32Array(N*3), sc=new Float32Array(N*3);
     for (let i=0;i<N;i++) {
@@ -449,19 +537,25 @@ function initHeroShader() {
     })));
   }
 
-  /* ── Mouse tilt ── */
   let mNX=0, mNY=0, tNX=0, tNY=0;
   document.addEventListener('mousemove', e => {
     mNX=(e.clientX/window.innerWidth -0.5)*2;
     mNY=(e.clientY/window.innerHeight-0.5)*2;
   });
 
-  /* ── Animate ── */
   const clock = new THREE.Clock();
   const La    = { a1:0, a2:2.1, a3:4.2 };
 
+  // Pause when not in viewport to save CPU/GPU
+  let heroVisible = true;
+  const heroIO = new IntersectionObserver(entries => {
+    heroVisible = entries[0].isIntersecting;
+  }, { threshold: 0 });
+  heroIO.observe(container);
+
   (function animate() {
     requestAnimationFrame(animate);
+    if (!heroVisible) return;
     const t = clock.getElapsedTime();
     tNX = lerp(tNX, mNX, 0.048); tNY = lerp(tNY, mNY, 0.048);
 
@@ -484,7 +578,6 @@ function initHeroShader() {
     renderer.render(scene, camera);
   })();
 
-  /* ── Resize ── */
   const ro = new ResizeObserver(() => {
     W=container.clientWidth; H=container.clientHeight;
     camera.aspect=W/H; camera.updateProjectionMatrix();
@@ -495,9 +588,6 @@ function initHeroShader() {
 
 /* ============================================================
    THREE.JS — ENHANCED INTERACTIVE GLOBE
-   Dot surface · markers + pulsing halos · quadratic arcs
-   with moving traveller particles · satellite orbit ring+dot
-   drag-to-rotate with inertia
    ============================================================ */
 function initGlobeEnhanced() {
   if (typeof THREE === 'undefined') return;
@@ -518,7 +608,6 @@ function initGlobeEnhanced() {
   const globeGroup = new THREE.Group();
   scene.add(globeGroup);
 
-  /* ── Surface dots (Fibonacci) ── */
   const DOT_N = IS_LOW_END ? 2000 : 4000;
   const dPos  = new Float32Array(DOT_N * 3);
   const dCol  = new Float32Array(DOT_N * 3);
@@ -542,13 +631,11 @@ function initGlobeEnhanced() {
     new THREE.MeshBasicMaterial({ color:0x1a1a3a, wireframe:true, transparent:true, opacity:0.28 })
   ));
 
-  /* ── lat/lon → Vec3 ── */
   function ll2v(lat, lon, r=1.0) {
     const phi=(90-lat)*(Math.PI/180), theta=(lon+180)*(Math.PI/180);
     return new THREE.Vector3(-r*Math.sin(phi)*Math.cos(theta), r*Math.cos(phi), r*Math.sin(phi)*Math.sin(theta));
   }
 
-  /* ── City markers + halos ── */
   const CITIES=[[40.7,-74.0],[51.5,0.1],[48.9,2.3],[25.2,55.3],[19.1,72.9],[1.3,103.8],
                 [35.7,139.8],[-33.9,151.2],[-23.5,-46.6],[43.7,-79.4],[55.7,37.6],[-26.2,28.0]];
   const mGeo=new THREE.SphereGeometry(0.017,8,8);
@@ -563,7 +650,6 @@ function initGlobeEnhanced() {
     return { dot, halo };
   });
 
-  /* ── Arcs with moving particles ── */
   const PAIRS=[[[40.7,-74.0],[51.5,0.1]],[[51.5,0.1],[25.2,55.3]],[[25.2,55.3],[19.1,72.9]],
                [[19.1,72.9],[1.3,103.8]],[[1.3,103.8],[35.7,139.8]],[[40.7,-74.0],[-23.5,-46.6]],
                [[55.7,37.6],[48.9,2.3]], [[43.7,-79.4],[40.7,-74.0]]];
@@ -579,7 +665,6 @@ function initGlobeEnhanced() {
     return { curve, traveller, progress:Math.random(), speed:0.16+Math.random()*0.22 };
   });
 
-  /* ── Satellite ring + dot ── */
   const SAT_R = 1.30;
   const satPts=[];
   for(let i=0;i<=140;i++){const a=(i/140)*Math.PI*2; satPts.push(new THREE.Vector3(Math.cos(a)*SAT_R,0,Math.sin(a)*SAT_R));}
@@ -591,11 +676,9 @@ function initGlobeEnhanced() {
     new THREE.MeshBasicMaterial({color:0x88aaff,transparent:true,opacity:0.9}));
   scene.add(satDot);
 
-  /* ── Atmosphere ── */
   scene.add(new THREE.Mesh(new THREE.SphereGeometry(1.19,32,32),
     new THREE.MeshBasicMaterial({color:0x1144cc,transparent:true,opacity:0.045,side:THREE.BackSide})));
 
-  /* ── Drag rotation ── */
   let drag=false, px=0, py=0, vx=0, vy=0.004, rotX=0, rotY=0;
   const onDown=(cx,cy)=>{drag=true;px=cx;py=cy;vx=vy=0;};
   const onMove=(cx,cy)=>{if(!drag)return;vx=(cy-py)*0.006;vy=(cx-px)*0.006;px=cx;py=cy;};
@@ -606,10 +689,17 @@ function initGlobeEnhanced() {
   window.addEventListener('touchmove', e=>onMove(e.touches[0].clientX,e.touches[0].clientY),{passive:true});
   window.addEventListener('mouseup',onUp); window.addEventListener('touchend',onUp);
 
-  /* ── Animate ── */
+  // Pause globe when not visible
+  let globeVisible = true;
+  const globeIO = new IntersectionObserver(entries => {
+    globeVisible = entries[0].isIntersecting;
+  }, { threshold: 0 });
+  globeIO.observe(canvas);
+
   const clock=new THREE.Clock();
   (function animate() {
     requestAnimationFrame(animate);
+    if (!globeVisible) return;
     const t=clock.getElapsedTime();
 
     if(drag){vx*=0.82;vy*=0.82;}else{vx*=0.94;vy=vy*0.94+0.004*0.06;}
@@ -648,19 +738,22 @@ function initGlobeEnhanced() {
 function initMobileMenu() {
   const burger  = document.getElementById('burger');
   const mobMenu = document.getElementById('mobMenu');
+  const closer  = document.getElementById('mobClose');
   if (!burger || !mobMenu) return;
+
+  function close() {
+    mobMenu.classList.remove('open');
+    burger.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
   burger.addEventListener('click', () => {
     const open = mobMenu.classList.toggle('open');
     burger.classList.toggle('open', open);
     document.body.style.overflow = open ? 'hidden' : '';
   });
-  mobMenu.querySelectorAll('a').forEach(a => {
-    a.addEventListener('click', () => {
-      mobMenu.classList.remove('open');
-      burger.classList.remove('open');
-      document.body.style.overflow = '';
-    });
-  });
+  if (closer) closer.addEventListener('click', close);
+  mobMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', close));
 }
 
 /* ──────────────────────────────────────────────────────────
@@ -678,26 +771,35 @@ function initProcess() {
 }
 
 /* ──────────────────────────────────────────────────────────
-   FAQ ACCORDION
+   FAQ ACCORDION (with aria-expanded)
    ────────────────────────────────────────────────────────── */
 function initFAQ() {
   document.querySelectorAll('.faq-item').forEach(item => {
-    item.querySelector('.faq-q').addEventListener('click', () => {
+    const btn = item.querySelector('.faq-q');
+    btn.addEventListener('click', () => {
       const isOpen = item.classList.contains('open');
-      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
-      if (!isOpen) item.classList.add('open');
+      document.querySelectorAll('.faq-item').forEach(i => {
+        i.classList.remove('open');
+        i.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+      });
+      if (!isOpen) {
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
     });
   });
 }
 
 /* ──────────────────────────────────────────────────────────
-   TESTIMONIALS SLIDER
+   TESTIMONIALS SLIDER (with arrow navigation)
    ────────────────────────────────────────────────────────── */
 function initSlider() {
   const slides = document.querySelectorAll('.testi');
   const dots   = document.querySelectorAll('.td');
   if (!slides.length) return;
   let cur = 0;
+  let autoTimer;
+
   function go(n) {
     slides[cur].classList.remove('active');
     dots[cur].classList.remove('active');
@@ -705,8 +807,24 @@ function initSlider() {
     slides[cur].classList.add('active');
     dots[cur].classList.add('active');
   }
-  dots.forEach((d, i) => d.addEventListener('click', () => go(i)));
-  setInterval(() => go(cur + 1), 5500);
+
+  function autoAdvance() {
+    autoTimer = setInterval(() => go(cur + 1), 5500);
+  }
+
+  function resetAuto() {
+    clearInterval(autoTimer);
+    autoAdvance();
+  }
+
+  dots.forEach((d, i) => d.addEventListener('click', () => { go(i); resetAuto(); }));
+
+  const prev = document.getElementById('testiPrev');
+  const next = document.getElementById('testiNext');
+  if (prev) prev.addEventListener('click', () => { go(cur - 1); resetAuto(); });
+  if (next) next.addEventListener('click', () => { go(cur + 1); resetAuto(); });
+
+  autoAdvance();
 }
 
 /* ──────────────────────────────────────────────────────────
@@ -738,44 +856,93 @@ function initCounters() {
 }
 
 /* ──────────────────────────────────────────────────────────
-   WHY-US TABS
+   WHY-US TABS (with real content per tab)
    ────────────────────────────────────────────────────────── */
 function initTabs() {
-  document.querySelectorAll('.w-tab').forEach(tab => {
+  const tabs = document.querySelectorAll('.w-tab');
+  tabs.forEach(tab => {
     tab.addEventListener('click', () => {
-      document.querySelectorAll('.w-tab').forEach(t => t.classList.remove('active'));
+      tabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
+
+      const panelId = 'why-panel-' + tab.dataset.panel;
+      document.querySelectorAll('.why-panel').forEach(p => p.classList.remove('active'));
+      const panel = document.getElementById(panelId);
+      if (panel) {
+        panel.classList.add('active');
+        // Re-trigger reveal animations for newly shown cards
+        panel.querySelectorAll('.why-card').forEach((card, i) => {
+          card.style.transitionDelay = (i * 0.06) + 's';
+          card.classList.remove('in-view');
+          requestAnimationFrame(() => requestAnimationFrame(() => card.classList.add('in-view')));
+        });
+      }
     });
   });
+  // Mark initial panel cards as visible
+  document.querySelectorAll('.why-panel.active .why-card').forEach(c => c.classList.add('in-view'));
 }
 
 /* ──────────────────────────────────────────────────────────
-   CONTACT FORM
+   CONTACT FORM — AJAX (fixed)
    ────────────────────────────────────────────────────────── */
 function initForm() {
-  const form = document.getElementById('contactForm');
+  const form   = document.getElementById('contactForm');
   if (!form) return;
-  const btn = form.querySelector('button[type="submit"]');
+  const btn    = form.querySelector('button[type="submit"]');
   const status = document.getElementById('formStatus');
   if (!btn || !status) return;
 
-  form.addEventListener('submit', e => {
-    if (!form.reportValidity()) {
-      e.preventDefault();
-      return;
-    }
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (!form.reportValidity()) return;
 
-    status.textContent = 'Sending your inquiry...';
-    status.classList.remove('is-success', 'is-error');
+    // Honeypot check
+    const honey = form.querySelector('[name="_honey"]');
+    if (honey && honey.value.trim()) return;
+
+    const name    = (form.querySelector('[name="name"]')?.value    || '').trim();
+    const email   = (form.querySelector('[name="email"]')?.value   || '').trim();
+    const company = (form.querySelector('[name="company"]')?.value || '').trim();
+    const message = (form.querySelector('[name="message"]')?.value || '').trim();
+
     btn.textContent = 'Sending...';
-    btn.disabled = true;
+    btn.disabled    = true;
+    status.textContent = '';
+    status.className   = 'form-status';
+
+    try {
+      const res = await fetch('https://formsubmit.co/ajax/uday.khandelwal@the5thkind.in', {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          name, email, company, message,
+          _subject:  'New inquiry from The Fifth Kind website',
+          _template: 'table',
+        }),
+      });
+      const data = await res.json();
+      if (data.success === 'true' || data.success === true) {
+        status.textContent = '✓ Message sent! We\'ll respond within 24 hours.';
+        status.classList.add('is-success');
+        form.reset();
+        btn.textContent = 'Send Message →';
+        btn.disabled    = false;
+      } else {
+        throw new Error('fail');
+      }
+    } catch {
+      status.textContent = 'Something went wrong. Email us directly at uday.khandelwal@the5thkind.in';
+      status.classList.add('is-error');
+      btn.textContent = 'Try Again →';
+      btn.disabled    = false;
+    }
   });
 }
 
 /* ──────────────────────────────────────────────────────────
-   BOOT — initialise everything on DOMContentLoaded
+   VIDEO MODAL
    ────────────────────────────────────────────────────────── */
-/* -- VIDEO MODAL ----------------------------------------------------------- */
 function initVideoModal() {
   const modal  = document.getElementById('videoModal');
   const player = document.getElementById('vmPlayer');
@@ -808,6 +975,9 @@ function initVideoModal() {
   });
 }
 
+/* ──────────────────────────────────────────────────────────
+   ACTIVE NAV HIGHLIGHT
+   ────────────────────────────────────────────────────────── */
 function initActiveNav() {
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
@@ -823,12 +993,18 @@ function initActiveNav() {
   sections.forEach(s => io.observe(s));
 }
 
+/* ──────────────────────────────────────────────────────────
+   BOOT
+   ────────────────────────────────────────────────────────── */
 document.addEventListener('DOMContentLoaded', () => {
   initPreloader();
   initScrollProgress();
+  initTyping();
+  initToasts();
   initCursorEnhanced();
   initMagnetic();
   initNavEnhanced();
+  initSmoothScroll();
   initMobileMenu();
   initRevealEnhanced();
   initParallaxEnhanced();
@@ -841,7 +1017,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initTiltCards();
   initVideoModal();
   initActiveNav();
-  /* Three.js scenes after a brief paint delay */
   setTimeout(() => {
     initHeroShader();
     initGlobeEnhanced();

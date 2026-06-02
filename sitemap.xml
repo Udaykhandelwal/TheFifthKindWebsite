@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <url>
+    <loc>https://the5thkind.ai/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <video:video>
+      <video:thumbnail_loc>https://the5thkind.ai/Video/aiProduct.mp4</video:thumbnail_loc>
+      <video:title>AI Product Commercial — The5thkind.ai</video:title>
+      <video:description>AI-generated product commercial showcasing stunning visuals and polished editing for brand marketing.</video:description>
+      <video:content_loc>https://the5thkind.ai/Video/aiProduct.mp4</video:content_loc>
+      <video:duration>30</video:duration>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://the5thkind.ai/Video/aiCharacter.mp4</video:thumbnail_loc>
+      <video:title>Founder AI Clone Campaign — The5thkind.ai</video:title>
+      <video:description>Hyper-realistic AI clone video with voice cloning and professional editing for founder brand campaigns.</video:description>
+      <video:content_loc>https://the5thkind.ai/Video/aiCharacter.mp4</video:content_loc>
+      <video:duration>30</video:duration>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://the5thkind.ai/Video/ai-product-shoot-no-camera.mp4</video:thumbnail_loc>
+      <video:title>AI Product Shoot — No Camera No Model — The5thkind.ai</video:title>
+      <video:description>100% AI-generated product shoot. No model, no camera required. Send your product photo and we do the rest.</video:description>
+      <video:content_loc>https://the5thkind.ai/Video/ai-product-shoot-no-camera.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://the5thkind.ai/Video/ai-character-vfx-reel.mp4</video:thumbnail_loc>
+      <video:title>AI Character VFX Reel — The5thkind.ai</video:title>
+      <video:description>AI character and visual effects reel demonstrating cinematic AI-generated characters and scene composition.</video:description>
+      <video:content_loc>https://the5thkind.ai/Video/ai-character-vfx-reel.mp4</video:content_loc>
+    </video:video>
+  </url>
+
+</urlset>
