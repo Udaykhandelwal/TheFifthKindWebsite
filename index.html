@@ -353,6 +353,25 @@
     }
     .stat .lbl { margin-top: 10px; font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
 
+    /* ---------- clients strip ---------- */
+    .clients { padding: 0 0 90px; }
+    .clients .lbl {
+      text-align: center; font-size: 12px; letter-spacing: .3em; text-transform: uppercase;
+      color: var(--muted); margin-bottom: 30px;
+    }
+    .client-row {
+      display: flex; flex-wrap: wrap; justify-content: center;
+      gap: 18px 54px; align-items: baseline;
+    }
+    .client-row span {
+      font-family: var(--display); font-weight: 700;
+      font-size: clamp(17px, 2vw, 23px); letter-spacing: .04em;
+      color: rgba(245,244,240,.38);
+      transition: color .3s;
+      white-space: nowrap;
+    }
+    .client-row span:hover { color: var(--paper); }
+
     /* ---------- services index ---------- */
     .svc-groups { margin-top: 60px; }
     .svc-group-label {
@@ -805,6 +824,21 @@
       </div>
     </section>
 
+    <!-- ============ CLIENTS ============ -->
+    <section class="clients" aria-label="Clients we have worked with">
+      <div class="wrap">
+        <p class="lbl reveal">Trusted by brands like</p>
+        <div class="client-row reveal">
+          <span>ARVIND MILLS</span>
+          <span>SCHÜCO</span>
+          <span>JITO BANGALORE</span>
+          <span>MAHAVEER PAPERS</span>
+          <span>HYBEC DECO</span>
+          <span>HYBEC AIR</span>
+        </div>
+      </div>
+    </section>
+
     <!-- ============ SERVICES ============ -->
     <section id="services" aria-label="Services">
       <div class="wrap">
@@ -951,7 +985,7 @@
           <div class="show-card reveal" data-cat="brand" data-src="Video/jito.mp4">
             <img src="Video/posters/jito.jpg" alt="JITO event film" loading="lazy">
             <span class="playbtn"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></span>
-            <div class="veil"><p class="cat">Event Film</p><h3>JITO — FOMO Film</h3></div>
+            <div class="veil"><p class="cat">Event Film</p><h3>JITO Bangalore — FOMO Film</h3></div>
           </div>
           <div class="show-card reveal" data-cat="clone" data-src="Video/superbug-vertical.mp4">
             <img src="Video/posters/superbug-vertical.jpg" alt="AI clone awareness reel — superbug threat" loading="lazy">
