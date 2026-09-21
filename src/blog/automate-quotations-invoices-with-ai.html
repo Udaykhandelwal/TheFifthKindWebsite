@@ -1,0 +1,105 @@
+<!--meta
+{
+ "slug": "blog/automate-quotations-invoices-with-ai",
+ "kind": "post",
+ "topic": "Business Automation",
+ "published": "2026-09-21",
+ "crumbs": [["Blog", "/blog/"]],
+ "nav_title": "How to Automate Quotations and Invoices with AI",
+ "title": "How to Automate Quotations & Invoices with AI (India Guide)",
+ "description": "A step-by-step guide for Indian manufacturers, traders and service firms to automate quotations, invoices and payment reminders with AI agents, WhatsApp and Sheets."
+}
+-->
+<section class="page-hero"><div class="wrap narrow">
+  <p class="eyebrow">Business Automation · Guide</p>
+  <h1>How to automate quotations and invoices <em>with AI</em></h1>
+  <p class="byline">By <a href="/about/">Uday Khandelwal</a>, The Fifth Kind · Published 21 September 2026</p>
+</div></section>
+<section class="block"><div class="wrap"><div class="prose">
+  <div class="tldr"><b>Short answer</b>To automate quotations with AI, give an AI agent three things: your rate sheet, your quotation template and your pricing rules. Then connect it to where enquiries arrive (WhatsApp, email or a web form). The agent reads each enquiry, works out the items and quantities, calculates the price, fills in a branded PDF and sends it, with an optional approval step. Invoices and payment reminders use the same pattern, triggered by orders and due dates instead of enquiries.</div>
+
+  <p>This guide is for Indian manufacturers, traders, distributors and service businesses whose teams spend hours a week writing quotations and chasing payments by hand.</p>
+
+  <nav class="toc" aria-label="Contents"><ol>
+    <li><a href="#why">Why quotations are the best first automation</a></li>
+    <li><a href="#how">How an AI quotation agent works</a></li>
+    <li><a href="#steps">Step by step: automating your quotations</a></li>
+    <li><a href="#invoice">Invoices and payment reminders</a></li>
+    <li><a href="#tools">Tools it connects to</a></li>
+    <li><a href="#mistakes">Mistakes to avoid</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ol></nav>
+
+  <h2 id="why">Why quotations are the best first automation</h2>
+  <p>A quotation is the moment a buyer decides whether to keep talking to you. In many Indian SMEs the process looks like this: an enquiry arrives on a salesperson's WhatsApp, waits until they're free, gets priced from an Excel sheet, is copied into a Word template, converted to PDF and sent back hours or days later. Every step is repetitive, rule-based and slow, which makes it ideal for automation.</p>
+  <p>Speed matters because buyers usually ask several suppliers at once. The first clear, professional quotation starts the negotiation, and the late ones often don't get read.</p>
+
+  <h2 id="how">How an AI quotation agent works</h2>
+  <ol>
+    <li><strong>Reads the enquiry.</strong> It understands messy, human-written requests like "need 500 sheets 300gsm ivory A3, delivery Pune", including Hinglish and abbreviations.</li>
+    <li><strong>Matches items</strong> against your product list, and asks a clarifying question if something is ambiguous.</li>
+    <li><strong>Prices the order</strong> using your rate sheet and rules: quantity slabs, customer category, GST, freight, validity period.</li>
+    <li><strong>Generates the document:</strong> a branded PDF in your existing format, with a quotation number.</li>
+    <li><strong>Gets approval if needed.</strong> The draft goes to the owner's WhatsApp with Approve and Edit buttons, or is sent directly for standard orders.</li>
+    <li><strong>Sends and follows up.</strong> The quote goes to the customer on WhatsApp or email, and a reminder goes out if they haven't replied in a few days.</li>
+    <li><strong>Logs everything</strong> in a Google Sheet or CRM, so you can see every quote, its value and its status.</li>
+  </ol>
+
+  <h2 id="steps">Step by step: automating your quotations</h2>
+  <h3>1. Clean up the rate sheet</h3>
+  <p>Put your products, variants, units and prices in one sheet, with quantity slabs and customer categories in separate columns. This one file becomes the agent's source of truth. If it's messy, fix it first.</p>
+  <h3>2. Write down your pricing rules</h3>
+  <p>For example: minimum order quantity, discount slabs, which customers get dealer pricing, freight by city, validity (say 7 days), and when a human must approve (for instance, orders above ₹2 lakh or custom items).</p>
+  <h3>3. Standardise the template</h3>
+  <p>Take your best-looking quotation and turn it into a template with fields for customer, items, taxes, totals and terms.</p>
+  <h3>4. Connect the intake channel</h3>
+  <p>Most Indian businesses start with WhatsApp through the official WhatsApp Business API, then add email and website forms. See our <a href="/blog/whatsapp-chatbot-for-business-india/">WhatsApp chatbot guide</a> for costs.</p>
+  <h3>5. Test on last month's real enquiries</h3>
+  <p>Run 30–50 past enquiries through the agent and compare its quotations with the ones your team actually sent. Fix the rules wherever they differ.</p>
+  <h3>6. Go live with approval on, then relax it</h3>
+  <p>Start with every quotation needing one tap of approval. Once you trust it, let standard orders go out automatically.</p>
+
+  <h2 id="invoice">Invoices and payment reminders</h2>
+  <p>The same agent pattern handles the back end of the sale:</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Trigger</th><th>What the automation does</th></tr></thead>
+    <tbody>
+      <tr><td>Order confirmed / goods dispatched</td><td>Generates the invoice from the order, sends it to the customer, logs it in your sheet or accounting software</td></tr>
+      <tr><td>3 days before the due date</td><td>A friendly WhatsApp reminder with the invoice and payment link</td></tr>
+      <tr><td>On the due date</td><td>A reminder with the amount outstanding</td></tr>
+      <tr><td>7 days overdue</td><td>A firmer message, plus an alert to the owner</td></tr>
+      <tr><td>Payment received</td><td>Stops the reminders, sends a thank-you and receipt, and updates the ledger</td></tr>
+    </tbody>
+  </table></div>
+  <p>Using utility-category WhatsApp messages (₹0.115 each in India from October 2026), a full reminder sequence for an invoice costs well under a rupee in Meta charges.</p>
+  <p class="note"><strong>GST e-invoicing:</strong> if your business is required to generate e-invoices (IRN) through the government's Invoice Registration Portal, the automation must go through your GST-compliant billing or accounting software rather than a plain PDF generator. We connect to your existing system instead of replacing it.</p>
+
+  <h2 id="tools">Tools it connects to</h2>
+  <ul>
+    <li><strong>Channels:</strong> WhatsApp Business API, Gmail/Outlook, website forms</li>
+    <li><strong>Data:</strong> Google Sheets, Excel/OneDrive, Airtable</li>
+    <li><strong>Accounting &amp; ERP:</strong> Tally, Zoho Books, or custom ERPs with an API or export</li>
+    <li><strong>CRM:</strong> Zoho CRM, HubSpot, or a simple Sheets pipeline</li>
+    <li><strong>Workflow engines:</strong> Make, n8n, or custom code for heavier volumes</li>
+  </ul>
+
+  <h2 id="mistakes">Mistakes to avoid</h2>
+  <ul>
+    <li><strong>Automating a messy process.</strong> If two salespeople price the same order differently, agree the rules first.</li>
+    <li><strong>No human override.</strong> Keep an approval path for unusual orders and large amounts.</li>
+    <li><strong>Letting the AI guess prices.</strong> Prices must come from your sheet, never be generated by the model. Well-built agents use the AI to understand the request, and use fixed calculations to work out the price.</li>
+    <li><strong>Forgetting follow-ups.</strong> Half the value is the automatic reminder after the quote goes out.</li>
+  </ul>
+
+  <h2 id="faq">FAQ</h2>
+  <div class="faq">
+    <details class="q"><summary>Can AI create quotations automatically?</summary><div>Yes. An AI agent can read an enquiry from WhatsApp or email, match the items to your product list, price them from your rate sheet and rules, fill your quotation template and send a PDF, with an optional approval step before it goes out.</div></details>
+    <details class="q"><summary>Will it work with Tally?</summary><div>Usually yes, through Tally's data import and export or a connector, so invoices and ledgers stay in Tally while the automation handles creating and sending documents and reminders.</div></details>
+    <details class="q"><summary>What if the enquiry is unclear?</summary><div>A good agent asks a clarifying question, such as size, quantity or delivery city, instead of guessing. If it's still unclear, it passes the enquiry to a salesperson.</div></details>
+    <details class="q"><summary>Do I need to buy new software?</summary><div>Rarely. Most setups connect the tools you already use (WhatsApp, Sheets, email and your accounting software) with an AI agent in the middle.</div></details>
+  </div>
+
+  <h2>Get your quotations on autopilot</h2>
+  <p>The Fifth Kind builds quotation, invoice and payment-reminder automation for Indian businesses, starting with a free consult to map your process. <a href="/ai-automation-agency/">See AI agents &amp; business automation</a>.</p>
+</div></div></section>
+<div class="wrap">{{cta}}{{related:ai-automation-agency,whatsapp-chatbot,ai-voice-agent}}</div>
