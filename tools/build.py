@@ -111,6 +111,7 @@ FOOTER_STUDIO = [
     ("/blog/", "Blog & Guides"),
     ("/audit/", "Free AI Audit"),
     ("/#contact", "Contact"),
+    ("/privacy/", "Privacy Policy"),
 ]
 
 WA_ICON = '<svg width="28" height="28" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.4-3c-.3-.4 0-.5.2-.7l.4-.5c.1-.2.2-.3.3-.5v-.5c0-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7a11.2 11.2 0 0 0 4.3 3.8c.6.3 1.1.4 1.4.5.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2l-.5-.4z"/></svg>'
@@ -280,7 +281,7 @@ def footer_html():
     {col("Create", FOOTER_CREATE)}
     {col("Studio", FOOTER_STUDIO + [("https://www.instagram.com/the5thkind.ai", "Instagram")])}
   </div>
-  <div class="f-bottom"><span>© {datetime.date.today().year} The Fifth Kind. All rights reserved. · <a style="color:inherit" href="https://the5thkind.ai/privacy" rel="privacy-policy">Privacy Policy</a></span><span>AI Chatbots · WhatsApp Automation · Voice Agents · AI Video — Bengaluru, India</span></div>
+  <div class="f-bottom"><span>© {datetime.date.today().year} The Fifth Kind. All rights reserved. · <a style="color:inherit" href="/privacy/" rel="privacy-policy">Privacy Policy</a></span><span>AI Chatbots · WhatsApp Automation · Voice Agents · AI Video — Bengaluru, India</span></div>
 </div></footer>
 <div class="mob-cta"><a class="btn btn-orange" href="{wa}" target="_blank" rel="noopener">WhatsApp Us</a><a class="btn btn-ghost" href="tel:{PHONE}">Call Now</a></div>
 <a class="wa-float" href="{wa}" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">{WA_ICON}</a>'''
