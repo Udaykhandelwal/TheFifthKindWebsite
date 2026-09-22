@@ -280,7 +280,7 @@ def footer_html():
     {col("Create", FOOTER_CREATE)}
     {col("Studio", FOOTER_STUDIO + [("https://www.instagram.com/the5thkind.ai", "Instagram")])}
   </div>
-  <div class="f-bottom"><span>© {datetime.date.today().year} The Fifth Kind. All rights reserved.</span><span>AI Chatbots · WhatsApp Automation · Voice Agents · AI Video — Bengaluru, India</span></div>
+  <div class="f-bottom"><span>© {datetime.date.today().year} The Fifth Kind. All rights reserved. · <a style="color:inherit" href="https://the5thkind.ai/privacy" rel="privacy-policy">Privacy Policy</a></span><span>AI Chatbots · WhatsApp Automation · Voice Agents · AI Video — Bengaluru, India</span></div>
 </div></footer>
 <div class="mob-cta"><a class="btn btn-orange" href="{wa}" target="_blank" rel="noopener">WhatsApp Us</a><a class="btn btn-ghost" href="tel:{PHONE}">Call Now</a></div>
 <a class="wa-float" href="{wa}" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">{WA_ICON}</a>'''
