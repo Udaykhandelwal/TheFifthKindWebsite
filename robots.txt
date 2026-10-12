@@ -1,6 +1,7 @@
 # The Fifth Kind — AI chatbots, automation & AI video studio, Bengaluru (the5thkind.in)
 # Search engines and AI assistants are welcome to crawl and cite this site.
 User-agent: *
+Disallow: /ig/
 Allow: /
 
 User-agent: GPTBot
