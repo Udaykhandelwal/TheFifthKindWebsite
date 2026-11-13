@@ -11,7 +11,8 @@
   "AI Product Video",
   "AI Video Production",
   "Reel Editing",
-  "WhatsApp Chatbot & Automation"
+  "WhatsApp Chatbot & Automation",
+  "AI Jewellery Photography & Campaign Films"
  ],
  "services": [
   {
@@ -67,6 +68,12 @@
    "group": "automate",
    "url": "https://www.the5thkind.in/whatsapp-chatbot/",
    "description": "AI WhatsApp chatbots on the official Business API. They answer customers 24/7, qualify leads, send quotes and updates, and pass hot leads to you."
+  },
+  {
+   "name": "AI Jewellery Photography & Campaign Films",
+   "group": "make",
+   "url": "https://www.the5thkind.in/jewellery/",
+   "description": "Campaign films, model imagery and reels for jewellery brands, made from your product photos with every stone kept true. No shoot. A Bengaluru AI studio."
   }
  ],
  "contact": {

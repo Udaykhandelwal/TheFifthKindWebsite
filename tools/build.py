@@ -106,11 +106,13 @@ NAV = [
     ("/ai-automation-agency/", "Automation"),
     ("/whatsapp-chatbot/", "WhatsApp"),
     ("/ai-video-production-bangalore/", "Video"),
+    ("/jewellery/", "Jewellery"),
     ("/work/", "Work"),
     ("/blog/", "Blog"),
 ]
 
 FOOTER_CREATE = [
+    ("/jewellery/", "AI for Jewellery Brands"),
     ("/ai-video-production-bangalore/", "AI Video Production"),
     ("/ai-product-video/", "AI Product Video"),
     ("/ai-clone-video/", "AI Clone Video"),
@@ -276,6 +278,11 @@ def page_schema(page, used_videos):
                       "thumbnailUrl": f"{BASE}/Video/posters/{poster}", "contentUrl": f"{BASE}/Video/{f}",
                       "uploadDate": UPLOADED.get(k, "2026-07-18"), "duration": iso_dur(sec), "publisher": {"@id": ORG_ID}})
 
+    for v in page.get("video_objects", []):
+        graph.append({"@type": "VideoObject", "name": v["name"], "description": v["description"],
+                      "thumbnailUrl": BASE + v["poster"], "contentUrl": BASE + v["file"],
+                      "uploadDate": v.get("uploaded", "2026-11-13"), "duration": iso_dur(v["seconds"]), "publisher": {"@id": ORG_ID}})
+
     faqs = re.findall(r'<details class="q"><summary>(.*?)</summary><div>(.*?)</div></details>', page["body_html"], re.S)
     if faqs:
         strip = lambda s: html.unescape(re.sub(r"<[^>]+>", "", s)).strip()
@@ -362,7 +369,7 @@ def head_html(page, schema):
 <link rel="preload" href="/assets/fonts/instrument-serif-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/fonts/fonts.css">
 <link rel="stylesheet" href="/assets/site.css?v={TODAY}">
-<link rel="stylesheet" href="/assets/motion.css?v={TODAY}">
+<link rel="stylesheet" href="/assets/motion.css?v={TODAY}">{page.get("head_extra", "")}
 <script type="application/ld+json">
 {schema}
 </script>
@@ -383,9 +390,11 @@ def render(page, pages):
     page["used"] = list(dict.fromkeys(used))
     schema = page_schema(page, used)
     current = "/" + page["slug"] + "/"
-    return (head_html(page, schema) + "\n<body>\n" + nav_html(current) + "\n<main>\n" + crumbs_html(page) +
+    body_cls = f' class="{esc(page["body_class"])}"' if page.get("body_class") else ""
+    script_extra = f'\n<script src="{esc(page["script_extra"])}" defer></script>' if page.get("script_extra") else ""
+    return (head_html(page, schema) + f"\n<body{body_cls}>\n" + nav_html(current) + "\n<main>\n" + crumbs_html(page) +
             "\n" + page["body_html"] + "\n</main>\n" + footer_html(page) +
-            '\n<script src="/assets/site.js?v={TODAY}" defer></script>\n<script src="/assets/vendor/gsap.min.js" defer></script>\n<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>\n<script src="/assets/vendor/lenis.min.js" defer></script>\n<script src="/assets/motion.js?v={TODAY}b" defer></script>\n</body>\n</html>\n')
+            '\n<script src="/assets/site.js?v={TODAY}" defer></script>\n<script src="/assets/vendor/gsap.min.js" defer></script>\n<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>\n<script src="/assets/vendor/lenis.min.js" defer></script>\n<script src="/assets/motion.js?v={TODAY}b" defer></script>' + script_extra + '\n</body>\n</html>\n')
 
 
 # ---------------------------------------------------------------- load + write

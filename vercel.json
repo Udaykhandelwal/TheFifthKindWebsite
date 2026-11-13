@@ -101,6 +101,16 @@
       "source": "/blog/ai-voice-agent-india-guide/",
       "destination": "/blog/",
       "permanent": true
+    },
+    {
+      "source": "/jewelry",
+      "destination": "/jewellery/",
+      "permanent": true
+    },
+    {
+      "source": "/jewelry/",
+      "destination": "/jewellery/",
+      "permanent": true
     }
   ]
 }
