@@ -1,0 +1,37 @@
+name: GEO Audit
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: "30 3 * * 1" # every Monday 09:00 IST
+  workflow_dispatch:
+
+jobs:
+  geo-audit:
+    runs-on: ubuntu-latest
+    steps:
+      # Give Vercel time to finish deploying the push before auditing the live site
+      - name: Wait for Vercel deploy
+        if: github.event_name == 'push'
+        run: sleep 90
+
+      - name: GEO Optimizer Audit
+        id: geo
+        uses: Auriti-Labs/geo-optimizer-skill@v4.5.1
+        with:
+          url: https://www.the5thkind.in/
+          min-score: 0 # report only; raise (e.g. 70) to fail the build below that score
+          format: json
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### GEO score: ${{ steps.geo.outputs.score }} (${{ steps.geo.outputs.band }})" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: geo-report
+          path: ${{ steps.geo.outputs.report-path }}
