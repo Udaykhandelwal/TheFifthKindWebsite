@@ -101,10 +101,6 @@
       "source": "/blog/ai-voice-agent-india-guide/",
       "destination": "/blog/",
       "permanent": true
-    },
-    {
-      "destination": "/Video/sannata.mp4",
-      "permanent": true
     }
   ]
 }
