@@ -1,40 +1,68 @@
 # The Fifth Kind
 
-> The Fifth Kind (the5thkind.in) is an AI studio in Bengaluru (Bangalore), India, that builds AI automation for businesses — custom AI chatbots, WhatsApp chatbots, AI voice agents and AI agents that automate quotations, invoices and follow-ups — and produces story-first AI video content. Founded by Uday Khandelwal. Not affiliated with the5thkind.com (a Paul Wallis podcast on ancient mysteries).
+> The Fifth Kind (the5thkind.in) is an AI video production studio and AI automation agency in Bengaluru (Bangalore), India, founded by Uday Khandelwal. It makes AI product videos, AI clone videos, brand and ad films, AI character films and 3D shorts, and builds custom AI chatbots, WhatsApp automation and AI agents that handle quotations, invoices and follow-ups. Not affiliated with the5thkind.com, a podcast about ancient mysteries.
 
 Website: https://www.the5thkind.in/
-Contact: uday.khandelwal@the5thkind.in · +91 82960 08838 (phone & WhatsApp) · Instagram @the5thkind.ai
+Contact: uday.khandelwal@the5thkind.in · +91 82960 08838 (phone and WhatsApp) · Instagram @the5thkind.ai
 Address: 529, 8th Cross, Nanjappa Rd, Shantinagar, Bengaluru, Karnataka 560027, India
-Serves: businesses across India and internationally — SMEs, manufacturers, distributors, D2C brands, startups, personal brands.
-Selected clients: Arvind Mills, Schüco, JITO Bangalore, Mahaveer Papers, Hybec Deco, Hybec Air.
+Serves: brands across India and abroad (including France): manufacturers, jewellers, D2C brands, astrologers and coaches, temples and trusts, startups.
+Selected clients: Arvind Mills, Schüco, JITO Bangalore, Mahaveer Papers, Hybec Deco, Hybec Air, Foodsvilla.
+Turnaround: days, not weeks. Languages delivered: English, Hindi, Hinglish, Kannada, Tamil, Telugu, French.
+The studio no longer offers AI voice or phone-calling agents.
 
-## Automate — AI for customer engagement and operations
+## Create: AI video production
 
-- [Custom AI Chatbot](https://www.the5thkind.in/ai-chatbot-development/): chatbots trained on a business's own product catalogue, specs, prices and FAQs; answer on the website and WhatsApp 24/7 in English, Hindi or Hinglish, qualify leads and send them to the team. Live example: the chatbot on mahaveerpapers.com.
-- [WhatsApp Chatbot & Automation](https://www.the5thkind.in/whatsapp-chatbot/): AI WhatsApp chatbots on the official WhatsApp Business API — instant replies, lead qualification, quotes, payment links, order updates, broadcasts, human handover.
-- [AI Voice Agent](https://www.the5thkind.in/ai-voice-agent/): AI voice/calling agents that answer and make phone calls in Hindi, Hinglish and English — lead callbacks, dealer offer calls, COD confirmation, reminders, AI receptionist.
-- [AI Agents & Business Automation](https://www.the5thkind.in/ai-automation-agency/): AI agents that automate quotations, invoices, billing, payment reminders, lead follow-ups, order updates and daily reports, connected to WhatsApp, Google Sheets, Excel, Tally, Zoho and CRMs. Free automation consult.
+- [Brand & Ad Film](https://www.the5thkind.in/ai-ad-film/): AI ad film and brand film production in India: 1–3 minute films with script, direction, AI visuals, sound and colour grading. Studio quality at AI speed.
+- [AI Character & Story Video](https://www.the5thkind.in/ai-character-story-video/): Cinematic brand storytelling with original AI characters. Mascots, story series and campaign films that audiences remember, from The Fifth Kind in Bengaluru.
+- [AI Clone Video](https://www.the5thkind.in/ai-clone-video/): AI clone videos: a realistic digital twin with your face and voice delivers your message on camera, no shoot needed. For founders, doctors, coaches and brands.
+- [AI Product Video](https://www.the5thkind.in/ai-product-video/): AI product videos for launches, ads and websites. 15–45 second, scroll-stopping videos made without a studio shoot. Bengaluru studio, delivered in days.
+- [AI Video Production](https://www.the5thkind.in/ai-video-production-bangalore/): AI video production studio in Bangalore: AI product videos, AI clone videos, character films, ad films and reel edits. Story-first, delivered in days.
+- [Reel Editing](https://www.the5thkind.in/reel-editing-services/): Professional reel and short-form video editing in Bangalore. We edit your existing footage with hooks, pacing, sound and captions built for retention.
 
-## Create — AI video production
+## Automate: AI for sales and operations
 
-- [AI Video Production in Bangalore](https://www.the5thkind.in/ai-video-production-bangalore/): overview of the studio's AI video services.
-- [AI Product Video](https://www.the5thkind.in/ai-product-video/): 15–45 second AI product videos for launches and ads.
-- [AI Clone Video](https://www.the5thkind.in/ai-clone-video/): consent-based digital twin videos for founders, doctors and coaches.
-- [AI Character & Story Video](https://www.the5thkind.in/ai-character-story-video/): cinematic brand stories with original AI characters.
-- [Brand & Ad Film](https://www.the5thkind.in/ai-ad-film/): 1–3 minute AI ad films — script, direction, sound, colour.
-- [Reel Editing](https://www.the5thkind.in/reel-editing-services/): editing existing footage into retention-focused reels.
+- [AI Agents & Business Automation](https://www.the5thkind.in/ai-automation-agency/): AI automation agency in Bengaluru. We build AI agents that automate quotations, invoices, payment reminders, lead follow-ups and reports. Free consult.
+- [Custom AI Chatbot Development](https://www.the5thkind.in/ai-chatbot-development/): We build custom AI chatbots trained on your products, prices and FAQs. They answer customers 24/7 on your website and WhatsApp and pass hot leads to you.
+- [WhatsApp Chatbot & Automation](https://www.the5thkind.in/whatsapp-chatbot/): AI WhatsApp chatbots on the official Business API. They answer customers 24/7, qualify leads, send quotes and updates, and pass hot leads to you.
 
-## Proof and company
+## Recent work (26 films with video on https://www.the5thkind.in/work/)
 
-- [Work / portfolio](https://www.the5thkind.in/work/): 18 client and studio projects with video.
-- [About](https://www.the5thkind.in/about/): studio and founder.
-- [Free AI audit](https://www.the5thkind.in/audit/)
+- Arvind: a campaign from one photo (Ad film)
+- An ad for jewellers (Ad film)
+- Four kinds of content, then the fifth (Ad film)
+- One of them is AI: clone ad (AI clone)
+- Record once, on your phone (AI clone)
+- Snakes & Ladders, made real (AI character)
+- Ludo, made real (AI character)
+- Carrom, made real (AI character)
+- Custom AI chatbot live on mahaveerpapers.com (AI Chatbot)
+- Foodsvilla — AI launch film (Brand film)
+- Schüco — AI product film (Product video)
+- Arthosure — AI product ad (Product video)
+- The Ingredients Story — AI product video (Product video)
+- JITO Bangalore — FOMO event film (Ad film)
+- The Fifth Kind — studio ad (Ad film)
+- Founder AI clone — Uday Khandelwal (AI clone)
+- Walking vs Gym — AI clone health reel (AI clone)
+- Sleep Challenge — AI clone health reel (AI clone)
+- The Superbug Threat — AI explainer (AI clone)
+- Mira — AI character film (AI character)
+- Adri — AI character film (AI character)
+- Himaia — AI character film (AI character)
+- Sutra — AI character film (AI character)
+- Vaanaan — AI character film (AI character)
+- Jugad — brand film (Reel edit)
 
 ## Guides
 
-- [WhatsApp chatbot for business in India: costs, setup & Oct 2026 pricing changes](https://www.the5thkind.in/blog/whatsapp-chatbot-for-business-india/)
-- [How to automate quotations and invoices with AI](https://www.the5thkind.in/blog/automate-quotations-invoices-with-ai/)
-- [AI voice agents for Indian businesses](https://www.the5thkind.in/blog/ai-voice-agent-india-guide/)
-- [Custom AI chatbot vs chatbot builder](https://www.the5thkind.in/blog/custom-ai-chatbot-vs-chatbot-builder/)
-- [How much does an AI video ad cost in India (2026)](https://www.the5thkind.in/blog/ai-video-ad-cost-india/)
-- [AI clone videos: how they work and consent in India](https://www.the5thkind.in/blog/ai-clone-video-guide-india/)
+- [AI clone videos: how they work, and doing them right in India](https://www.the5thkind.in/blog/ai-clone-video-guide-india/): How AI clone videos are made, who uses them, and what India's 2026 AI-content labelling rules and the DPDP Act mean for consent and disclosure.
+- [How much does an AI video ad cost in India in 2026?](https://www.the5thkind.in/blog/ai-video-ad-cost-india/): 2026 price ranges for AI video in India: DIY tools, freelancers, agencies and AI ad films vs traditional TVCs, plus what drives the cost and how to brief for value.
+- [How to automate quotations and invoices with AI](https://www.the5thkind.in/blog/automate-quotations-invoices-with-ai/): A step-by-step guide for Indian manufacturers, traders and service firms to automate quotations, invoices and payment reminders with AI agents, WhatsApp and Sheets.
+- [Custom AI chatbot vs chatbot builder: which one does your business need?](https://www.the5thkind.in/blog/custom-ai-chatbot-vs-chatbot-builder/): Chatbot builders, generic AI widgets or a custom AI chatbot trained on your catalogue? A plain comparison for Indian businesses: accuracy, leads, cost, effort.
+- [WhatsApp chatbot for business in India: costs, setup & the October 2026 changes](https://www.the5thkind.in/blog/whatsapp-chatbot-for-business-india/): How WhatsApp chatbots work for Indian businesses, Meta's per-message rates from 1 October 2026, what changed, setup steps and how to avoid a ban.
+
+## Company
+
+- [About](https://www.the5thkind.in/about/): studio and founder, Uday Khandelwal.
+- [Free AI audit](https://www.the5thkind.in/audit/)
+- [Privacy policy](https://www.the5thkind.in/privacy/)

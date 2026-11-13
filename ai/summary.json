@@ -1,0 +1,38 @@
+{
+ "name": "The Fifth Kind",
+ "url": "https://www.the5thkind.in/",
+ "type": "AI video production studio and AI automation agency",
+ "description": "AI video production studio and AI automation agency in Bengaluru, India. AI product videos, AI clone videos, brand and ad films, AI character films and 3D shorts, plus custom AI chatbots, WhatsApp automation and AI agents for quotations, invoices and follow-ups. Not affiliated with the5thkind.com.",
+ "founder": "Uday Khandelwal",
+ "location": "Shantinagar, Bengaluru, Karnataka, India",
+ "contact": {
+  "email": "uday.khandelwal@the5thkind.in",
+  "phone": "+918296008838",
+  "whatsapp": "https://wa.me/918296008838"
+ },
+ "clients": [
+  "Arvind Mills",
+  "Schüco",
+  "JITO Bangalore",
+  "Mahaveer Papers",
+  "Hybec Deco",
+  "Hybec Air",
+  "Foodsvilla"
+ ],
+ "languages": [
+  "English",
+  "Hindi",
+  "Hinglish",
+  "Kannada",
+  "Tamil",
+  "Telugu",
+  "French"
+ ],
+ "not_offered": [
+  "AI voice agents",
+  "AI phone-calling agents"
+ ],
+ "llms_txt": "https://www.the5thkind.in/llms.txt",
+ "sitemap": "https://www.the5thkind.in/sitemap.xml",
+ "updated": "2026-11-13"
+}

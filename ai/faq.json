@@ -1,0 +1,387 @@
+{
+ "site": "https://www.the5thkind.in/",
+ "faqs": [
+  {
+   "question": "How fast can you deliver an AI video?",
+   "answer": "Most projects ship in days, not weeks. A typical AI product video moves from brief to final delivery within a week; larger brand films take longer depending on scope."
+  },
+  {
+   "question": "Will the output look like generic AI content?",
+   "answer": "No. Every project starts with story and concept, not a prompt. We combine cinematic storytelling craft with AI production speed — the result is studio-quality work, never generic AI output."
+  },
+  {
+   "question": "What is an AI clone video?",
+   "answer": "A hyper-realistic digital clone of you — your face, your voice, your mannerisms — delivering your message on camera without a shoot. Ideal for founders and personal brands who need consistent video presence."
+  },
+  {
+   "question": "Do you also handle automation, or just video?",
+   "answer": "Both. Alongside AI video production we build custom AI chatbots, WhatsApp automation and AI agents for quotations and invoices, so your brand can create attention and convert it — 24/7."
+  },
+  {
+   "question": "Who do you work with?",
+   "answer": "SMEs, enterprises, startups and traditional businesses — with deep experience in luxury retail, D2C wellness, personal brands and product launches across India."
+  },
+  {
+   "question": "Can you build an AI chatbot trained on my products?",
+   "answer": "Yes. We train a custom AI chatbot on your product list, categories, specifications and FAQs. It sits on your website or WhatsApp and answers customer questions instantly, 24/7 — sizes, availability, comparisons — and hands hot leads to your team."
+  },
+  {
+   "question": "What business processes can you automate with AI?",
+   "answer": "Quotations, invoices, billing, payment reminders, order updates, lead follow-ups and customer support — using AI agents connected to the tools you already use. Start with a free consulting call: we study how your business runs and map exactly what to automate first."
+  },
+  {
+   "question": "Where is The Fifth Kind based, and do you work outside Bangalore?",
+   "answer": "Our studio is in Shantinagar, Bengaluru. We work with brands across India and abroad. Briefs, reviews and delivery all happen over WhatsApp, calls and shared folders."
+  },
+  {
+   "question": "Do you still offer AI voice or calling agents?",
+   "answer": "No. We have stopped offering AI voice and phone-calling agents so we can focus on AI video production, custom AI chatbots, WhatsApp automation and back-office AI agents."
+  },
+  {
+   "question": "Is making an AI clone of yourself legal in India?",
+   "answer": "Yes, when it's done with the person's informed consent and isn't used to mislead or impersonate. Platforms may require AI-generated content to be labelled under India's IT Rules amendments effective 20 February 2026.",
+   "source": "https://www.the5thkind.in/blog/ai-clone-video-guide-india/"
+  },
+  {
+   "question": "How long does it take to create an AI clone?",
+   "answer": "One short recording session, then a few days to build and test the clone. After that, each new video needs only a script and editing.",
+   "source": "https://www.the5thkind.in/blog/ai-clone-video-guide-india/"
+  },
+  {
+   "question": "Can an AI clone speak languages I don't speak?",
+   "answer": "Yes. Voice cloning can deliver scripts in other languages in your voice. Have a native speaker check the scripts for accuracy.",
+   "source": "https://www.the5thkind.in/blog/ai-clone-video-guide-india/"
+  },
+  {
+   "question": "Do I need to label AI clone videos?",
+   "answer": "Major platforms increasingly require disclosure of realistic AI-generated content, and India's 2026 IT Rules amendments require platforms to ensure such content is clearly labelled. Label clone content wherever it's asked for.",
+   "source": "https://www.the5thkind.in/blog/ai-clone-video-guide-india/"
+  },
+  {
+   "question": "Is AI video cheaper than a normal video shoot?",
+   "answer": "Usually yes, by a wide margin for short ads and product videos, because it removes crew, cast, location and equipment costs. Published Indian rates put a 30-second AI ad film at roughly ₹75,000–₹1.5 lakh versus about ₹5 lakh for a basic 30-second TVC.",
+   "source": "https://www.the5thkind.in/blog/ai-video-ad-cost-india/"
+  },
+  {
+   "question": "How long does an AI video ad take to make?",
+   "answer": "Short AI product videos typically take days to about a week from brief to delivery. Longer brand films with more review rounds take longer.",
+   "source": "https://www.the5thkind.in/blog/ai-video-ad-cost-india/"
+  },
+  {
+   "question": "Can AI videos be used for Meta and YouTube ads?",
+   "answer": "Yes. They're well suited to it, because many hook and format variations can be produced from one approved concept for testing. Some platforms ask you to disclose AI-generated realistic content, so follow each platform's labelling rules.",
+   "source": "https://www.the5thkind.in/blog/ai-video-ad-cost-india/"
+  },
+  {
+   "question": "Can AI create quotations automatically?",
+   "answer": "Yes. An AI agent can read an enquiry from WhatsApp or email, match the items to your product list, price them from your rate sheet and rules, fill your quotation template and send a PDF, with an optional approval step before it goes out.",
+   "source": "https://www.the5thkind.in/blog/automate-quotations-invoices-with-ai/"
+  },
+  {
+   "question": "Will it work with Tally?",
+   "answer": "Usually yes, through Tally's data import and export or a connector, so invoices and ledgers stay in Tally while the automation handles creating and sending documents and reminders.",
+   "source": "https://www.the5thkind.in/blog/automate-quotations-invoices-with-ai/"
+  },
+  {
+   "question": "What if the enquiry is unclear?",
+   "answer": "A good agent asks a clarifying question, such as size, quantity or delivery city, instead of guessing. If it's still unclear, it passes the enquiry to a salesperson.",
+   "source": "https://www.the5thkind.in/blog/automate-quotations-invoices-with-ai/"
+  },
+  {
+   "question": "Do I need to buy new software?",
+   "answer": "Rarely. Most setups connect the tools you already use (WhatsApp, Sheets, email and your accounting software) with an AI agent in the middle.",
+   "source": "https://www.the5thkind.in/blog/automate-quotations-invoices-with-ai/"
+  },
+  {
+   "question": "What is the difference between a chatbot and an AI chatbot?",
+   "answer": "A traditional chatbot follows pre-written flows and buttons. An AI chatbot uses a language model to understand free-text questions and write answers. A custom AI chatbot limits those answers to a specific business's approved information.",
+   "source": "https://www.the5thkind.in/blog/custom-ai-chatbot-vs-chatbot-builder/"
+  },
+  {
+   "question": "Can a custom AI chatbot be trained on PDFs and Excel sheets?",
+   "answer": "Yes. Product catalogues, spec sheets, price lists, policies and FAQs in PDF, Excel, Word or web pages can all go into the chatbot's knowledge base.",
+   "source": "https://www.the5thkind.in/blog/custom-ai-chatbot-vs-chatbot-builder/"
+  },
+  {
+   "question": "Is a custom AI chatbot worth it for a small business?",
+   "answer": "It's worth it when missed or slow replies are costing you sales, and when your products need explaining. If your questions are simple and few, a DIY builder is fine.",
+   "source": "https://www.the5thkind.in/blog/custom-ai-chatbot-vs-chatbot-builder/"
+  },
+  {
+   "question": "Is the WhatsApp Business API free in India?",
+   "answer": "No. Receiving messages is free, but Meta charges per message you send: ₹0.8631 for marketing and ₹0.115 for utility, authentication and (beyond 1,000 a month) service messages from 1 October 2026, plus 18% GST. Providers add their own platform fees.",
+   "source": "https://www.the5thkind.in/blog/whatsapp-chatbot-for-business-india/"
+  },
+  {
+   "question": "Can a WhatsApp chatbot reply in Hindi?",
+   "answer": "Yes. AI-based WhatsApp chatbots can understand and reply in Hindi, English and Hinglish, usually matching the customer's language.",
+   "source": "https://www.the5thkind.in/blog/whatsapp-chatbot-for-business-india/"
+  },
+  {
+   "question": "What's the difference between WhatsApp Business app and API?",
+   "answer": "The app is free and meant for a single phone with manual replies. The API is for businesses that need chatbots, multiple agents, integrations and broadcasts at scale, and it charges per message.",
+   "source": "https://www.the5thkind.in/blog/whatsapp-chatbot-for-business-india/"
+  },
+  {
+   "question": "How long does it take to launch a WhatsApp chatbot?",
+   "answer": "Business verification and template approval can take from a few days to a couple of weeks. Building and training the bot runs in parallel.",
+   "source": "https://www.the5thkind.in/blog/whatsapp-chatbot-for-business-india/"
+  },
+  {
+   "question": "Is an AI ad film cheaper than a traditional ad shoot?",
+   "answer": "Usually by a wide margin, because there's no crew, location, set or equipment rental. Published Indian studio rates put a 30-second AI ad film at roughly ₹75,000–₹1.5 lakh, against around ₹5 lakh for a basic conventional 30-second TVC. Actual cost depends on scope. See our cost guide.",
+   "source": "https://www.the5thkind.in/ai-ad-film/"
+  },
+  {
+   "question": "Can AI ad films run on TV and OTT?",
+   "answer": "Yes. We deliver broadcast-ready masters as well as social cuts. Tell us your media plan and we'll match the specs.",
+   "source": "https://www.the5thkind.in/ai-ad-film/"
+  },
+  {
+   "question": "How long does an ad film take?",
+   "answer": "Longer than a short product video because of scripting and review rounds. We give an exact timeline after the brief.",
+   "source": "https://www.the5thkind.in/ai-ad-film/"
+  },
+  {
+   "question": "What is an AI automation agency?",
+   "answer": "An AI automation agency designs and builds systems that use AI agents and workflow tools to do repetitive business tasks automatically, such as writing quotations, sending invoices, following up on leads and answering customers. The Fifth Kind is an AI automation agency based in Bengaluru, working with businesses across India.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/"
+  },
+  {
+   "question": "What is an AI agent for business?",
+   "answer": "An AI agent is software that can read information (an email, a WhatsApp message, a spreadsheet), decide what to do using rules and AI, and take an action such as creating a quotation, updating a record or sending a message. Unlike simple automation, it can handle messy, human-written inputs.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/"
+  },
+  {
+   "question": "Can you automate quotations and invoices for my business?",
+   "answer": "Yes. Quotation and invoice automation are two of our most requested builds. The agent uses your own rate sheet, product list and templates, and can require your approval before anything is sent.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/"
+  },
+  {
+   "question": "Do I need to change my software?",
+   "answer": "Usually not. We connect to what you already use, like WhatsApp, Google Sheets, Excel, email, Tally, Zoho or your CRM, so your team doesn't have to learn a new system.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/"
+  },
+  {
+   "question": "Is my business data safe?",
+   "answer": "We only connect to the systems a workflow needs, use the access permissions you approve, and keep approval steps on anything that goes to a customer if you want them. We walk you through where your data flows before we build anything.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/"
+  },
+  {
+   "question": "How much does business automation cost?",
+   "answer": "Pricing depends on the number of workflows and the tools involved. Most projects are a one-time build fee plus a small monthly running cost. The first consult is free, and we quote a fixed price for each workflow before starting.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/"
+  },
+  {
+   "question": "Is the first consultation really free?",
+   "answer": "Yes. We spend 15–30 minutes understanding how your business runs and tell you what's worth automating first, even if you decide not to work with us.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/"
+  },
+  {
+   "question": "Can the AI character look the same across videos?",
+   "answer": "Yes. We design a character sheet and keep the look consistent across scenes and episodes, which is essential for mascots and series.",
+   "source": "https://www.the5thkind.in/ai-character-story-video/"
+  },
+  {
+   "question": "How long can a character film be?",
+   "answer": "Custom length. Most brand character films are 20–60 seconds for social media, and longer stories are possible for YouTube or events.",
+   "source": "https://www.the5thkind.in/ai-character-story-video/"
+  },
+  {
+   "question": "Do you write the story too?",
+   "answer": "Yes. Concept, script, character design, voice and music are all included.",
+   "source": "https://www.the5thkind.in/ai-character-story-video/"
+  },
+  {
+   "question": "What is a custom AI chatbot?",
+   "answer": "A custom AI chatbot is a chatbot trained on one business's own information: its products, prices, specifications, policies and FAQs. It answers customer questions in natural language using only that knowledge. A generic bot either follows fixed menus or gives general internet answers.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/"
+  },
+  {
+   "question": "Can the chatbot be trained on my product catalogue?",
+   "answer": "Yes. That's the core of what we build. Product lists, Excel sheets, PDFs, website pages and spec sheets can all be used. When your catalogue changes, we update the chatbot's knowledge.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/"
+  },
+  {
+   "question": "Will it make things up?",
+   "answer": "We design the bot to answer only from your approved information. When it doesn't know something, it says so and offers to connect the customer to your team rather than guessing. We test it against your real customer questions before launch.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/"
+  },
+  {
+   "question": "Can it work on WhatsApp too?",
+   "answer": "Yes. The same knowledge can power a website chat widget and a WhatsApp chatbot on the official WhatsApp Business API. See WhatsApp chatbot & automation.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/"
+  },
+  {
+   "question": "Does it support Hindi?",
+   "answer": "Yes. The chatbot can reply in English, Hindi or Hinglish, usually in whatever language the customer writes in.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/"
+  },
+  {
+   "question": "How much does a custom AI chatbot cost?",
+   "answer": "It depends on how much data it needs, how many channels it runs on (website, WhatsApp) and what it connects to (CRM, Google Sheets, calendar). Most costs are a one-time setup plus a small monthly fee for hosting and AI usage. Tell us about your business on WhatsApp and we'll give you a fixed quote after a free 15-minute consult.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/"
+  },
+  {
+   "question": "Where do the leads go?",
+   "answer": "Wherever your team works: WhatsApp, email, a Google Sheet or your CRM. Each lead arrives with the customer's details and the full conversation.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/"
+  },
+  {
+   "question": "What is an AI clone video?",
+   "answer": "An AI clone video is a video in which a digital replica of a real person, trained on their appearance and voice, speaks a new script. It looks and sounds like the person without them being filmed for that video.",
+   "source": "https://www.the5thkind.in/ai-clone-video/"
+  },
+  {
+   "question": "Is it legal to make an AI clone of myself in India?",
+   "answer": "Yes, when the person being cloned gives informed consent and the content isn't misleading. We only clone people who have explicitly consented, and we never create clones of third parties or public figures. See our guide on AI clone videos and consent in India.",
+   "source": "https://www.the5thkind.in/ai-clone-video/"
+  },
+  {
+   "question": "How realistic does it look?",
+   "answer": "Very realistic at social-media viewing sizes, especially for talking-head formats. Watch the examples above; the first one is our founder.",
+   "source": "https://www.the5thkind.in/ai-clone-video/"
+  },
+  {
+   "question": "How much filming do I need to do?",
+   "answer": "One short recording session to create the clone. After that, new videos need only a script.",
+   "source": "https://www.the5thkind.in/ai-clone-video/"
+  },
+  {
+   "question": "Do you need my physical product?",
+   "answer": "Usually good photos or 3D files of the product are enough. For products where exact detail matters, like texture or labels, we may ask for a few reference shots so the product stays accurate on screen.",
+   "source": "https://www.the5thkind.in/ai-product-video/"
+  },
+  {
+   "question": "How long does an AI product video take?",
+   "answer": "A typical 15–45 second AI product video moves from brief to final delivery within a week, including a review round.",
+   "source": "https://www.the5thkind.in/ai-product-video/"
+  },
+  {
+   "question": "Can you make several versions for ads?",
+   "answer": "Yes. From one concept we can deliver multiple hooks, lengths and aspect ratios for testing on Meta, YouTube and marketplaces.",
+   "source": "https://www.the5thkind.in/ai-product-video/"
+  },
+  {
+   "question": "How much does an AI product video cost?",
+   "answer": "It depends on length, number of scenes and versions. AI production is typically far cheaper than a studio shoot. See our AI video cost guide for India, or message us for a fixed quote.",
+   "source": "https://www.the5thkind.in/ai-product-video/"
+  },
+  {
+   "question": "What is AI video production?",
+   "answer": "AI video production means creating video with generative AI tools for visuals, voices, characters and effects, directed by human writers and editors. It replaces or reduces cameras, sets and crews, which makes production faster and more affordable, especially for short-form ads and product videos.",
+   "source": "https://www.the5thkind.in/ai-video-production-bangalore/"
+  },
+  {
+   "question": "How long does an AI video take?",
+   "answer": "Most short AI product videos move from brief to final delivery within a week. Longer brand and ad films take longer depending on script and scope. We confirm the timeline before starting.",
+   "source": "https://www.the5thkind.in/ai-video-production-bangalore/"
+  },
+  {
+   "question": "Will it look like generic AI content?",
+   "answer": "No. We start from story and art direction, not a prompt, and every shot is directed, selected and edited by people. Watch our work and judge for yourself.",
+   "source": "https://www.the5thkind.in/ai-video-production-bangalore/"
+  },
+  {
+   "question": "Do you work with brands outside Bangalore?",
+   "answer": "Yes. The studio is in Shantinagar, Bengaluru, and we work with brands across India and abroad. Everything from briefing to review happens on WhatsApp and video calls.",
+   "source": "https://www.the5thkind.in/ai-video-production-bangalore/"
+  },
+  {
+   "question": "Who owns the final video?",
+   "answer": "You do. You get full usage rights to the final deliverables for your marketing.",
+   "source": "https://www.the5thkind.in/ai-video-production-bangalore/"
+  },
+  {
+   "question": "Do you edit podcasts into reels?",
+   "answer": "Yes. We pull the strongest moments from long recordings and cut them into short clips with hooks and captions.",
+   "source": "https://www.the5thkind.in/reel-editing-services/"
+  },
+  {
+   "question": "Can you handle a monthly volume of reels?",
+   "answer": "Yes. Many clients send footage in batches and get a set of reels every month. Tell us your volume and we'll plan the schedule.",
+   "source": "https://www.the5thkind.in/reel-editing-services/"
+  },
+  {
+   "question": "Can you add AI elements to my footage?",
+   "answer": "Yes. Reel editing can be combined with AI B-roll, AI clone segments or AI-generated scenes. See AI video production.",
+   "source": "https://www.the5thkind.in/reel-editing-services/"
+  },
+  {
+   "question": "What is a WhatsApp chatbot for business?",
+   "answer": "A WhatsApp chatbot is software connected to a business's WhatsApp number through the official WhatsApp Business API. It replies to customer messages automatically. An AI WhatsApp chatbot understands free-text questions and answers from the business's own product and policy information, instead of offering only fixed menu buttons.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/"
+  },
+  {
+   "question": "Can I use my existing business number?",
+   "answer": "Usually yes. A number can be moved to the WhatsApp Business API, but it can't be used in the regular WhatsApp Business app at the same time. We guide you through the migration, or you can set up a new number just for the bot.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/"
+  },
+  {
+   "question": "How much does a WhatsApp chatbot cost in India?",
+   "answer": "There are two parts. First, Meta's per-message charges (for example ₹0.8631 per marketing message and ₹0.115 per utility message in India from October 2026, plus GST). Second, the cost of building and running the bot, which depends on its features and integrations. We give a fixed quote after a free consult.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/"
+  },
+  {
+   "question": "Will my account get banned for using a bot?",
+   "answer": "Not if it runs on the official WhatsApp Business API and follows Meta's policies: opted-in contacts, approved templates, and no spam. Unofficial \"WhatsApp automation\" tools that control a personal WhatsApp account are what get numbers banned. We only build on the official API.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/"
+  },
+  {
+   "question": "Can the bot hand over to a human?",
+   "answer": "Yes. When a customer asks for a person, or when the bot spots a high-value lead, it transfers the chat to your team's shared inbox with the full history.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/"
+  },
+  {
+   "question": "Does it work in Hindi?",
+   "answer": "Yes. The AI can understand and reply in English, Hindi and Hinglish.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/"
+  },
+  {
+   "question": "What is The Fifth Kind?",
+   "answer": "The Fifth Kind is an AI video production studio and AI automation agency in Bengaluru, India. It makes AI product videos, AI clone videos, brand and ad films, AI character films and 3D shorts, and builds custom AI chatbots, WhatsApp automation and AI agents for quotations and invoices.",
+   "source": "https://www.the5thkind.in/about/"
+  },
+  {
+   "question": "Who founded The Fifth Kind?",
+   "answer": "The Fifth Kind was founded by Uday Khandelwal, who leads the studio's creative and automation work from Bengaluru and works directly on client projects.",
+   "source": "https://www.the5thkind.in/about/"
+  },
+  {
+   "question": "Where is The Fifth Kind located?",
+   "answer": "The studio is at 529, 8th Cross, Nanjappa Road, Shantinagar, Bengaluru, Karnataka 560027, India. It works with clients across India and abroad over WhatsApp, calls and shared folders.",
+   "source": "https://www.the5thkind.in/about/"
+  },
+  {
+   "question": "Is The Fifth Kind the same as the5thkind.com?",
+   "answer": "No. the5thkind.com is a podcast about ancient mysteries and is not connected to this studio. The Fifth Kind AI studio is at the5thkind.in and on Instagram as @the5thkind.ai.",
+   "source": "https://www.the5thkind.in/about/"
+  },
+  {
+   "question": "Does The Fifth Kind offer AI voice agents?",
+   "answer": "No longer. The studio has stopped offering AI voice and phone-calling agents to focus on AI video, website chatbots, WhatsApp automation and back-office AI agents.",
+   "source": "https://www.the5thkind.in/about/"
+  },
+  {
+   "question": "Which brands has The Fifth Kind worked with?",
+   "answer": "Clients include Arvind Mills, Schüco, JITO Bangalore, Mahaveer Papers, Hybec Deco, Hybec Air and Foodsvilla, along with astrologers, coaches and personal brands. Over 200 projects have been delivered.",
+   "source": "https://www.the5thkind.in/work/"
+  },
+  {
+   "question": "Is every film on this page made with AI?",
+   "answer": "Most of them use generative AI for scenes, characters or voices, directed and finished by our editors. The reel edits cut a client's own footage, and the 3D shorts in our \"games made real\" series are built in Blender.",
+   "source": "https://www.the5thkind.in/work/"
+  },
+  {
+   "question": "Do you make videos in Indian languages?",
+   "answer": "Yes. We have delivered films in English, Hindi, Hinglish, Kannada, Tamil and Telugu. AI clone videos can repeat the same message in several languages in the speaker's own voice.",
+   "source": "https://www.the5thkind.in/work/"
+  },
+  {
+   "question": "How do I get a film like one of these?",
+   "answer": "Send us the film you liked and what you are launching on WhatsApp at +91 82960 08838. We reply the same day with a rough scope and price.",
+   "source": "https://www.the5thkind.in/work/"
+  }
+ ],
+ "updated": "2026-11-13"
+}

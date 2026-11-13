@@ -42,6 +42,24 @@ ORG_ID = f"{BASE}/#business"
 
 VIDEOS = {
     # key: (file, poster, title, description, seconds, category, wide)
+    # ---- Aug to Nov 2026 ----
+    "arvind": ("arvind.mp4", "arvind.jpg", "Arvind: a campaign from one photo",
+        "A full menswear campaign built from a single product photograph, for Arvind Mills.", 20, "Ad film", False),
+    "jeweller-ad": ("jeweller-ad.mp4", "jeweller-ad.jpg", "An ad for jewellers",
+        "The Fifth Kind's campaign film for jewellers, showing how a ring is presented on Instagram.", 27, "Ad film", False),
+    "four-kinds": ("four-kinds.mp4", "four-kinds.jpg", "Four kinds of content, then the fifth",
+        "The Fifth Kind's studio film: four kinds of content get ignored, then a montage of client work shows the fifth kind.", 30, "Ad film", False),
+    "clone-ad": ("clone-ad.mp4", "clone-ad.jpg", "One of them is AI: clone ad",
+        "Posted reel: an astrologer's real footage beside her AI clone, and the viewer guesses which is which.", 15, "AI clone", False),
+    "clone-phone": ("clone-phone.mp4", "clone-phone.jpg", "Record once, on your phone",
+        "Ad explaining how an AI clone works: record one short clip and the clone delivers every script after that.", 33, "AI clone", False),
+    "snakes-ladders": ("snakes-ladders.mp4", "snakes-ladders.jpg", "Snakes & Ladders, made real",
+        "Snakes and ladders as a photoreal 3D short with foley-only sound, from The Fifth Kind's nostalgia series.", 19, "AI character", False),
+    "ludo": ("ludo.mp4", "ludo.jpg", "Ludo, made real",
+        "Ludo pieces come alive in a photoreal 3D world, from The Fifth Kind's nostalgia series.", 17, "AI character", False),
+    "carrom": ("carrom.mp4", "carrom.jpg", "Carrom, made real",
+        "A carrom board rebuilt as a cinematic 3D short, from The Fifth Kind's nostalgia series.", 15, "AI character", False),
+    # ---- earlier work ----
     "chatbot-mahaveer": ("chatbot-mahaveer.mp4", "chatbot-mahaveer.jpg", "Custom AI chatbot live on mahaveerpapers.com",
         "Screen recording of the custom AI chatbot The Fifth Kind built for Mahaveer Papers, answering a real product question on the live website.", 28, "AI Chatbot", False),
     "foodsvilla": ("foodsvilla.mp4", "foodsvilla.jpg", "Foodsvilla — AI launch film",
@@ -80,11 +98,13 @@ VIDEOS = {
         "Entertainment video edit with music-driven pacing.", 133, "Reel edit", True),
 }
 
+UPLOADED = {"four-kinds": "2026-11-09", "arvind": "2026-10-12", "clone-ad": "2026-10-28", "clone-phone": "2026-11-06",
+    "jeweller-ad": "2026-10-26", "snakes-ladders": "2026-11-11", "ludo": "2026-11-12", "carrom": "2026-11-12"}
+
 NAV = [
     ("/ai-chatbot-development/", "AI Chatbots"),
     ("/ai-automation-agency/", "Automation"),
     ("/whatsapp-chatbot/", "WhatsApp"),
-    ("/ai-voice-agent/", "Voice Agents"),
     ("/ai-video-production-bangalore/", "Video"),
     ("/work/", "Work"),
     ("/blog/", "Blog"),
@@ -101,7 +121,6 @@ FOOTER_CREATE = [
 FOOTER_AUTOMATE = [
     ("/ai-chatbot-development/", "Custom AI Chatbot"),
     ("/whatsapp-chatbot/", "WhatsApp Chatbot & Automation"),
-    ("/ai-voice-agent/", "AI Voice Agent"),
     ("/ai-automation-agency/", "AI Agents & Business Automation"),
     ("/ai-automation-agency/#quotation", "Quotation & Invoice Automation"),
 ]
@@ -136,7 +155,7 @@ def video_card(key, used):
     f, poster, title, desc, sec, cat, wide = VIDEOS[key]
     used.append(key)
     cls = "vid wide" if wide else "vid"
-    return (f'<figure class="{cls}" data-src="/Video/{f}">'
+    return (f'<figure class="{cls}" data-src="/Video/{f}" data-preview="/Video/previews/{f}">'
             f'<img src="/Video/posters/{poster}" alt="{esc(title)}" loading="lazy" width="360" height="640">'
             f'{PLAY}<figcaption><small>{esc(cat)}</small>{esc(title)}</figcaption></figure>')
 
@@ -190,7 +209,12 @@ def org_schema():
         "@id": ORG_ID,
         "name": "The Fifth Kind",
         "alternateName": ["The Fifth Kind AI Studio", "the5thkind.ai"],
+        "description": ("AI video production studio and AI automation agency in Bengaluru, India: AI product videos, AI clone videos, "
+                        "brand and ad films, AI character films and 3D shorts, plus custom AI chatbots, WhatsApp automation and AI agents."),
         "disambiguatingDescription": "Bangalore-based AI video production and AI automation studio (the5thkind.in). Not affiliated with the5thkind.com.",
+        "knowsAbout": ["AI video production", "AI product videos", "AI clone videos", "AI ad films", "AI character animation",
+                       "3D animation in Blender", "Reel editing", "AI chatbot development", "WhatsApp Business API automation",
+                       "AI agents for business", "Quotation and invoice automation"],
         "url": f"{BASE}/",
         "logo": f"{BASE}/icon-512.png",
         "image": f"{BASE}/og-image.jpg",
@@ -214,6 +238,12 @@ def page_schema(page, used_videos):
         crumbs.append({"@type": "ListItem", "position": i, "name": name, "item": BASE + href})
     crumbs.append({"@type": "ListItem", "position": len(crumbs) + 1, "name": page["nav_title"], "item": url})
     graph.append({"@type": "BreadcrumbList", "itemListElement": crumbs})
+    graph.append({"@type": "WebSite", "@id": f"{BASE}/#website", "url": f"{BASE}/", "name": "The Fifth Kind",
+                  "publisher": {"@id": ORG_ID}, "inLanguage": "en-IN"})
+    graph.append({"@type": "WebPage", "@id": url + "#webpage", "url": url, "name": page["title"], "description": page["description"],
+                  "isPartOf": {"@id": f"{BASE}/#website"}, "about": {"@id": ORG_ID}, "inLanguage": "en-IN",
+                  "datePublished": page.get("published", "2026-09-21"), "dateModified": page.get("updated", TODAY),
+                  "author": {"@id": f"{BASE}/about/#uday"}})
 
     kind = page.get("kind", "page")
     if kind == "service":
@@ -237,14 +267,14 @@ def page_schema(page, used_videos):
         graph.append({
             "@type": "Person", "@id": f"{BASE}/about/#uday", "name": "Uday Khandelwal",
             "jobTitle": "Founder", "worksFor": {"@id": ORG_ID}, "url": f"{BASE}/about/",
-            "knowsAbout": ["AI video production", "AI chatbots", "WhatsApp automation", "AI voice agents", "Business process automation"],
+            "knowsAbout": ["AI video production", "AI clone videos", "AI chatbots", "WhatsApp automation", "Business process automation"],
         })
 
     for k in dict.fromkeys(used_videos):
         f, poster, title, desc, sec, cat, wide = VIDEOS[k]
         graph.append({"@type": "VideoObject", "name": title, "description": desc,
                       "thumbnailUrl": f"{BASE}/Video/posters/{poster}", "contentUrl": f"{BASE}/Video/{f}",
-                      "uploadDate": "2026-07-18", "duration": iso_dur(sec), "publisher": {"@id": ORG_ID}})
+                      "uploadDate": UPLOADED.get(k, "2026-07-18"), "duration": iso_dur(sec), "publisher": {"@id": ORG_ID}})
 
     faqs = re.findall(r'<details class="q"><summary>(.*?)</summary><div>(.*?)</div></details>', page["body_html"], re.S)
     if faqs:
@@ -267,21 +297,23 @@ def nav_html(current):
 </div></header>'''
 
 
-def footer_html():
+def footer_html(page=None):
     col = lambda title, links: (f'<div class="f-col"><h4>{title}</h4><ul>' +
                                 "".join(f'<li><a href="{h}">{esc(t)}</a></li>' for h, t in links) + "</ul></div>")
     wa = wa_link("Hi! I saw the5thkind.in and want to talk about AI for my business.")
+    upd = (page or {}).get("updated", TODAY)
+    upd_h = datetime.date.fromisoformat(upd).strftime("%-d %B %Y")
     return f'''<footer class="site"><div class="wrap">
   <div class="f-grid">
     <div><a class="logo" href="/">THE <span class="fifth">FIFTH</span> KIND</a>
-      <p>AI video production and AI automation studio in Bengaluru. We make the content that gets attention — and build the chatbots, voice agents and automations that turn it into sales.</p>
+      <p>AI video production and AI automation studio in Bengaluru. We make the content that gets attention — and build the chatbots and automations that turn it into sales.</p>
       <address>529, 8th Cross, Nanjappa Rd, Shantinagar, Bengaluru 560027<br>
       <a href="tel:{PHONE}">+91 82960 08838</a> · <a href="mailto:{EMAIL}">{EMAIL}</a></address></div>
     {col("Automate", FOOTER_AUTOMATE)}
     {col("Create", FOOTER_CREATE)}
     {col("Studio", FOOTER_STUDIO + [("https://www.instagram.com/the5thkind.ai", "Instagram")])}
   </div>
-  <div class="f-bottom"><span>© {datetime.date.today().year} The Fifth Kind. All rights reserved. · <a style="color:inherit" href="/privacy/" rel="privacy-policy">Privacy Policy</a></span><span>AI Chatbots · WhatsApp Automation · Voice Agents · AI Video — Bengaluru, India</span></div>
+  <div class="f-bottom"><span>© {datetime.date.today().year} The Fifth Kind. All rights reserved. · <a style="color:inherit" href="/privacy/" rel="privacy-policy">Privacy Policy</a></span><span>AI Video · AI Chatbots · WhatsApp Automation — Bengaluru, India · Updated <time datetime="{upd}">{upd_h}</time></span></div>
 </div></footer>
 <div class="mob-cta"><a class="btn btn-orange" href="{wa}" target="_blank" rel="noopener">WhatsApp Us</a><a class="btn btn-ghost" href="tel:{PHONE}">Call Now</a></div>
 <a class="wa-float" href="{wa}" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">{WA_ICON}</a>'''
@@ -303,12 +335,18 @@ def head_html(page, schema):
 <meta name="description" content="{esc(page["description"])}">
 <link rel="canonical" href="{url}">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="author" content="Uday Khandelwal, The Fifth Kind">
+<link rel="author" href="{BASE}/about/">
+<link rel="alternate" type="application/rss+xml" title="The Fifth Kind guides" href="/blog/feed.xml">
+<link rel="alternate" type="text/plain" title="LLM summary" href="/llms.txt">
 <meta property="og:type" content="{og_type}">
 <meta property="og:url" content="{url}">
 <meta property="og:site_name" content="The Fifth Kind">
 <meta property="og:title" content="{esc(page.get("og_title", page["title"]))}">
 <meta property="og:description" content="{esc(page["description"])}">
 <meta property="og:image" content="{BASE}/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_IN">{extra}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{esc(page.get("og_title", page["title"]))}">
@@ -319,10 +357,12 @@ def head_html(page, schema):
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#0a0a0f">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css">
+<link rel="preload" href="/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-serif-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/fonts/fonts.css">
+<link rel="stylesheet" href="/assets/site.css?v={TODAY}">
+<link rel="stylesheet" href="/assets/motion.css?v={TODAY}">
 <script type="application/ld+json">
 {schema}
 </script>
@@ -340,11 +380,12 @@ def crumbs_html(page):
 def render(page, pages):
     used = []
     page["body_html"] = expand(page["body"], page, pages, used)
+    page["used"] = list(dict.fromkeys(used))
     schema = page_schema(page, used)
     current = "/" + page["slug"] + "/"
     return (head_html(page, schema) + "\n<body>\n" + nav_html(current) + "\n<main>\n" + crumbs_html(page) +
-            "\n" + page["body_html"] + "\n</main>\n" + footer_html() +
-            '\n<script src="/assets/site.js" defer></script>\n</body>\n</html>\n')
+            "\n" + page["body_html"] + "\n</main>\n" + footer_html(page) +
+            '\n<script src="/assets/site.js?v={TODAY}" defer></script>\n<script src="/assets/vendor/gsap.min.js" defer></script>\n<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>\n<script src="/assets/vendor/lenis.min.js" defer></script>\n<script src="/assets/motion.js?v={TODAY}b" defer></script>\n</body>\n</html>\n')
 
 
 # ---------------------------------------------------------------- load + write
@@ -377,25 +418,175 @@ def blog_index(pages):
     return {
         "slug": "blog", "nav_title": "Blog & Guides", "kind": "page",
         "title": "AI Automation, Chatbot & AI Video Guides | The Fifth Kind",
-        "description": "Plain-English guides on AI chatbots, WhatsApp automation, AI voice agents, business automation and AI video for Indian businesses — costs, setup and examples.",
+        "description": "Plain-English guides on AI chatbots, WhatsApp automation, business automation and AI video for Indian businesses — costs, setup and examples.",
         "body": f'''<section class="page-hero"><div class="wrap"><p class="eyebrow">Blog &amp; guides</p>
 <h1>Guides for businesses <em>putting AI to work.</em></h1>
-<p class="answer">Straight answers on what AI chatbots, WhatsApp automation, voice agents and AI video actually cost, how they work, and where they pay off — written by the team that builds them in Bengaluru.</p></div></section>
+<p class="answer">Straight answers on what AI chatbots, WhatsApp automation and AI video actually cost, how they work, and where they pay off — written by the team that builds them in Bengaluru.</p></div></section>
 <section class="block"><div class="wrap"><div class="grid">{cards}</div></div></section>
 <div class="wrap">{{{{cta}}}}</div>''',
     }
 
 
+def video_xml(keys):
+    out = ""
+    for k in keys:
+        f, poster, title, desc, sec, cat, wide = VIDEOS[k]
+        out += (f"\n    <video:video><video:thumbnail_loc>{BASE}/Video/posters/{poster}</video:thumbnail_loc>"
+                f"<video:title>{esc(title)}</video:title><video:description>{esc(desc)}</video:description>"
+                f"<video:content_loc>{BASE}/Video/{f}</video:content_loc><video:duration>{sec}</video:duration>"
+                f"<video:publication_date>{UPLOADED.get(k, '2026-07-18')}</video:publication_date></video:video>")
+    return out
+
+
+def home_videos():
+    """Videos the hand-written homepage plays, in page order."""
+    files = re.findall(r'data-src="/?Video/([^"]+)"', (ROOT / "index.html").read_text(encoding="utf-8"))
+    by_file = {v[0]: k for k, v in VIDEOS.items()}
+    return [by_file[f] for f in dict.fromkeys(files) if f in by_file]
+
+
 def write_sitemap(pages):
-    urls = [(f"{BASE}/", TODAY, "1.0")]
+    rows = [f"  <url><loc>{BASE}/</loc><lastmod>{TODAY}</lastmod><priority>1.0</priority>{video_xml(home_videos())}</url>\n"]
     for p in pages.values():
         pri = {"service": "0.9", "post": "0.7"}.get(p.get("kind"), "0.6")
-        urls.append((f"{BASE}/{p['slug']}/", p.get("updated", p.get("published", TODAY)), pri))
-    body = "".join(f"  <url><loc>{u}</loc><lastmod>{d}</lastmod><priority>{pr}</priority></url>\n" for u, d, pr in urls)
+        lastmod = TODAY if p["slug"] == "work" else p.get("updated", p.get("published", TODAY))
+        vids = video_xml(p.get("used", [])) if p.get("kind") == "service" or p["slug"] == "work" else ""
+        rows.append(f"  <url><loc>{BASE}/{p['slug']}/</loc><lastmod>{lastmod}</lastmod><priority>{pri}</priority>{vids}</url>\n")
     (ROOT / "sitemap.xml").write_text(
-        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        + body + "</urlset>\n", encoding="utf-8")
-    (ROOT / "urls.txt").write_text("\n".join(u for u, _, _ in urls) + "\n", encoding="utf-8")
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+        'xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">\n' + "".join(rows) + "</urlset>\n", encoding="utf-8")
+    (ROOT / "urls.txt").write_text("\n".join([f"{BASE}/"] + [f"{BASE}/{p['slug']}/" for p in pages.values()]) + "\n", encoding="utf-8")
+
+
+def write_llms(pages):
+    svc = lambda group: "\n".join(f"- [{p['service_name']}]({BASE}/{p['slug']}/): {p['description']}"
+                                  for p in pages.values() if p.get("kind") == "service" and p.get("group") == group)
+    posts = "\n".join(f"- [{p['h1_plain']}]({BASE}/{p['slug']}/): {p['description']}"
+                      for p in sorted(pages.values(), key=lambda p: p.get("published", ""), reverse=True) if p.get("kind") == "post")
+    recent = "\n".join(f"- {v[2]} ({v[5]})" for v in list(VIDEOS.values())[:25])
+    text = f"""# The Fifth Kind
+
+> The Fifth Kind (the5thkind.in) is an AI video production studio and AI automation agency in Bengaluru (Bangalore), India, founded by Uday Khandelwal. It makes AI product videos, AI clone videos, brand and ad films, AI character films and 3D shorts, and builds custom AI chatbots, WhatsApp automation and AI agents that handle quotations, invoices and follow-ups. Not affiliated with the5thkind.com, a podcast about ancient mysteries.
+
+Website: {BASE}/
+Contact: {EMAIL} · +91 82960 08838 (phone and WhatsApp) · Instagram @the5thkind.ai
+Address: 529, 8th Cross, Nanjappa Rd, Shantinagar, Bengaluru, Karnataka 560027, India
+Serves: brands across India and abroad (including France): manufacturers, jewellers, D2C brands, astrologers and coaches, temples and trusts, startups.
+Selected clients: Arvind Mills, Schüco, JITO Bangalore, Mahaveer Papers, Hybec Deco, Hybec Air, Foodsvilla.
+Turnaround: days, not weeks. Languages delivered: English, Hindi, Hinglish, Kannada, Tamil, Telugu, French.
+The studio no longer offers AI voice or phone-calling agents.
+
+## Create: AI video production
+
+{svc("make")}
+
+## Automate: AI for sales and operations
+
+{svc("automate")}
+
+## Recent work ({len(VIDEOS)} films with video on {BASE}/work/)
+
+{recent}
+
+## Guides
+
+{posts}
+
+## Company
+
+- [About]({BASE}/about/): studio and founder, Uday Khandelwal.
+- [Free AI audit]({BASE}/audit/)
+- [Privacy policy]({BASE}/privacy/)
+"""
+    (ROOT / "llms.txt").write_text(text, encoding="utf-8")
+
+
+
+def update_home(pages):
+    """Refresh the hand-written homepage's generated bits: structured data, freshness date."""
+    path = ROOT / "index.html"
+    s = path.read_text(encoding="utf-8")
+    vids = home_videos()
+    graph = [
+        {"@type": "WebSite", "@id": f"{BASE}/#website", "url": f"{BASE}/", "name": "The Fifth Kind",
+         "alternateName": "The Fifth Kind AI Studio", "publisher": {"@id": ORG_ID}, "inLanguage": "en-IN"},
+        {"@type": "WebPage", "@id": f"{BASE}/#webpage", "url": f"{BASE}/",
+         "name": "AI Chatbots, Automation & AI Video Agency in Bangalore | The Fifth Kind",
+         "isPartOf": {"@id": f"{BASE}/#website"}, "about": {"@id": ORG_ID}, "inLanguage": "en-IN",
+         "datePublished": "2026-07-02", "dateModified": TODAY, "author": {"@id": f"{BASE}/about/#uday"},
+         "primaryImageOfPage": f"{BASE}/og-image.jpg"},
+        {"@type": "Person", "@id": f"{BASE}/about/#uday", "name": "Uday Khandelwal", "jobTitle": "Founder",
+         "worksFor": {"@id": ORG_ID}, "url": f"{BASE}/about/", "sameAs": SAME_AS,
+         "knowsAbout": ["AI video production", "AI clone videos", "AI chatbots", "WhatsApp automation", "Business process automation"]},
+    ] + [
+        {"@type": "VideoObject", "name": VIDEOS[k][2], "description": VIDEOS[k][3],
+         "thumbnailUrl": f"{BASE}/Video/posters/{VIDEOS[k][1]}", "contentUrl": f"{BASE}/Video/{VIDEOS[k][0]}",
+         "uploadDate": UPLOADED.get(k, "2026-07-18"), "duration": iso_dur(VIDEOS[k][4]),
+         "publisher": {"@id": ORG_ID}, "creator": {"@id": ORG_ID}} for k in vids]
+    ld = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, separators=(",", ":"))
+    s = re.sub(r'<script type="application/ld\+json" id="ld-auto">.*?</script>',
+               lambda m: f'<script type="application/ld+json" id="ld-auto">{ld}</script>', s, flags=re.S)
+    pretty = datetime.date.fromisoformat(TODAY).strftime("%-d %B %Y")
+    s = re.sub(r'<meta property="article:modified_time" content="[^"]*">', f'<meta property="article:modified_time" content="{TODAY}">', s)
+    s = re.sub(r'<time class="updated" datetime="[^"]*">[^<]*</time>', f'<time class="updated" datetime="{TODAY}">{pretty}</time>', s)
+    path.write_text(s, encoding="utf-8")
+
+
+def home_faqs():
+    s = (ROOT / "index.html").read_text(encoding="utf-8")
+    strip = lambda x: html.unescape(re.sub(r"<[^>]+>", "", x)).strip()
+    return [{"question": strip(q), "answer": strip(a)} for q, a in
+            re.findall(r"<details>\s*<summary>(.*?)</summary>\s*<p>(.*?)</p>\s*</details>", s, re.S)]
+
+
+def write_feed(pages):
+    posts = sorted((p for p in pages.values() if p.get("kind") == "post"), key=lambda p: p["published"], reverse=True)
+    rfc = lambda d: datetime.datetime.combine(datetime.date.fromisoformat(d), datetime.time(9, 0)).strftime("%a, %d %b %Y %H:%M:%S +0530")
+    items = "".join(
+        f"\n  <item><title>{esc(p['h1_plain'])}</title><link>{BASE}/{p['slug']}/</link><guid>{BASE}/{p['slug']}/</guid>"
+        f"<pubDate>{rfc(p['published'])}</pubDate><description>{esc(p['description'])}</description></item>" for p in posts)
+    (ROOT / "blog").mkdir(exist_ok=True)
+    (ROOT / "blog/feed.xml").write_text(
+        f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>'
+        f"\n  <title>The Fifth Kind: guides to AI video and automation</title><link>{BASE}/blog/</link>"
+        f'\n  <atom:link href="{BASE}/blog/feed.xml" rel="self" type="application/rss+xml"/>'
+        f"\n  <description>Plain-English guides on AI video, AI clones, chatbots and WhatsApp automation for Indian businesses.</description>"
+        f"\n  <language>en-in</language><lastBuildDate>{rfc(TODAY)}</lastBuildDate>{items}\n</channel></rss>\n", encoding="utf-8")
+
+
+def write_ai_files(pages):
+    summary = {
+        "name": "The Fifth Kind", "url": f"{BASE}/", "type": "AI video production studio and AI automation agency",
+        "description": ("AI video production studio and AI automation agency in Bengaluru, India. AI product videos, AI clone videos, "
+                        "brand and ad films, AI character films and 3D shorts, plus custom AI chatbots, WhatsApp automation and AI agents "
+                        "for quotations, invoices and follow-ups. Not affiliated with the5thkind.com."),
+        "founder": "Uday Khandelwal", "location": "Shantinagar, Bengaluru, Karnataka, India",
+        "contact": {"email": EMAIL, "phone": PHONE, "whatsapp": WA},
+        "clients": ["Arvind Mills", "Schüco", "JITO Bangalore", "Mahaveer Papers", "Hybec Deco", "Hybec Air", "Foodsvilla"],
+        "languages": ["English", "Hindi", "Hinglish", "Kannada", "Tamil", "Telugu", "French"],
+        "not_offered": ["AI voice agents", "AI phone-calling agents"],
+        "llms_txt": f"{BASE}/llms.txt", "sitemap": f"{BASE}/sitemap.xml", "updated": TODAY,
+    }
+    services = [{"name": p["service_name"], "group": p.get("group"), "url": f"{BASE}/{p['slug']}/", "description": p["description"]}
+                for p in pages.values() if p.get("kind") == "service"]
+    faqs = home_faqs()
+    for p in pages.values():
+        for q, a in re.findall(r'<details class="q"><summary>(.*?)</summary><div>(.*?)</div></details>', p.get("body_html", ""), re.S):
+            strip = lambda x: html.unescape(re.sub(r"<[^>]+>", "", x)).strip()
+            faqs.append({"question": strip(q), "answer": strip(a), "source": f"{BASE}/{p['slug']}/"})
+    (ROOT / "ai").mkdir(exist_ok=True)
+    dump = lambda name, obj: (ROOT / "ai" / name).write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    dump("summary.json", summary)
+    dump("service.json", {"name": "The Fifth Kind", "provider": "The Fifth Kind", "url": f"{BASE}/",
+                          "capabilities": [s["name"] for s in services], "services": services,
+                          "contact": {"email": EMAIL, "whatsapp": WA}, "updated": TODAY})
+    dump("faq.json", {"site": f"{BASE}/", "faqs": faqs, "updated": TODAY})
+    (ROOT / ".well-known").mkdir(exist_ok=True)
+    (ROOT / ".well-known/ai.txt").write_text(
+        f"# AI policy for {BASE}/\n# AI crawlers and answer engines may crawl, index, summarise and cite this site.\n"
+        "User-Agent: *\nAllow: /\nDisallow: /ig/\n\n"
+        f"Summary: {BASE}/ai/summary.json\nServices: {BASE}/ai/service.json\nFAQ: {BASE}/ai/faq.json\n"
+        f"LLMs: {BASE}/llms.txt\nSitemap: {BASE}/sitemap.xml\nContact: {EMAIL}\n", encoding="utf-8")
 
 
 def main():
@@ -406,7 +597,11 @@ def main():
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(render(page, pages), encoding="utf-8")
         print(f"  built /{slug}/")
+    update_home(pages)
     write_sitemap(pages)
+    write_llms(pages)
+    write_feed(pages)
+    write_ai_files(pages)
     print(f"{len(pages)} pages + sitemap.xml + urls.txt")
 
 

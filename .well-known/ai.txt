@@ -1,0 +1,12 @@
+# AI policy for https://www.the5thkind.in/
+# AI crawlers and answer engines may crawl, index, summarise and cite this site.
+User-Agent: *
+Allow: /
+Disallow: /ig/
+
+Summary: https://www.the5thkind.in/ai/summary.json
+Services: https://www.the5thkind.in/ai/service.json
+FAQ: https://www.the5thkind.in/ai/faq.json
+LLMs: https://www.the5thkind.in/llms.txt
+Sitemap: https://www.the5thkind.in/sitemap.xml
+Contact: uday.khandelwal@the5thkind.in
