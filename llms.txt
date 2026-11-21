@@ -1,12 +1,12 @@
 # The Fifth Kind
 
-> The Fifth Kind (the5thkind.in) is an AI video production studio and AI automation agency in Bengaluru (Bangalore), India, founded by Uday Khandelwal. It makes AI product videos, AI clone videos, brand and ad films, AI character films and 3D shorts, and builds custom AI chatbots, WhatsApp automation and AI agents that handle quotations, invoices and follow-ups. Not affiliated with the5thkind.com, a podcast about ancient mysteries.
+> The Fifth Kind (the5thkind.in) is an AI video production studio and AI automation agency in Bengaluru (Bangalore), India, founded by Uday Khandelwal. It makes AI product videos, AI clone videos, brand and ad films, AI character films and 3D shorts, runs social media and marketing strategy for brands, and builds custom AI chatbots, WhatsApp automation and AI agents that handle quotations, invoices and follow-ups. Not affiliated with the5thkind.com, a podcast about ancient mysteries.
 
 Website: https://www.the5thkind.in/
 Contact: uday.khandelwal@the5thkind.in · +91 82960 08838 (phone and WhatsApp) · Instagram @the5thkind.ai
 Address: 529, 8th Cross, Nanjappa Rd, Shantinagar, Bengaluru, Karnataka 560027, India
 Serves: brands across India and abroad (including France): manufacturers, jewellers, D2C brands, astrologers and coaches, temples and trusts, startups.
-Selected clients: Arvind Mills, Schüco, JITO Bangalore, Mahaveer Papers, Hybec Deco, Hybec Air, Foodsvilla.
+Selected clients: Mahaveer Papers (social media, brand films, Kora AI chatbot and WhatsApp chatbot), Megha Jewellers (VS Signature and Velvet Lite 9KT reels and campaigns), Arvind Mills, Schüco, JITO Bangalore, Hybec Deco, Hybec Air, Foodsvilla, CAPTÉ (France).
 Turnaround: days, not weeks. Languages delivered: English, Hindi, Hinglish, Kannada, Tamil, Telugu, French.
 The studio no longer offers AI voice or phone-calling agents.
 
@@ -19,6 +19,12 @@ The studio no longer offers AI voice or phone-calling agents.
 - [AI Video Production](https://www.the5thkind.in/ai-video-production-bangalore/): AI video production studio in Bangalore: AI product videos, AI clone videos, character films, ad films and reel edits. Story-first, delivered in days.
 - [Reel Editing](https://www.the5thkind.in/reel-editing-services/): Professional reel and short-form video editing in Bangalore. We edit your existing footage with hooks, pacing, sound and captions built for retention.
 - [AI Jewellery Photography & Campaign Films](https://www.the5thkind.in/jewellery/): Campaign films, model imagery and reels for jewellery brands, made from your product photos with every stone kept true. No shoot. A Bengaluru AI studio.
+- [AI Video Production (India)](https://www.the5thkind.in/ai-video-production/): AI video production company in India: product films, AI clone videos, ad films, 3D shorts and reels from a Bengaluru studio, for brands in every major city.
+
+## Grow: social media management
+
+- [Jewellery Marketing: Social Media, Reels & Ads](https://www.the5thkind.in/jewellery-marketing/): Jewellery marketing from Bengaluru: Instagram management, jewellery reels and AI product films, festival campaigns and Meta ads for jewellery stores and brands.
+- [Social Media Management](https://www.the5thkind.in/social-media-management/): Social media management in Bengaluru: strategy, monthly calendar, AI films and reels, posting, replies, Meta ads and monthly reports, run by one studio.
 
 ## Automate: AI for sales and operations
 
@@ -26,36 +32,64 @@ The studio no longer offers AI voice or phone-calling agents.
 - [Custom AI Chatbot Development](https://www.the5thkind.in/ai-chatbot-development/): We build custom AI chatbots trained on your products, prices and FAQs. They answer customers 24/7 on your website and WhatsApp and pass hot leads to you.
 - [WhatsApp Chatbot & Automation](https://www.the5thkind.in/whatsapp-chatbot/): AI WhatsApp chatbots on the official Business API. They answer customers 24/7, qualify leads, send quotes and updates, and pass hot leads to you.
 
-## Recent work (26 films with video on https://www.the5thkind.in/work/)
+## Recent work (25 films with video on https://www.the5thkind.in/work/)
 
-- Arvind: a campaign from one photo (Ad film)
-- An ad for jewellers (Ad film)
-- Four kinds of content, then the fifth (Ad film)
+- I'm Kora: brand film for Mahaveer Papers (Brand film)
+- Meet Kora: launch film for Mahaveer Papers (Launch film)
+- We tried to stump our AI: Kora for Mahaveer Papers (Campaign reel)
+- VS Signature: The Mark (Jewellery film)
+- VS Signature: three grams, six weeks (Jewellery film)
+- VS Signature: Dasara (Festival campaign)
+- Velvet Lite 9KT: festival film (Festival campaign)
+- VS Signature: her original story (Brand film)
+- Amethyst: luxury jewellery film (Jewellery film)
+- Arvind Mills: a campaign from one photo (AI campaign)
+- An ad film for jewellers (Ad film)
+- Mira: fragrance film (Product film)
 - One of them is AI: clone ad (AI clone)
+- Snakes & Ladders, made real (3D short)
+- The ingredients story (Product film)
+- Adri: fragrance film (Product film)
+- Ludo, made real (3D short)
+- Vaanaan: fragrance film (Product film)
+- Schüco: AI product film (Product film)
+- JITO Bangalore: event film (Event film)
 - Record once, on your phone (AI clone)
-- Snakes & Ladders, made real (AI character)
-- Ludo, made real (AI character)
-- Carrom, made real (AI character)
-- Custom AI chatbot live on mahaveerpapers.com (AI Chatbot)
-- Foodsvilla — AI launch film (Brand film)
-- Schüco — AI product film (Product video)
-- Arthosure — AI product ad (Product video)
-- The Ingredients Story — AI product video (Product video)
-- JITO Bangalore — FOMO event film (Ad film)
-- The Fifth Kind — studio ad (Ad film)
-- Founder AI clone — Uday Khandelwal (AI clone)
-- Walking vs Gym — AI clone health reel (AI clone)
-- Sleep Challenge — AI clone health reel (AI clone)
-- The Superbug Threat — AI explainer (AI clone)
-- Mira — AI character film (AI character)
-- Adri — AI character film (AI character)
-- Himaia — AI character film (AI character)
-- Sutra — AI character film (AI character)
-- Vaanaan — AI character film (AI character)
-- Jugad — brand film (Reel edit)
+- Founder AI clone: Uday Khandelwal (AI clone)
+- Foodsvilla: launch film (Brand film)
+- Jugad: brand film edit (Reel edit)
+- Dance Dikhawe: entertainment edit (Reel edit)
+
+## Locations
+
+Studio: Bengaluru (Shantinagar), the only office. Served remotely, with travel for shoots: Mumbai, Delhi NCR, Hyderabad, Chennai, Pune, Kolkata, Ahmedabad, Jaipur, Chandigarh, Kochi, Indore, Lucknow, Surat, Coimbatore, Visakhapatnam, Nagpur, Bhopal, Bhubaneswar, Thiruvananthapuram.
+City pages: https://www.the5thkind.in/locations/ (58 service-and-city pages, 20 city overviews).
+
+- [Bangalore](https://www.the5thkind.in/locations/bangalore/): AI video production, social media management, jewellery marketing and AI chatbots for Bangalore businesses, from a Bengaluru studio. Languages: English, Kannada and 
+- [Mumbai](https://www.the5thkind.in/locations/mumbai/): AI video production, social media management, jewellery marketing and AI chatbots for Mumbai businesses, from a Bengaluru studio. Languages: English, Hindi and Marat
+- [Delhi NCR](https://www.the5thkind.in/locations/delhi-ncr/): AI video production, social media management, jewellery marketing and AI chatbots for Delhi NCR businesses, from a Bengaluru studio. Languages: English, Hindi and Pu
+- [Hyderabad](https://www.the5thkind.in/locations/hyderabad/): AI video production, social media management, jewellery marketing and AI chatbots for Hyderabad businesses, from a Bengaluru studio. Languages: English, Telugu and H
+- [Chennai](https://www.the5thkind.in/locations/chennai/): AI video production, social media management, jewellery marketing and AI chatbots for Chennai businesses, from a Bengaluru studio. Languages: Tamil and English.
+- [Pune](https://www.the5thkind.in/locations/pune/): AI video production, social media management, jewellery marketing and AI chatbots for Pune businesses, from a Bengaluru studio. Languages: English, Marathi and Hindi
+- [Kolkata](https://www.the5thkind.in/locations/kolkata/): AI video production, social media management, jewellery marketing and AI chatbots for Kolkata businesses, from a Bengaluru studio. Languages: Bengali, English and Hi
+- [Ahmedabad](https://www.the5thkind.in/locations/ahmedabad/): AI video production, social media management, jewellery marketing and AI chatbots for Ahmedabad businesses, from a Bengaluru studio. Languages: Gujarati, Hindi and E
+- [Jaipur](https://www.the5thkind.in/locations/jaipur/): AI video production, social media management, jewellery marketing and AI chatbots for Jaipur businesses, from a Bengaluru studio. Languages: Hindi, English and Rajas
+- [Chandigarh](https://www.the5thkind.in/locations/chandigarh/): AI video production, social media management, jewellery marketing and AI chatbots for Chandigarh businesses, from a Bengaluru studio. Languages: Punjabi, Hindi and E
+- [Kochi](https://www.the5thkind.in/locations/kochi/): AI video production, social media management, jewellery marketing and AI chatbots for Kochi businesses, from a Bengaluru studio. Languages: Malayalam and English.
+- [Indore](https://www.the5thkind.in/locations/indore/): AI video production, social media management, jewellery marketing and AI chatbots for Indore businesses, from a Bengaluru studio. Languages: Hindi and English.
+- [Lucknow](https://www.the5thkind.in/locations/lucknow/): AI video production, social media management, jewellery marketing and AI chatbots for Lucknow businesses, from a Bengaluru studio. Languages: Hindi, Urdu and English
+- [Surat](https://www.the5thkind.in/locations/surat/): AI video production, social media management, jewellery marketing and AI chatbots for Surat businesses, from a Bengaluru studio. Languages: Gujarati, Hindi and Engli
+- [Coimbatore](https://www.the5thkind.in/locations/coimbatore/): AI video production, social media management, jewellery marketing and AI chatbots for Coimbatore businesses, from a Bengaluru studio. Languages: Tamil and English.
+- [Visakhapatnam](https://www.the5thkind.in/locations/visakhapatnam/): AI video production, social media management, jewellery marketing and AI chatbots for Visakhapatnam businesses, from a Bengaluru studio. Languages: Telugu, English a
+- [Nagpur](https://www.the5thkind.in/locations/nagpur/): AI video production, social media management, jewellery marketing and AI chatbots for Nagpur businesses, from a Bengaluru studio. Languages: Marathi, Hindi and Engli
+- [Bhopal](https://www.the5thkind.in/locations/bhopal/): AI video production, social media management, jewellery marketing and AI chatbots for Bhopal businesses, from a Bengaluru studio. Languages: Hindi, English and Urdu.
+- [Bhubaneswar](https://www.the5thkind.in/locations/bhubaneswar/): AI video production, social media management, jewellery marketing and AI chatbots for Bhubaneswar businesses, from a Bengaluru studio. Languages: Odia, English and H
+- [Thiruvananthapuram](https://www.the5thkind.in/locations/thiruvananthapuram/): AI video production, social media management, jewellery marketing and AI chatbots for Thiruvananthapuram businesses, from a Bengaluru studio. Languages: Malayalam an
 
 ## Guides
 
+- [Instagram marketing for jewellery stores: the 2026 playbook](https://www.the5thkind.in/blog/instagram-marketing-for-jewellery-stores/): An Instagram plan for jewellery stores in India: the content mix, filming real pieces, festival calendars, Meta ads to local buyers and turning DMs into visits.
+- [How much does social media management cost in India in 2026?](https://www.the5thkind.in/blog/social-media-management-cost-india/): What social media management costs in India in 2026: freelancer, small agency and full-service ranges, what each price includes, and how to judge value.
 - [AI clone videos: how they work, and doing them right in India](https://www.the5thkind.in/blog/ai-clone-video-guide-india/): How AI clone videos are made, who uses them, and what India's 2026 AI-content labelling rules and the DPDP Act mean for consent and disclosure.
 - [How much does an AI video ad cost in India in 2026?](https://www.the5thkind.in/blog/ai-video-ad-cost-india/): 2026 price ranges for AI video in India: DIY tools, freelancers, agencies and AI ad films vs traditional TVCs, plus what drives the cost and how to brief for value.
 - [How to automate quotations and invoices with AI](https://www.the5thkind.in/blog/automate-quotations-invoices-with-ai/): A step-by-step guide for Indian manufacturers, traders and service firms to automate quotations, invoices and payment reminders with AI agents, WhatsApp and Sheets.

@@ -4,18 +4,27 @@
    3) Lead capture: every form submit is emailed (FormSubmit) AND opens WhatsApp prefilled.
    4) Click-to-play video cards (.vid). */
 (function () {
-  var GA4_ID = "";          // e.g. "G-XXXXXXXXXX"  (analytics.google.com → Admin → Data streams)
-  var CLARITY_ID = "";      // e.g. "abcd1234ef"    (clarity.microsoft.com → Settings → Setup)
+  var GA4_ID = "";          // set in data/site.json (ga4_id), not here
+  var CLARITY_ID = "";      // set in data/site.json (clarity_id), not here
   var LEAD_EMAIL = "uday.khandelwal@the5thkind.in"; // FormSubmit sends one activation email the first time
 
   // ---------- analytics ----------
+  // IDs live in data/site.json; build.py writes them to /assets/tracking-config.js as window.TFK_CONFIG.
+  var C = window.TFK_CONFIG || {};
+  if (C.ga4_id) GA4_ID = C.ga4_id;
+  if (C.clarity_id) CLARITY_ID = C.clarity_id;
+  var GTM_ID = C.gtm_id || "", ADS_ID = C.google_ads_id || "", ADS_LABELS = C.google_ads_labels || {}, UET_ID = C.bing_uet_id || "";
   window.dataLayer = window.dataLayer || [];
   window.gtag = window.gtag || function () { dataLayer.push(arguments); };
-  if (GA4_ID) {
-    var s = document.createElement("script");
-    s.async = true; s.src = "https://www.googletagmanager.com/gtag/js?id=" + GA4_ID;
-    document.head.appendChild(s);
-    gtag("js", new Date()); gtag("config", GA4_ID);
+  function loadScript(src) { var s = document.createElement("script"); s.async = true; s.src = src; document.head.appendChild(s); }
+  if (GTM_ID) {
+    dataLayer.push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+    loadScript("https://www.googletagmanager.com/gtm.js?id=" + GTM_ID);
+  } else if (GA4_ID || ADS_ID) {
+    loadScript("https://www.googletagmanager.com/gtag/js?id=" + (GA4_ID || ADS_ID));
+    gtag("js", new Date());
+    if (GA4_ID) gtag("config", GA4_ID);
+    if (ADS_ID) gtag("config", ADS_ID);
   }
   if (CLARITY_ID) {
     (function (c, l, a, r, i, t, y) {
@@ -24,8 +33,24 @@
       y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
     })(window, document, "clarity", "script", CLARITY_ID);
   }
+  if (UET_ID) {
+    window.uetq = window.uetq || [];
+    loadScript("https://bat.bing.com/bat.js");
+    var w = setInterval(function () { if (window.UET) { clearInterval(w); window.uetq = new UET({ ti: UET_ID, q: window.uetq }); window.uetq.push("pageLoad"); } }, 300);
+    setTimeout(function () { clearInterval(w); }, 10000);
+  }
+  // Every event carries the page's service, city and page type (set on <body> by build.py),
+  // so GA4 can report leads by service and by city.
+  var B = document.body ? document.body.dataset : {};
+  var CTX = { page_type: B.pageType || (location.pathname === "/" ? "home" : ""), service: B.service || "", city: B.city || "" };
   function track(name, params) {
-    try { gtag("event", name, params || {}); } catch (e) {}
+    var p = {}; var k;
+    for (k in CTX) p[k] = CTX[k];
+    for (k in (params || {})) p[k] = params[k];
+    try { dataLayer.push(Object.assign({ event: "tfk_" + name }, p)); } catch (e) {}
+    try { if (!GTM_ID) gtag("event", name, p); } catch (e) {}
+    try { if (!GTM_ID && ADS_ID && ADS_LABELS[name]) gtag("event", "conversion", { send_to: ADS_ID + "/" + ADS_LABELS[name] }); } catch (e) {}
+    try { if (window.uetq && window.uetq.push) window.uetq.push("event", name, { event_category: p.service || "site", event_label: p.city || "" }); } catch (e) {}
     try { window.clarity && clarity("event", name); } catch (e) {}
   }
   window.tfkTrack = track;

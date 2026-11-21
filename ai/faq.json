@@ -2,6 +2,14 @@
  "site": "https://www.the5thkind.in/",
  "faqs": [
   {
+   "question": "Do you manage social media accounts?",
+   "answer": "Yes. We run Instagram and other socials end to end: strategy, a monthly content calendar you approve, content production, posting, replies to comments and DMs, Meta ads and a monthly report, including a dedicated plan for jewellery stores."
+  },
+  {
+   "question": "Which brands has The Fifth Kind worked with?",
+   "answer": "Mahaveer Papers (social media, brand films, the Kora AI chatbot and a WhatsApp chatbot), Megha Jewellers and its collections VS Signature and Velvet Lite 9KT, Arvind Mills, Schüco, JITO Bangalore, CAPTÉ, Hybec Deco, Hybec Air and Foodsvilla, along with founders and personal brands."
+  },
+  {
    "question": "How fast can you deliver an AI video?",
    "answer": "Most projects ship in days, not weeks. A typical AI product video moves from brief to final delivery within a week; larger brand films take longer depending on scope."
   },
@@ -10,32 +18,12 @@
    "answer": "No. Every project starts with story and concept, not a prompt. We combine cinematic storytelling craft with AI production speed — the result is studio-quality work, never generic AI output."
   },
   {
-   "question": "What is an AI clone video?",
-   "answer": "A hyper-realistic digital clone of you — your face, your voice, your mannerisms — delivering your message on camera without a shoot. Ideal for founders and personal brands who need consistent video presence."
-  },
-  {
-   "question": "Do you also handle automation, or just video?",
-   "answer": "Both. Alongside AI video production we build custom AI chatbots, WhatsApp automation and AI agents for quotations and invoices, so your brand can create attention and convert it — 24/7."
-  },
-  {
-   "question": "Who do you work with?",
-   "answer": "SMEs, enterprises, startups and traditional businesses — with deep experience in luxury retail, D2C wellness, personal brands and product launches across India."
-  },
-  {
    "question": "Can you build an AI chatbot trained on my products?",
    "answer": "Yes. We train a custom AI chatbot on your product list, categories, specifications and FAQs. It sits on your website or WhatsApp and answers customer questions instantly, 24/7 — sizes, availability, comparisons — and hands hot leads to your team."
   },
   {
-   "question": "What business processes can you automate with AI?",
-   "answer": "Quotations, invoices, billing, payment reminders, order updates, lead follow-ups and customer support — using AI agents connected to the tools you already use. Start with a free consulting call: we study how your business runs and map exactly what to automate first."
-  },
-  {
    "question": "Where is The Fifth Kind based, and do you work outside Bangalore?",
    "answer": "Our studio is in Shantinagar, Bengaluru. We work with brands across India and abroad. Briefs, reviews and delivery all happen over WhatsApp, calls and shared folders."
-  },
-  {
-   "question": "Do you still offer AI voice or calling agents?",
-   "answer": "No. We have stopped offering AI voice and phone-calling agents so we can focus on AI video production, custom AI chatbots, WhatsApp automation and back-office AI agents."
   },
   {
    "question": "Is making an AI clone of yourself legal in India?",
@@ -106,6 +94,46 @@
    "question": "Is a custom AI chatbot worth it for a small business?",
    "answer": "It's worth it when missed or slow replies are costing you sales, and when your products need explaining. If your questions are simple and few, a DIY builder is fine.",
    "source": "https://www.the5thkind.in/blog/custom-ai-chatbot-vs-chatbot-builder/"
+  },
+  {
+   "question": "How often should a jewellery store post on Instagram?",
+   "answer": "A workable starting rhythm is about nine feed posts a month (roughly five reels and four carousels or static posts) plus stories on most days, with more during festivals and wedding season.",
+   "source": "https://www.the5thkind.in/blog/instagram-marketing-for-jewellery-stores/"
+  },
+  {
+   "question": "Are reels better than carousels for jewellery?",
+   "answer": "Not always. A Vaizle analysis of more than 700 jewellery-brand posts found reels did not outperform carousels. Use reels to reach new people and carousels and static posts to get saves, shares and a grid that builds trust.",
+   "source": "https://www.the5thkind.in/blog/instagram-marketing-for-jewellery-stores/"
+  },
+  {
+   "question": "Can AI be used for jewellery content?",
+   "answer": "Yes, for light, backgrounds, motion and lifestyle scenes, as long as the jewellery itself stays exactly as it is in real life. Every frame should be checked against the real piece.",
+   "source": "https://www.the5thkind.in/blog/instagram-marketing-for-jewellery-stores/"
+  },
+  {
+   "question": "Should a jewellery store run Instagram ads?",
+   "answer": "Yes, in a small and local way. Ads to people near the store, sending them to WhatsApp, usually bring more real enquiries than boosting posts to all of India.",
+   "source": "https://www.the5thkind.in/blog/instagram-marketing-for-jewellery-stores/"
+  },
+  {
+   "question": "What is a fair price for social media management in India?",
+   "answer": "For a small business, ₹15,000 to ₹50,000 a month from a freelancer or small agency is common in 2026. A complete agency service with strategy, in-house video and ads management usually costs ₹50,000 to ₹1,50,000 a month. Ad spend is paid separately.",
+   "source": "https://www.the5thkind.in/blog/social-media-management-cost-india/"
+  },
+  {
+   "question": "Is ad spend included in the management fee?",
+   "answer": "Usually not. The agency's fee covers planning, content and management. The money you spend on Instagram or Facebook ads is paid directly to Meta, ideally from an ad account in your business's name.",
+   "source": "https://www.the5thkind.in/blog/social-media-management-cost-india/"
+  },
+  {
+   "question": "Should I hire a freelancer or an agency?",
+   "answer": "A freelancer suits simple posting on a tight budget. An agency suits brands that need regular video, consistent design, ads and someone accountable for results. Many businesses start with an agency for strategy and video, then add in-house help later.",
+   "source": "https://www.the5thkind.in/blog/social-media-management-cost-india/"
+  },
+  {
+   "question": "How long before social media management shows results?",
+   "answer": "Expect the first month to set the strategy and find what works, and clearer results from the second or third month, when the calendar, content style and ads have been tuned to real data.",
+   "source": "https://www.the5thkind.in/blog/social-media-management-cost-india/"
   },
   {
    "question": "Is the WhatsApp Business API free in India?",
@@ -293,6 +321,36 @@
    "source": "https://www.the5thkind.in/ai-video-production-bangalore/"
   },
   {
+   "question": "What does a jewellery marketing agency do?",
+   "answer": "A jewellery marketing agency plans and runs a jeweller's social media and advertising: a monthly content calendar, product reels and photos, festival and wedding-season campaigns, posting and replies to enquiries, and Instagram and Facebook ads that bring local buyers into the store or onto WhatsApp.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/"
+  },
+  {
+   "question": "Do you need to visit my store to shoot?",
+   "answer": "Not always. We can build reels from your existing product photos and short phone clips, and add AI-assisted macro and lifestyle shots that keep your real designs intact. For owner stories and podcast reels, a short shoot at the store works best.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/"
+  },
+  {
+   "question": "Will AI change how my jewellery looks?",
+   "answer": "No. We only use AI around your piece, for light, backgrounds and motion, and check every frame against the real design. If a stone or setting changes, the shot is redone.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/"
+  },
+  {
+   "question": "Which jewellers have you worked with?",
+   "answer": "We make reels and campaigns for Megha Jewellers and its collections VS Signature and Velvet Lite 9KT, including Dasara and festive-season films in English and Kannada.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/"
+  },
+  {
+   "question": "How many posts a month do you make?",
+   "answer": "A typical jewellery plan is about five reels and four posts a month, plus stories. We fix the exact mix and a monthly fee after a free audit of your current Instagram.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/"
+  },
+  {
+   "question": "Do you work with jewellers outside Bangalore?",
+   "answer": "Yes. We work with jewellers across India over WhatsApp and calls, and travel for store shoots when the plan needs one.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/"
+  },
+  {
    "question": "Do you edit podcasts into reels?",
    "answer": "Yes. We pull the strongest moments from long recordings and cut them into short clips with hooks and captions.",
    "source": "https://www.the5thkind.in/reel-editing-services/"
@@ -306,6 +364,41 @@
    "question": "Can you add AI elements to my footage?",
    "answer": "Yes. Reel editing can be combined with AI B-roll, AI clone segments or AI-generated scenes. See AI video production.",
    "source": "https://www.the5thkind.in/reel-editing-services/"
+  },
+  {
+   "question": "What does social media management include?",
+   "answer": "At The Fifth Kind it includes strategy, a monthly content calendar, content production (reels, AI films, carousels, stories and captions), posting, replies to comments and DMs, Meta ads management and a monthly performance report.",
+   "source": "https://www.the5thkind.in/social-media-management/"
+  },
+  {
+   "question": "Which platforms do you manage?",
+   "answer": "Mostly Instagram, along with Facebook and LinkedIn. Reels are also cut for YouTube Shorts when it helps the brand.",
+   "source": "https://www.the5thkind.in/social-media-management/"
+  },
+  {
+   "question": "Do I need to shoot content myself?",
+   "answer": "No. Much of the content is made with AI: product films, AI clone videos of the founder and motion graphics. If you have your own footage or products to film, we edit that too.",
+   "source": "https://www.the5thkind.in/social-media-management/"
+  },
+  {
+   "question": "Do I approve posts before they go live?",
+   "answer": "Yes. You approve the monthly calendar first, and every reel is sent for review before it is posted.",
+   "source": "https://www.the5thkind.in/social-media-management/"
+  },
+  {
+   "question": "How much does social media management cost?",
+   "answer": "It's a monthly retainer that depends on how many posts and reels you need, whether ads are included and how many platforms we run. We quote a fixed monthly fee after a free audit of your current page. Ad spend is paid directly to Meta.",
+   "source": "https://www.the5thkind.in/social-media-management/"
+  },
+  {
+   "question": "Which brands do you manage social media for?",
+   "answer": "We run the Instagram of Mahaveer Papers, a Bengaluru speciality paper company, social content and Meta ads for CAPTÉ in France, and our own page @the5thkind.ai.",
+   "source": "https://www.the5thkind.in/social-media-management/"
+  },
+  {
+   "question": "Are you based in Bangalore?",
+   "answer": "Yes, our studio is in Shantinagar, Bengaluru. We work with brands across India and abroad over WhatsApp and calls.",
+   "source": "https://www.the5thkind.in/social-media-management/"
   },
   {
    "question": "What is a WhatsApp chatbot for business?",
@@ -394,7 +487,12 @@
   },
   {
    "question": "Which brands has The Fifth Kind worked with?",
-   "answer": "Clients include Arvind Mills, Schüco, JITO Bangalore, Mahaveer Papers, Hybec Deco, Hybec Air and Foodsvilla, along with astrologers, coaches and personal brands. Over 200 projects have been delivered.",
+   "answer": "Clients include Mahaveer Papers (social media, brand films, the Kora AI chatbot and a WhatsApp chatbot), Arvind Mills, Schüco, JITO Bangalore, CAPTÉ, Hybec Deco, Hybec Air and Foodsvilla, along with founders and personal brands. Over 200 projects have been delivered.",
+   "source": "https://www.the5thkind.in/work/"
+  },
+  {
+   "question": "Why are there so few films here?",
+   "answer": "On purpose. This page only shows work that was approved by the client and published. Drafts, tests and unused versions stay off the site.",
    "source": "https://www.the5thkind.in/work/"
   },
   {
@@ -411,7 +509,2167 @@
    "question": "How do I get a film like one of these?",
    "answer": "Send us the film you liked and what you are launching on WhatsApp at +91 82960 08838. We reply the same day with a rough scope and price.",
    "source": "https://www.the5thkind.in/work/"
+  },
+  {
+   "question": "How long does AI video production take?",
+   "answer": "Most short films are delivered within a week of an approved script. Larger brand films take longer, depending on the number of scenes and review rounds.",
+   "source": "https://www.the5thkind.in/ai-video-production/"
+  },
+  {
+   "question": "Will it look like generic AI content?",
+   "answer": "No. Every film starts with a script and a visual direction, and editors finish every frame. Our portfolio shows client work that was approved and published.",
+   "source": "https://www.the5thkind.in/ai-video-production/"
+  },
+  {
+   "question": "Where is The Fifth Kind based?",
+   "answer": "Our studio is in Shantinagar, Bengaluru. We work with brands across India and abroad, in person in Bengaluru and remotely elsewhere.",
+   "source": "https://www.the5thkind.in/ai-video-production/"
+  },
+  {
+   "question": "Which industries do you make AI videos for?",
+   "answer": "Paper and B2B suppliers, jewellers, textiles and fashion, D2C brands, education, healthcare, real estate, founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-video-production/"
+  },
+  {
+   "question": "Do you have an office in Mumbai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Mumbai businesses remotely over WhatsApp, calls and shared folders, and travel to Mumbai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-video-production/mumbai/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Marathi?",
+   "answer": "Yes. We work in English, Hindi, Marathi and Gujarati. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-video-production/mumbai/"
+  },
+  {
+   "question": "How much does AI video production cost in Mumbai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-video-production/mumbai/"
+  },
+  {
+   "question": "Which Mumbai businesses do you work with?",
+   "answer": "Mostly media & entertainment, financial services, real estate developers & brokers, jewellers and diamond traders & manufacturers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-video-production/mumbai/"
+  },
+  {
+   "question": "How long does AI video production take?",
+   "answer": "Most short films are delivered within a week of an approved script. Larger brand films take longer, depending on the number of scenes and review rounds.",
+   "source": "https://www.the5thkind.in/ai-video-production/mumbai/"
+  },
+  {
+   "question": "Will it look like generic AI content?",
+   "answer": "No. Every film starts with a script and a visual direction, and editors finish every frame. Our portfolio shows client work that was approved and published.",
+   "source": "https://www.the5thkind.in/ai-video-production/mumbai/"
+  },
+  {
+   "question": "Do you have an office in Delhi NCR?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Delhi NCR businesses remotely over WhatsApp, calls and shared folders, and travel to Delhi NCR for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-video-production/delhi-ncr/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Punjabi?",
+   "answer": "Yes. We work in English, Hindi and Punjabi. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-video-production/delhi-ncr/"
+  },
+  {
+   "question": "How much does AI video production cost in Delhi NCR?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-video-production/delhi-ncr/"
+  },
+  {
+   "question": "Which Delhi NCR businesses do you work with?",
+   "answer": "Mostly it & saas companies, real estate developers & brokers, schools, colleges & coaching institutes, textile & apparel brands and jewellers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-video-production/delhi-ncr/"
+  },
+  {
+   "question": "How long does AI video production take?",
+   "answer": "Most short films are delivered within a week of an approved script. Larger brand films take longer, depending on the number of scenes and review rounds.",
+   "source": "https://www.the5thkind.in/ai-video-production/delhi-ncr/"
+  },
+  {
+   "question": "Will it look like generic AI content?",
+   "answer": "No. Every film starts with a script and a visual direction, and editors finish every frame. Our portfolio shows client work that was approved and published.",
+   "source": "https://www.the5thkind.in/ai-video-production/delhi-ncr/"
+  },
+  {
+   "question": "Do you have an office in Hyderabad?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Hyderabad businesses remotely over WhatsApp, calls and shared folders, and travel to Hyderabad for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-video-production/hyderabad/"
+  },
+  {
+   "question": "Can you work in English, Telugu and Hindi?",
+   "answer": "Yes. We work in English, Telugu, Hindi and Urdu. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-video-production/hyderabad/"
+  },
+  {
+   "question": "How much does AI video production cost in Hyderabad?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-video-production/hyderabad/"
+  },
+  {
+   "question": "Which Hyderabad businesses do you work with?",
+   "answer": "Mostly it & saas companies, pharma & life-sciences companies, real estate developers & brokers, jewellers and hospitals, clinics & doctors, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-video-production/hyderabad/"
+  },
+  {
+   "question": "How long does AI video production take?",
+   "answer": "Most short films are delivered within a week of an approved script. Larger brand films take longer, depending on the number of scenes and review rounds.",
+   "source": "https://www.the5thkind.in/ai-video-production/hyderabad/"
+  },
+  {
+   "question": "Will it look like generic AI content?",
+   "answer": "No. Every film starts with a script and a visual direction, and editors finish every frame. Our portfolio shows client work that was approved and published.",
+   "source": "https://www.the5thkind.in/ai-video-production/hyderabad/"
+  },
+  {
+   "question": "Do you have an office in Chennai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Chennai businesses remotely over WhatsApp, calls and shared folders, and travel to Chennai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-video-production/chennai/"
+  },
+  {
+   "question": "Can you work in Tamil and English?",
+   "answer": "Yes. We work in Tamil and English. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-video-production/chennai/"
+  },
+  {
+   "question": "How much does AI video production cost in Chennai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-video-production/chennai/"
+  },
+  {
+   "question": "Which Chennai businesses do you work with?",
+   "answer": "Mostly it & saas companies, automotive & engineering firms, hospitals, clinics & doctors, jewellers and textile & apparel brands, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-video-production/chennai/"
+  },
+  {
+   "question": "How long does AI video production take?",
+   "answer": "Most short films are delivered within a week of an approved script. Larger brand films take longer, depending on the number of scenes and review rounds.",
+   "source": "https://www.the5thkind.in/ai-video-production/chennai/"
+  },
+  {
+   "question": "Will it look like generic AI content?",
+   "answer": "No. Every film starts with a script and a visual direction, and editors finish every frame. Our portfolio shows client work that was approved and published.",
+   "source": "https://www.the5thkind.in/ai-video-production/chennai/"
+  },
+  {
+   "question": "Do you have an office in Pune?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Pune businesses remotely over WhatsApp, calls and shared folders, and travel to Pune for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-video-production/pune/"
+  },
+  {
+   "question": "Can you work in English, Marathi and Hindi?",
+   "answer": "Yes. We work in English, Marathi and Hindi. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-video-production/pune/"
+  },
+  {
+   "question": "How much does AI video production cost in Pune?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-video-production/pune/"
+  },
+  {
+   "question": "Which Pune businesses do you work with?",
+   "answer": "Mostly it & saas companies, automotive & engineering firms, schools, colleges & coaching institutes, real estate developers & brokers and tech startups, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-video-production/pune/"
+  },
+  {
+   "question": "How long does AI video production take?",
+   "answer": "Most short films are delivered within a week of an approved script. Larger brand films take longer, depending on the number of scenes and review rounds.",
+   "source": "https://www.the5thkind.in/ai-video-production/pune/"
+  },
+  {
+   "question": "Will it look like generic AI content?",
+   "answer": "No. Every film starts with a script and a visual direction, and editors finish every frame. Our portfolio shows client work that was approved and published.",
+   "source": "https://www.the5thkind.in/ai-video-production/pune/"
+  },
+  {
+   "question": "Do you have an office in Kochi?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Kochi businesses remotely over WhatsApp, calls and shared folders, and travel to Kochi for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-video-production/kochi/"
+  },
+  {
+   "question": "Can you work in Malayalam and English?",
+   "answer": "Yes. We work in Malayalam and English. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-video-production/kochi/"
+  },
+  {
+   "question": "How much does AI video production cost in Kochi?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-video-production/kochi/"
+  },
+  {
+   "question": "Which Kochi businesses do you work with?",
+   "answer": "Mostly jewellers, travel & tourism businesses, hotels & hospitality, hospitals, clinics & doctors and ayurveda & wellness brands, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-video-production/kochi/"
+  },
+  {
+   "question": "How long does AI video production take?",
+   "answer": "Most short films are delivered within a week of an approved script. Larger brand films take longer, depending on the number of scenes and review rounds.",
+   "source": "https://www.the5thkind.in/ai-video-production/kochi/"
+  },
+  {
+   "question": "Will it look like generic AI content?",
+   "answer": "No. Every film starts with a script and a visual direction, and editors finish every frame. Our portfolio shows client work that was approved and published.",
+   "source": "https://www.the5thkind.in/ai-video-production/kochi/"
+  },
+  {
+   "question": "Do you have an office in Ahmedabad?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Ahmedabad businesses remotely over WhatsApp, calls and shared folders, and travel to Ahmedabad for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-video-production/ahmedabad/"
+  },
+  {
+   "question": "Can you work in Gujarati, Hindi and English?",
+   "answer": "Yes. We work in Gujarati, Hindi and English. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-video-production/ahmedabad/"
+  },
+  {
+   "question": "How much does AI video production cost in Ahmedabad?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-video-production/ahmedabad/"
+  },
+  {
+   "question": "Which Ahmedabad businesses do you work with?",
+   "answer": "Mostly textile & apparel brands, pharma & life-sciences companies, manufacturers & b2b suppliers, jewellers and real estate developers & brokers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-video-production/ahmedabad/"
+  },
+  {
+   "question": "How long does AI video production take?",
+   "answer": "Most short films are delivered within a week of an approved script. Larger brand films take longer, depending on the number of scenes and review rounds.",
+   "source": "https://www.the5thkind.in/ai-video-production/ahmedabad/"
+  },
+  {
+   "question": "Will it look like generic AI content?",
+   "answer": "No. Every film starts with a script and a visual direction, and editors finish every frame. Our portfolio shows client work that was approved and published.",
+   "source": "https://www.the5thkind.in/ai-video-production/ahmedabad/"
+  },
+  {
+   "question": "Do you have an office in Kolkata?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Kolkata businesses remotely over WhatsApp, calls and shared folders, and travel to Kolkata for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-video-production/kolkata/"
+  },
+  {
+   "question": "Can you work in Bengali, English and Hindi?",
+   "answer": "Yes. We work in Bengali, English and Hindi. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-video-production/kolkata/"
+  },
+  {
+   "question": "How much does AI video production cost in Kolkata?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-video-production/kolkata/"
+  },
+  {
+   "question": "Which Kolkata businesses do you work with?",
+   "answer": "Mostly jewellers, restaurants & food brands, textile & apparel brands, schools, colleges & coaching institutes and hospitals, clinics & doctors, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-video-production/kolkata/"
+  },
+  {
+   "question": "How long does AI video production take?",
+   "answer": "Most short films are delivered within a week of an approved script. Larger brand films take longer, depending on the number of scenes and review rounds.",
+   "source": "https://www.the5thkind.in/ai-video-production/kolkata/"
+  },
+  {
+   "question": "Will it look like generic AI content?",
+   "answer": "No. Every film starts with a script and a visual direction, and editors finish every frame. Our portfolio shows client work that was approved and published.",
+   "source": "https://www.the5thkind.in/ai-video-production/kolkata/"
+  },
+  {
+   "question": "Can I meet your team in Bangalore?",
+   "answer": "Yes. Our studio is at 529, 8th Cross, Nanjappa Rd, Shantinagar, Bengaluru 560027. Clients are welcome to visit by appointment, and briefs can also happen on WhatsApp or a call.",
+   "source": "https://www.the5thkind.in/ai-clone-video/bangalore/"
+  },
+  {
+   "question": "Can you work in English, Kannada and Hindi?",
+   "answer": "Yes. We work in English, Kannada, Hindi, Tamil and Telugu. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-clone-video/bangalore/"
+  },
+  {
+   "question": "How much do AI clone videos cost in Bangalore?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-clone-video/bangalore/"
+  },
+  {
+   "question": "Which Bangalore businesses do you work with?",
+   "answer": "Mostly tech startups, it & saas companies, d2c brands, real estate developers & brokers and schools, colleges & coaching institutes, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-clone-video/bangalore/"
+  },
+  {
+   "question": "Is an AI clone video legal in India?",
+   "answer": "Yes, with the person's informed written consent. We only clone people who sign a consent form, and we label AI content where platforms require it. See our guide on AI clone videos and consent in India.",
+   "source": "https://www.the5thkind.in/ai-clone-video/bangalore/"
+  },
+  {
+   "question": "How realistic is an AI clone?",
+   "answer": "Close enough that viewers often can't tell, as our 'One of them is AI' reel shows. Short, well-lit recordings give the best results.",
+   "source": "https://www.the5thkind.in/ai-clone-video/bangalore/"
+  },
+  {
+   "question": "Do you have an office in Mumbai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Mumbai businesses remotely over WhatsApp, calls and shared folders, and travel to Mumbai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-clone-video/mumbai/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Marathi?",
+   "answer": "Yes. We work in English, Hindi, Marathi and Gujarati. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-clone-video/mumbai/"
+  },
+  {
+   "question": "How much do AI clone videos cost in Mumbai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-clone-video/mumbai/"
+  },
+  {
+   "question": "Which Mumbai businesses do you work with?",
+   "answer": "Mostly media & entertainment, financial services, real estate developers & brokers, jewellers and diamond traders & manufacturers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-clone-video/mumbai/"
+  },
+  {
+   "question": "Is an AI clone video legal in India?",
+   "answer": "Yes, with the person's informed written consent. We only clone people who sign a consent form, and we label AI content where platforms require it. See our guide on AI clone videos and consent in India.",
+   "source": "https://www.the5thkind.in/ai-clone-video/mumbai/"
+  },
+  {
+   "question": "How realistic is an AI clone?",
+   "answer": "Close enough that viewers often can't tell, as our 'One of them is AI' reel shows. Short, well-lit recordings give the best results.",
+   "source": "https://www.the5thkind.in/ai-clone-video/mumbai/"
+  },
+  {
+   "question": "Do you have an office in Delhi NCR?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Delhi NCR businesses remotely over WhatsApp, calls and shared folders, and travel to Delhi NCR for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-clone-video/delhi-ncr/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Punjabi?",
+   "answer": "Yes. We work in English, Hindi and Punjabi. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-clone-video/delhi-ncr/"
+  },
+  {
+   "question": "How much do AI clone videos cost in Delhi NCR?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-clone-video/delhi-ncr/"
+  },
+  {
+   "question": "Which Delhi NCR businesses do you work with?",
+   "answer": "Mostly it & saas companies, real estate developers & brokers, schools, colleges & coaching institutes, textile & apparel brands and jewellers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-clone-video/delhi-ncr/"
+  },
+  {
+   "question": "Is an AI clone video legal in India?",
+   "answer": "Yes, with the person's informed written consent. We only clone people who sign a consent form, and we label AI content where platforms require it. See our guide on AI clone videos and consent in India.",
+   "source": "https://www.the5thkind.in/ai-clone-video/delhi-ncr/"
+  },
+  {
+   "question": "How realistic is an AI clone?",
+   "answer": "Close enough that viewers often can't tell, as our 'One of them is AI' reel shows. Short, well-lit recordings give the best results.",
+   "source": "https://www.the5thkind.in/ai-clone-video/delhi-ncr/"
+  },
+  {
+   "question": "Do you have an office in Hyderabad?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Hyderabad businesses remotely over WhatsApp, calls and shared folders, and travel to Hyderabad for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-clone-video/hyderabad/"
+  },
+  {
+   "question": "Can you work in English, Telugu and Hindi?",
+   "answer": "Yes. We work in English, Telugu, Hindi and Urdu. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-clone-video/hyderabad/"
+  },
+  {
+   "question": "How much do AI clone videos cost in Hyderabad?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-clone-video/hyderabad/"
+  },
+  {
+   "question": "Which Hyderabad businesses do you work with?",
+   "answer": "Mostly it & saas companies, pharma & life-sciences companies, real estate developers & brokers, jewellers and hospitals, clinics & doctors, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-clone-video/hyderabad/"
+  },
+  {
+   "question": "Is an AI clone video legal in India?",
+   "answer": "Yes, with the person's informed written consent. We only clone people who sign a consent form, and we label AI content where platforms require it. See our guide on AI clone videos and consent in India.",
+   "source": "https://www.the5thkind.in/ai-clone-video/hyderabad/"
+  },
+  {
+   "question": "How realistic is an AI clone?",
+   "answer": "Close enough that viewers often can't tell, as our 'One of them is AI' reel shows. Short, well-lit recordings give the best results.",
+   "source": "https://www.the5thkind.in/ai-clone-video/hyderabad/"
+  },
+  {
+   "question": "Do you have an office in Chennai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Chennai businesses remotely over WhatsApp, calls and shared folders, and travel to Chennai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-clone-video/chennai/"
+  },
+  {
+   "question": "Can you work in Tamil and English?",
+   "answer": "Yes. We work in Tamil and English. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-clone-video/chennai/"
+  },
+  {
+   "question": "How much do AI clone videos cost in Chennai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-clone-video/chennai/"
+  },
+  {
+   "question": "Which Chennai businesses do you work with?",
+   "answer": "Mostly it & saas companies, automotive & engineering firms, hospitals, clinics & doctors, jewellers and textile & apparel brands, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-clone-video/chennai/"
+  },
+  {
+   "question": "Is an AI clone video legal in India?",
+   "answer": "Yes, with the person's informed written consent. We only clone people who sign a consent form, and we label AI content where platforms require it. See our guide on AI clone videos and consent in India.",
+   "source": "https://www.the5thkind.in/ai-clone-video/chennai/"
+  },
+  {
+   "question": "How realistic is an AI clone?",
+   "answer": "Close enough that viewers often can't tell, as our 'One of them is AI' reel shows. Short, well-lit recordings give the best results.",
+   "source": "https://www.the5thkind.in/ai-clone-video/chennai/"
+  },
+  {
+   "question": "Do you have an office in Pune?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Pune businesses remotely over WhatsApp, calls and shared folders, and travel to Pune for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-clone-video/pune/"
+  },
+  {
+   "question": "Can you work in English, Marathi and Hindi?",
+   "answer": "Yes. We work in English, Marathi and Hindi. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-clone-video/pune/"
+  },
+  {
+   "question": "How much do AI clone videos cost in Pune?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-clone-video/pune/"
+  },
+  {
+   "question": "Which Pune businesses do you work with?",
+   "answer": "Mostly it & saas companies, automotive & engineering firms, schools, colleges & coaching institutes, real estate developers & brokers and tech startups, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-clone-video/pune/"
+  },
+  {
+   "question": "Is an AI clone video legal in India?",
+   "answer": "Yes, with the person's informed written consent. We only clone people who sign a consent form, and we label AI content where platforms require it. See our guide on AI clone videos and consent in India.",
+   "source": "https://www.the5thkind.in/ai-clone-video/pune/"
+  },
+  {
+   "question": "How realistic is an AI clone?",
+   "answer": "Close enough that viewers often can't tell, as our 'One of them is AI' reel shows. Short, well-lit recordings give the best results.",
+   "source": "https://www.the5thkind.in/ai-clone-video/pune/"
+  },
+  {
+   "question": "Can I meet your team in Bangalore?",
+   "answer": "Yes. Our studio is at 529, 8th Cross, Nanjappa Rd, Shantinagar, Bengaluru 560027. Clients are welcome to visit by appointment, and briefs can also happen on WhatsApp or a call.",
+   "source": "https://www.the5thkind.in/ai-product-video/bangalore/"
+  },
+  {
+   "question": "Can you work in English, Kannada and Hindi?",
+   "answer": "Yes. We work in English, Kannada, Hindi, Tamil and Telugu. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-product-video/bangalore/"
+  },
+  {
+   "question": "How much do AI product videos cost in Bangalore?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-product-video/bangalore/"
+  },
+  {
+   "question": "Which Bangalore businesses do you work with?",
+   "answer": "Mostly tech startups, it & saas companies, d2c brands, real estate developers & brokers and schools, colleges & coaching institutes, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-product-video/bangalore/"
+  },
+  {
+   "question": "Do you need my product physically?",
+   "answer": "Usually not. Clear photos of the product from a few angles are enough. For complex products we may ask for a sample or a short phone video.",
+   "source": "https://www.the5thkind.in/ai-product-video/bangalore/"
+  },
+  {
+   "question": "Can I use these videos in ads?",
+   "answer": "Yes. They are made for Meta, YouTube and website use, with the formats and hook variations ads need.",
+   "source": "https://www.the5thkind.in/ai-product-video/bangalore/"
+  },
+  {
+   "question": "Do you have an office in Mumbai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Mumbai businesses remotely over WhatsApp, calls and shared folders, and travel to Mumbai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-product-video/mumbai/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Marathi?",
+   "answer": "Yes. We work in English, Hindi, Marathi and Gujarati. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-product-video/mumbai/"
+  },
+  {
+   "question": "How much do AI product videos cost in Mumbai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-product-video/mumbai/"
+  },
+  {
+   "question": "Which Mumbai businesses do you work with?",
+   "answer": "Mostly media & entertainment, financial services, real estate developers & brokers, jewellers and diamond traders & manufacturers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-product-video/mumbai/"
+  },
+  {
+   "question": "Do you need my product physically?",
+   "answer": "Usually not. Clear photos of the product from a few angles are enough. For complex products we may ask for a sample or a short phone video.",
+   "source": "https://www.the5thkind.in/ai-product-video/mumbai/"
+  },
+  {
+   "question": "Can I use these videos in ads?",
+   "answer": "Yes. They are made for Meta, YouTube and website use, with the formats and hook variations ads need.",
+   "source": "https://www.the5thkind.in/ai-product-video/mumbai/"
+  },
+  {
+   "question": "Do you have an office in Delhi NCR?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Delhi NCR businesses remotely over WhatsApp, calls and shared folders, and travel to Delhi NCR for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-product-video/delhi-ncr/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Punjabi?",
+   "answer": "Yes. We work in English, Hindi and Punjabi. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-product-video/delhi-ncr/"
+  },
+  {
+   "question": "How much do AI product videos cost in Delhi NCR?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-product-video/delhi-ncr/"
+  },
+  {
+   "question": "Which Delhi NCR businesses do you work with?",
+   "answer": "Mostly it & saas companies, real estate developers & brokers, schools, colleges & coaching institutes, textile & apparel brands and jewellers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-product-video/delhi-ncr/"
+  },
+  {
+   "question": "Do you need my product physically?",
+   "answer": "Usually not. Clear photos of the product from a few angles are enough. For complex products we may ask for a sample or a short phone video.",
+   "source": "https://www.the5thkind.in/ai-product-video/delhi-ncr/"
+  },
+  {
+   "question": "Can I use these videos in ads?",
+   "answer": "Yes. They are made for Meta, YouTube and website use, with the formats and hook variations ads need.",
+   "source": "https://www.the5thkind.in/ai-product-video/delhi-ncr/"
+  },
+  {
+   "question": "Do you have an office in Hyderabad?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Hyderabad businesses remotely over WhatsApp, calls and shared folders, and travel to Hyderabad for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-product-video/hyderabad/"
+  },
+  {
+   "question": "Can you work in English, Telugu and Hindi?",
+   "answer": "Yes. We work in English, Telugu, Hindi and Urdu. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-product-video/hyderabad/"
+  },
+  {
+   "question": "How much do AI product videos cost in Hyderabad?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-product-video/hyderabad/"
+  },
+  {
+   "question": "Which Hyderabad businesses do you work with?",
+   "answer": "Mostly it & saas companies, pharma & life-sciences companies, real estate developers & brokers, jewellers and hospitals, clinics & doctors, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-product-video/hyderabad/"
+  },
+  {
+   "question": "Do you need my product physically?",
+   "answer": "Usually not. Clear photos of the product from a few angles are enough. For complex products we may ask for a sample or a short phone video.",
+   "source": "https://www.the5thkind.in/ai-product-video/hyderabad/"
+  },
+  {
+   "question": "Can I use these videos in ads?",
+   "answer": "Yes. They are made for Meta, YouTube and website use, with the formats and hook variations ads need.",
+   "source": "https://www.the5thkind.in/ai-product-video/hyderabad/"
+  },
+  {
+   "question": "Do you have an office in Chennai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Chennai businesses remotely over WhatsApp, calls and shared folders, and travel to Chennai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-product-video/chennai/"
+  },
+  {
+   "question": "Can you work in Tamil and English?",
+   "answer": "Yes. We work in Tamil and English. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-product-video/chennai/"
+  },
+  {
+   "question": "How much do AI product videos cost in Chennai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-product-video/chennai/"
+  },
+  {
+   "question": "Which Chennai businesses do you work with?",
+   "answer": "Mostly it & saas companies, automotive & engineering firms, hospitals, clinics & doctors, jewellers and textile & apparel brands, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-product-video/chennai/"
+  },
+  {
+   "question": "Do you need my product physically?",
+   "answer": "Usually not. Clear photos of the product from a few angles are enough. For complex products we may ask for a sample or a short phone video.",
+   "source": "https://www.the5thkind.in/ai-product-video/chennai/"
+  },
+  {
+   "question": "Can I use these videos in ads?",
+   "answer": "Yes. They are made for Meta, YouTube and website use, with the formats and hook variations ads need.",
+   "source": "https://www.the5thkind.in/ai-product-video/chennai/"
+  },
+  {
+   "question": "Do you have an office in Pune?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Pune businesses remotely over WhatsApp, calls and shared folders, and travel to Pune for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-product-video/pune/"
+  },
+  {
+   "question": "Can you work in English, Marathi and Hindi?",
+   "answer": "Yes. We work in English, Marathi and Hindi. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-product-video/pune/"
+  },
+  {
+   "question": "How much do AI product videos cost in Pune?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-product-video/pune/"
+  },
+  {
+   "question": "Which Pune businesses do you work with?",
+   "answer": "Mostly it & saas companies, automotive & engineering firms, schools, colleges & coaching institutes, real estate developers & brokers and tech startups, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-product-video/pune/"
+  },
+  {
+   "question": "Do you need my product physically?",
+   "answer": "Usually not. Clear photos of the product from a few angles are enough. For complex products we may ask for a sample or a short phone video.",
+   "source": "https://www.the5thkind.in/ai-product-video/pune/"
+  },
+  {
+   "question": "Can I use these videos in ads?",
+   "answer": "Yes. They are made for Meta, YouTube and website use, with the formats and hook variations ads need.",
+   "source": "https://www.the5thkind.in/ai-product-video/pune/"
+  },
+  {
+   "question": "Can I meet your team in Bangalore?",
+   "answer": "Yes. Our studio is at 529, 8th Cross, Nanjappa Rd, Shantinagar, Bengaluru 560027. Clients are welcome to visit by appointment, and briefs can also happen on WhatsApp or a call.",
+   "source": "https://www.the5thkind.in/ai-ad-film/bangalore/"
+  },
+  {
+   "question": "Can you work in English, Kannada and Hindi?",
+   "answer": "Yes. We work in English, Kannada, Hindi, Tamil and Telugu. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-ad-film/bangalore/"
+  },
+  {
+   "question": "How much do AI ad films cost in Bangalore?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-ad-film/bangalore/"
+  },
+  {
+   "question": "Which Bangalore businesses do you work with?",
+   "answer": "Mostly tech startups, it & saas companies, d2c brands, real estate developers & brokers and schools, colleges & coaching institutes, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-ad-film/bangalore/"
+  },
+  {
+   "question": "How much does an AI ad film cost compared with a shoot?",
+   "answer": "Published Indian rates put a 30-second AI ad film at roughly ₹75,000–₹1.5 lakh, against about ₹5 lakh for a basic traditional 30-second TVC. We give a fixed quote after a brief.",
+   "source": "https://www.the5thkind.in/ai-ad-film/bangalore/"
+  },
+  {
+   "question": "Can AI ad films run on TV and YouTube?",
+   "answer": "Yes. We deliver broadcast and platform formats, and follow each platform's rules on disclosing AI-generated content.",
+   "source": "https://www.the5thkind.in/ai-ad-film/bangalore/"
+  },
+  {
+   "question": "Can I meet your team in Bangalore?",
+   "answer": "Yes. Our studio is at 529, 8th Cross, Nanjappa Rd, Shantinagar, Bengaluru 560027. Clients are welcome to visit by appointment, and briefs can also happen on WhatsApp or a call.",
+   "source": "https://www.the5thkind.in/ai-character-story-video/bangalore/"
+  },
+  {
+   "question": "Can you work in English, Kannada and Hindi?",
+   "answer": "Yes. We work in English, Kannada, Hindi, Tamil and Telugu. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/ai-character-story-video/bangalore/"
+  },
+  {
+   "question": "How much do AI character and 3D videos cost in Bangalore?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-character-story-video/bangalore/"
+  },
+  {
+   "question": "Which Bangalore businesses do you work with?",
+   "answer": "Mostly tech startups, it & saas companies, d2c brands, real estate developers & brokers and schools, colleges & coaching institutes, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-character-story-video/bangalore/"
+  },
+  {
+   "question": "Do you make 3D animation as well as AI video?",
+   "answer": "Yes. Our 'games made real' shorts are built in Blender with foley-only sound. We choose 3D or AI depending on the look and the budget.",
+   "source": "https://www.the5thkind.in/ai-character-story-video/bangalore/"
+  },
+  {
+   "question": "Can a character become a recurring series?",
+   "answer": "Yes. We design characters to return, so each new episode costs less than the first.",
+   "source": "https://www.the5thkind.in/ai-character-story-video/bangalore/"
+  },
+  {
+   "question": "Can I meet your team in Bangalore?",
+   "answer": "Yes. Our studio is at 529, 8th Cross, Nanjappa Rd, Shantinagar, Bengaluru 560027. Clients are welcome to visit by appointment, and briefs can also happen on WhatsApp or a call.",
+   "source": "https://www.the5thkind.in/social-media-management/bangalore/"
+  },
+  {
+   "question": "Can you work in English, Kannada and Hindi?",
+   "answer": "Yes. We work in English, Kannada, Hindi, Tamil and Telugu. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/social-media-management/bangalore/"
+  },
+  {
+   "question": "How much does social media management cost in Bangalore?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/social-media-management/bangalore/"
+  },
+  {
+   "question": "Which Bangalore businesses do you work with?",
+   "answer": "Mostly tech startups, it & saas companies, d2c brands, real estate developers & brokers and schools, colleges & coaching institutes, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/social-media-management/bangalore/"
+  },
+  {
+   "question": "What does social media management cost?",
+   "answer": "In India in 2026, small businesses typically pay ₹15,000–₹50,000 a month to a freelancer or small agency, and ₹50,000–₹1,50,000 for a fuller agency service. We quote a fixed monthly fee after a free audit.",
+   "source": "https://www.the5thkind.in/social-media-management/bangalore/"
+  },
+  {
+   "question": "Which accounts do you run?",
+   "answer": "Mahaveer Papers' Instagram, social content and Meta ads for CAPTÉ in France, and our own page @the5thkind.ai, along with reels and posts for Megha Jewellers.",
+   "source": "https://www.the5thkind.in/social-media-management/bangalore/"
+  },
+  {
+   "question": "Do you have an office in Mumbai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Mumbai businesses remotely over WhatsApp, calls and shared folders, and travel to Mumbai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/social-media-management/mumbai/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Marathi?",
+   "answer": "Yes. We work in English, Hindi, Marathi and Gujarati. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/social-media-management/mumbai/"
+  },
+  {
+   "question": "How much does social media management cost in Mumbai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/social-media-management/mumbai/"
+  },
+  {
+   "question": "Which Mumbai businesses do you work with?",
+   "answer": "Mostly media & entertainment, financial services, real estate developers & brokers, jewellers and diamond traders & manufacturers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/social-media-management/mumbai/"
+  },
+  {
+   "question": "What does social media management cost?",
+   "answer": "In India in 2026, small businesses typically pay ₹15,000–₹50,000 a month to a freelancer or small agency, and ₹50,000–₹1,50,000 for a fuller agency service. We quote a fixed monthly fee after a free audit.",
+   "source": "https://www.the5thkind.in/social-media-management/mumbai/"
+  },
+  {
+   "question": "Which accounts do you run?",
+   "answer": "Mahaveer Papers' Instagram, social content and Meta ads for CAPTÉ in France, and our own page @the5thkind.ai, along with reels and posts for Megha Jewellers.",
+   "source": "https://www.the5thkind.in/social-media-management/mumbai/"
+  },
+  {
+   "question": "Do you have an office in Delhi NCR?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Delhi NCR businesses remotely over WhatsApp, calls and shared folders, and travel to Delhi NCR for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/social-media-management/delhi-ncr/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Punjabi?",
+   "answer": "Yes. We work in English, Hindi and Punjabi. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/social-media-management/delhi-ncr/"
+  },
+  {
+   "question": "How much does social media management cost in Delhi NCR?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/social-media-management/delhi-ncr/"
+  },
+  {
+   "question": "Which Delhi NCR businesses do you work with?",
+   "answer": "Mostly it & saas companies, real estate developers & brokers, schools, colleges & coaching institutes, textile & apparel brands and jewellers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/social-media-management/delhi-ncr/"
+  },
+  {
+   "question": "What does social media management cost?",
+   "answer": "In India in 2026, small businesses typically pay ₹15,000–₹50,000 a month to a freelancer or small agency, and ₹50,000–₹1,50,000 for a fuller agency service. We quote a fixed monthly fee after a free audit.",
+   "source": "https://www.the5thkind.in/social-media-management/delhi-ncr/"
+  },
+  {
+   "question": "Which accounts do you run?",
+   "answer": "Mahaveer Papers' Instagram, social content and Meta ads for CAPTÉ in France, and our own page @the5thkind.ai, along with reels and posts for Megha Jewellers.",
+   "source": "https://www.the5thkind.in/social-media-management/delhi-ncr/"
+  },
+  {
+   "question": "Do you have an office in Hyderabad?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Hyderabad businesses remotely over WhatsApp, calls and shared folders, and travel to Hyderabad for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/social-media-management/hyderabad/"
+  },
+  {
+   "question": "Can you work in English, Telugu and Hindi?",
+   "answer": "Yes. We work in English, Telugu, Hindi and Urdu. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/social-media-management/hyderabad/"
+  },
+  {
+   "question": "How much does social media management cost in Hyderabad?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/social-media-management/hyderabad/"
+  },
+  {
+   "question": "Which Hyderabad businesses do you work with?",
+   "answer": "Mostly it & saas companies, pharma & life-sciences companies, real estate developers & brokers, jewellers and hospitals, clinics & doctors, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/social-media-management/hyderabad/"
+  },
+  {
+   "question": "What does social media management cost?",
+   "answer": "In India in 2026, small businesses typically pay ₹15,000–₹50,000 a month to a freelancer or small agency, and ₹50,000–₹1,50,000 for a fuller agency service. We quote a fixed monthly fee after a free audit.",
+   "source": "https://www.the5thkind.in/social-media-management/hyderabad/"
+  },
+  {
+   "question": "Which accounts do you run?",
+   "answer": "Mahaveer Papers' Instagram, social content and Meta ads for CAPTÉ in France, and our own page @the5thkind.ai, along with reels and posts for Megha Jewellers.",
+   "source": "https://www.the5thkind.in/social-media-management/hyderabad/"
+  },
+  {
+   "question": "Do you have an office in Chennai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Chennai businesses remotely over WhatsApp, calls and shared folders, and travel to Chennai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/social-media-management/chennai/"
+  },
+  {
+   "question": "Can you work in Tamil and English?",
+   "answer": "Yes. We work in Tamil and English. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/social-media-management/chennai/"
+  },
+  {
+   "question": "How much does social media management cost in Chennai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/social-media-management/chennai/"
+  },
+  {
+   "question": "Which Chennai businesses do you work with?",
+   "answer": "Mostly it & saas companies, automotive & engineering firms, hospitals, clinics & doctors, jewellers and textile & apparel brands, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/social-media-management/chennai/"
+  },
+  {
+   "question": "What does social media management cost?",
+   "answer": "In India in 2026, small businesses typically pay ₹15,000–₹50,000 a month to a freelancer or small agency, and ₹50,000–₹1,50,000 for a fuller agency service. We quote a fixed monthly fee after a free audit.",
+   "source": "https://www.the5thkind.in/social-media-management/chennai/"
+  },
+  {
+   "question": "Which accounts do you run?",
+   "answer": "Mahaveer Papers' Instagram, social content and Meta ads for CAPTÉ in France, and our own page @the5thkind.ai, along with reels and posts for Megha Jewellers.",
+   "source": "https://www.the5thkind.in/social-media-management/chennai/"
+  },
+  {
+   "question": "Do you have an office in Pune?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Pune businesses remotely over WhatsApp, calls and shared folders, and travel to Pune for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/social-media-management/pune/"
+  },
+  {
+   "question": "Can you work in English, Marathi and Hindi?",
+   "answer": "Yes. We work in English, Marathi and Hindi. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/social-media-management/pune/"
+  },
+  {
+   "question": "How much does social media management cost in Pune?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/social-media-management/pune/"
+  },
+  {
+   "question": "Which Pune businesses do you work with?",
+   "answer": "Mostly it & saas companies, automotive & engineering firms, schools, colleges & coaching institutes, real estate developers & brokers and tech startups, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/social-media-management/pune/"
+  },
+  {
+   "question": "What does social media management cost?",
+   "answer": "In India in 2026, small businesses typically pay ₹15,000–₹50,000 a month to a freelancer or small agency, and ₹50,000–₹1,50,000 for a fuller agency service. We quote a fixed monthly fee after a free audit.",
+   "source": "https://www.the5thkind.in/social-media-management/pune/"
+  },
+  {
+   "question": "Which accounts do you run?",
+   "answer": "Mahaveer Papers' Instagram, social content and Meta ads for CAPTÉ in France, and our own page @the5thkind.ai, along with reels and posts for Megha Jewellers.",
+   "source": "https://www.the5thkind.in/social-media-management/pune/"
+  },
+  {
+   "question": "Can I meet your team in Bangalore?",
+   "answer": "Yes. Our studio is at 529, 8th Cross, Nanjappa Rd, Shantinagar, Bengaluru 560027. Clients are welcome to visit by appointment, and briefs can also happen on WhatsApp or a call.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/bangalore/"
+  },
+  {
+   "question": "Can you work in English, Kannada and Hindi?",
+   "answer": "Yes. We work in English, Kannada, Hindi, Tamil and Telugu. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/bangalore/"
+  },
+  {
+   "question": "How much does jewellery marketing cost in Bangalore?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/bangalore/"
+  },
+  {
+   "question": "Which Bangalore businesses do you work with?",
+   "answer": "Mostly tech startups, it & saas companies, d2c brands, real estate developers & brokers and schools, colleges & coaching institutes, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/bangalore/"
+  },
+  {
+   "question": "Which jewellers have you worked with?",
+   "answer": "Megha Jewellers and its collections VS Signature and Velvet Lite 9KT, with more than 25 approved reels, carousels and festival campaigns in English and Kannada since September 2026.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/bangalore/"
+  },
+  {
+   "question": "Will AI change how my jewellery looks?",
+   "answer": "No. AI is used only around the piece, for light, backgrounds and motion, and every frame is checked against the real design.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/bangalore/"
+  },
+  {
+   "question": "Do you have an office in Mumbai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Mumbai businesses remotely over WhatsApp, calls and shared folders, and travel to Mumbai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/mumbai/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Marathi?",
+   "answer": "Yes. We work in English, Hindi, Marathi and Gujarati. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/mumbai/"
+  },
+  {
+   "question": "How much does jewellery marketing cost in Mumbai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/mumbai/"
+  },
+  {
+   "question": "Which Mumbai businesses do you work with?",
+   "answer": "Mostly media & entertainment, financial services, real estate developers & brokers, jewellers and diamond traders & manufacturers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/mumbai/"
+  },
+  {
+   "question": "Which jewellers have you worked with?",
+   "answer": "Megha Jewellers and its collections VS Signature and Velvet Lite 9KT, with more than 25 approved reels, carousels and festival campaigns in English and Kannada since September 2026.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/mumbai/"
+  },
+  {
+   "question": "Will AI change how my jewellery looks?",
+   "answer": "No. AI is used only around the piece, for light, backgrounds and motion, and every frame is checked against the real design.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/mumbai/"
+  },
+  {
+   "question": "Do you have an office in Delhi NCR?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Delhi NCR businesses remotely over WhatsApp, calls and shared folders, and travel to Delhi NCR for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/delhi-ncr/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Punjabi?",
+   "answer": "Yes. We work in English, Hindi and Punjabi. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/delhi-ncr/"
+  },
+  {
+   "question": "How much does jewellery marketing cost in Delhi NCR?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/delhi-ncr/"
+  },
+  {
+   "question": "Which Delhi NCR businesses do you work with?",
+   "answer": "Mostly it & saas companies, real estate developers & brokers, schools, colleges & coaching institutes, textile & apparel brands and jewellers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/delhi-ncr/"
+  },
+  {
+   "question": "Which jewellers have you worked with?",
+   "answer": "Megha Jewellers and its collections VS Signature and Velvet Lite 9KT, with more than 25 approved reels, carousels and festival campaigns in English and Kannada since September 2026.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/delhi-ncr/"
+  },
+  {
+   "question": "Will AI change how my jewellery looks?",
+   "answer": "No. AI is used only around the piece, for light, backgrounds and motion, and every frame is checked against the real design.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/delhi-ncr/"
+  },
+  {
+   "question": "Do you have an office in Hyderabad?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Hyderabad businesses remotely over WhatsApp, calls and shared folders, and travel to Hyderabad for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/hyderabad/"
+  },
+  {
+   "question": "Can you work in English, Telugu and Hindi?",
+   "answer": "Yes. We work in English, Telugu, Hindi and Urdu. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/hyderabad/"
+  },
+  {
+   "question": "How much does jewellery marketing cost in Hyderabad?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/hyderabad/"
+  },
+  {
+   "question": "Which Hyderabad businesses do you work with?",
+   "answer": "Mostly it & saas companies, pharma & life-sciences companies, real estate developers & brokers, jewellers and hospitals, clinics & doctors, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/hyderabad/"
+  },
+  {
+   "question": "Which jewellers have you worked with?",
+   "answer": "Megha Jewellers and its collections VS Signature and Velvet Lite 9KT, with more than 25 approved reels, carousels and festival campaigns in English and Kannada since September 2026.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/hyderabad/"
+  },
+  {
+   "question": "Will AI change how my jewellery looks?",
+   "answer": "No. AI is used only around the piece, for light, backgrounds and motion, and every frame is checked against the real design.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/hyderabad/"
+  },
+  {
+   "question": "Do you have an office in Chennai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Chennai businesses remotely over WhatsApp, calls and shared folders, and travel to Chennai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/chennai/"
+  },
+  {
+   "question": "Can you work in Tamil and English?",
+   "answer": "Yes. We work in Tamil and English. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/chennai/"
+  },
+  {
+   "question": "How much does jewellery marketing cost in Chennai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/chennai/"
+  },
+  {
+   "question": "Which Chennai businesses do you work with?",
+   "answer": "Mostly it & saas companies, automotive & engineering firms, hospitals, clinics & doctors, jewellers and textile & apparel brands, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/chennai/"
+  },
+  {
+   "question": "Which jewellers have you worked with?",
+   "answer": "Megha Jewellers and its collections VS Signature and Velvet Lite 9KT, with more than 25 approved reels, carousels and festival campaigns in English and Kannada since September 2026.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/chennai/"
+  },
+  {
+   "question": "Will AI change how my jewellery looks?",
+   "answer": "No. AI is used only around the piece, for light, backgrounds and motion, and every frame is checked against the real design.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/chennai/"
+  },
+  {
+   "question": "Do you have an office in Jaipur?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Jaipur businesses remotely over WhatsApp, calls and shared folders, and travel to Jaipur for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/jaipur/"
+  },
+  {
+   "question": "Can you work in Hindi, English and Rajasthani?",
+   "answer": "Yes. We work in Hindi, English and Rajasthani. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/jaipur/"
+  },
+  {
+   "question": "How much does jewellery marketing cost in Jaipur?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/jaipur/"
+  },
+  {
+   "question": "Which Jaipur businesses do you work with?",
+   "answer": "Mostly jewellers, handicraft & handloom makers, textile & apparel brands, travel & tourism businesses and hotels & hospitality, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/jaipur/"
+  },
+  {
+   "question": "Which jewellers have you worked with?",
+   "answer": "Megha Jewellers and its collections VS Signature and Velvet Lite 9KT, with more than 25 approved reels, carousels and festival campaigns in English and Kannada since September 2026.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/jaipur/"
+  },
+  {
+   "question": "Will AI change how my jewellery looks?",
+   "answer": "No. AI is used only around the piece, for light, backgrounds and motion, and every frame is checked against the real design.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/jaipur/"
+  },
+  {
+   "question": "Do you have an office in Surat?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Surat businesses remotely over WhatsApp, calls and shared folders, and travel to Surat for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/surat/"
+  },
+  {
+   "question": "Can you work in Gujarati, Hindi and English?",
+   "answer": "Yes. We work in Gujarati, Hindi and English. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/surat/"
+  },
+  {
+   "question": "How much does jewellery marketing cost in Surat?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/surat/"
+  },
+  {
+   "question": "Which Surat businesses do you work with?",
+   "answer": "Mostly diamond traders & manufacturers, jewellers, textile & apparel brands, real estate developers & brokers and manufacturers & b2b suppliers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/surat/"
+  },
+  {
+   "question": "Which jewellers have you worked with?",
+   "answer": "Megha Jewellers and its collections VS Signature and Velvet Lite 9KT, with more than 25 approved reels, carousels and festival campaigns in English and Kannada since September 2026.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/surat/"
+  },
+  {
+   "question": "Will AI change how my jewellery looks?",
+   "answer": "No. AI is used only around the piece, for light, backgrounds and motion, and every frame is checked against the real design.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/surat/"
+  },
+  {
+   "question": "Do you have an office in Kolkata?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Kolkata businesses remotely over WhatsApp, calls and shared folders, and travel to Kolkata for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/kolkata/"
+  },
+  {
+   "question": "Can you work in Bengali, English and Hindi?",
+   "answer": "Yes. We work in Bengali, English and Hindi. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/kolkata/"
+  },
+  {
+   "question": "How much does jewellery marketing cost in Kolkata?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/kolkata/"
+  },
+  {
+   "question": "Which Kolkata businesses do you work with?",
+   "answer": "Mostly jewellers, restaurants & food brands, textile & apparel brands, schools, colleges & coaching institutes and hospitals, clinics & doctors, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/kolkata/"
+  },
+  {
+   "question": "Which jewellers have you worked with?",
+   "answer": "Megha Jewellers and its collections VS Signature and Velvet Lite 9KT, with more than 25 approved reels, carousels and festival campaigns in English and Kannada since September 2026.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/kolkata/"
+  },
+  {
+   "question": "Will AI change how my jewellery looks?",
+   "answer": "No. AI is used only around the piece, for light, backgrounds and motion, and every frame is checked against the real design.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/kolkata/"
+  },
+  {
+   "question": "Do you have an office in Ahmedabad?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Ahmedabad businesses remotely over WhatsApp, calls and shared folders, and travel to Ahmedabad for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/ahmedabad/"
+  },
+  {
+   "question": "Can you work in Gujarati, Hindi and English?",
+   "answer": "Yes. We work in Gujarati, Hindi and English. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/ahmedabad/"
+  },
+  {
+   "question": "How much does jewellery marketing cost in Ahmedabad?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/ahmedabad/"
+  },
+  {
+   "question": "Which Ahmedabad businesses do you work with?",
+   "answer": "Mostly textile & apparel brands, pharma & life-sciences companies, manufacturers & b2b suppliers, jewellers and real estate developers & brokers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/ahmedabad/"
+  },
+  {
+   "question": "Which jewellers have you worked with?",
+   "answer": "Megha Jewellers and its collections VS Signature and Velvet Lite 9KT, with more than 25 approved reels, carousels and festival campaigns in English and Kannada since September 2026.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/ahmedabad/"
+  },
+  {
+   "question": "Will AI change how my jewellery looks?",
+   "answer": "No. AI is used only around the piece, for light, backgrounds and motion, and every frame is checked against the real design.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/ahmedabad/"
+  },
+  {
+   "question": "Do you have an office in Coimbatore?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Coimbatore businesses remotely over WhatsApp, calls and shared folders, and travel to Coimbatore for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/coimbatore/"
+  },
+  {
+   "question": "Can you work in Tamil and English?",
+   "answer": "Yes. We work in Tamil and English. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/coimbatore/"
+  },
+  {
+   "question": "How much does jewellery marketing cost in Coimbatore?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/coimbatore/"
+  },
+  {
+   "question": "Which Coimbatore businesses do you work with?",
+   "answer": "Mostly textile & apparel brands, manufacturers & b2b suppliers, jewellers, schools, colleges & coaching institutes and hospitals, clinics & doctors, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/coimbatore/"
+  },
+  {
+   "question": "Which jewellers have you worked with?",
+   "answer": "Megha Jewellers and its collections VS Signature and Velvet Lite 9KT, with more than 25 approved reels, carousels and festival campaigns in English and Kannada since September 2026.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/coimbatore/"
+  },
+  {
+   "question": "Will AI change how my jewellery looks?",
+   "answer": "No. AI is used only around the piece, for light, backgrounds and motion, and every frame is checked against the real design.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/coimbatore/"
+  },
+  {
+   "question": "Do you have an office in Kochi?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Kochi businesses remotely over WhatsApp, calls and shared folders, and travel to Kochi for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/kochi/"
+  },
+  {
+   "question": "Can you work in Malayalam and English?",
+   "answer": "Yes. We work in Malayalam and English. Scripts, captions and voiceovers are written for each language, not translated word for word.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/kochi/"
+  },
+  {
+   "question": "How much does jewellery marketing cost in Kochi?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/kochi/"
+  },
+  {
+   "question": "Which Kochi businesses do you work with?",
+   "answer": "Mostly jewellers, travel & tourism businesses, hotels & hospitality, hospitals, clinics & doctors and ayurveda & wellness brands, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/kochi/"
+  },
+  {
+   "question": "Which jewellers have you worked with?",
+   "answer": "Megha Jewellers and its collections VS Signature and Velvet Lite 9KT, with more than 25 approved reels, carousels and festival campaigns in English and Kannada since September 2026.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/kochi/"
+  },
+  {
+   "question": "Will AI change how my jewellery looks?",
+   "answer": "No. AI is used only around the piece, for light, backgrounds and motion, and every frame is checked against the real design.",
+   "source": "https://www.the5thkind.in/jewellery-marketing/kochi/"
+  },
+  {
+   "question": "Can I meet your team in Bangalore?",
+   "answer": "Yes. Our studio is at 529, 8th Cross, Nanjappa Rd, Shantinagar, Bengaluru 560027. Clients are welcome to visit by appointment, and briefs can also happen on WhatsApp or a call.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/bangalore/"
+  },
+  {
+   "question": "Can you work in English, Kannada and Hindi?",
+   "answer": "Yes. The assistant can understand and reply in English, Kannada, Hindi, Tamil and Telugu, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/bangalore/"
+  },
+  {
+   "question": "How much do WhatsApp chatbots cost in Bangalore?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/bangalore/"
+  },
+  {
+   "question": "Which Bangalore businesses do you work with?",
+   "answer": "Mostly tech startups, it & saas companies, d2c brands, real estate developers & brokers and schools, colleges & coaching institutes, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/bangalore/"
+  },
+  {
+   "question": "What does Meta charge for WhatsApp messages?",
+   "answer": "From 1 October 2026 in India, Meta charges about ₹0.8631 per marketing message and ₹0.115 per utility message, plus GST. Customer-initiated service replies include 1,000 free a month per number. Building and running the bot is a separate cost.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/bangalore/"
+  },
+  {
+   "question": "Will my number get banned?",
+   "answer": "Not on the official WhatsApp Business API with opted-in contacts and approved templates. Unofficial tools that automate a personal WhatsApp account are what get numbers banned.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/bangalore/"
+  },
+  {
+   "question": "Do you have an office in Mumbai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Mumbai businesses remotely over WhatsApp, calls and shared folders, and travel to Mumbai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/mumbai/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Marathi?",
+   "answer": "Yes. The assistant can understand and reply in English, Hindi, Marathi and Gujarati, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/mumbai/"
+  },
+  {
+   "question": "How much do WhatsApp chatbots cost in Mumbai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/mumbai/"
+  },
+  {
+   "question": "Which Mumbai businesses do you work with?",
+   "answer": "Mostly media & entertainment, financial services, real estate developers & brokers, jewellers and diamond traders & manufacturers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/mumbai/"
+  },
+  {
+   "question": "What does Meta charge for WhatsApp messages?",
+   "answer": "From 1 October 2026 in India, Meta charges about ₹0.8631 per marketing message and ₹0.115 per utility message, plus GST. Customer-initiated service replies include 1,000 free a month per number. Building and running the bot is a separate cost.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/mumbai/"
+  },
+  {
+   "question": "Will my number get banned?",
+   "answer": "Not on the official WhatsApp Business API with opted-in contacts and approved templates. Unofficial tools that automate a personal WhatsApp account are what get numbers banned.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/mumbai/"
+  },
+  {
+   "question": "Do you have an office in Delhi NCR?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Delhi NCR businesses remotely over WhatsApp, calls and shared folders, and travel to Delhi NCR for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/delhi-ncr/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Punjabi?",
+   "answer": "Yes. The assistant can understand and reply in English, Hindi and Punjabi, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/delhi-ncr/"
+  },
+  {
+   "question": "How much do WhatsApp chatbots cost in Delhi NCR?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/delhi-ncr/"
+  },
+  {
+   "question": "Which Delhi NCR businesses do you work with?",
+   "answer": "Mostly it & saas companies, real estate developers & brokers, schools, colleges & coaching institutes, textile & apparel brands and jewellers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/delhi-ncr/"
+  },
+  {
+   "question": "What does Meta charge for WhatsApp messages?",
+   "answer": "From 1 October 2026 in India, Meta charges about ₹0.8631 per marketing message and ₹0.115 per utility message, plus GST. Customer-initiated service replies include 1,000 free a month per number. Building and running the bot is a separate cost.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/delhi-ncr/"
+  },
+  {
+   "question": "Will my number get banned?",
+   "answer": "Not on the official WhatsApp Business API with opted-in contacts and approved templates. Unofficial tools that automate a personal WhatsApp account are what get numbers banned.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/delhi-ncr/"
+  },
+  {
+   "question": "Do you have an office in Hyderabad?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Hyderabad businesses remotely over WhatsApp, calls and shared folders, and travel to Hyderabad for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/hyderabad/"
+  },
+  {
+   "question": "Can you work in English, Telugu and Hindi?",
+   "answer": "Yes. The assistant can understand and reply in English, Telugu, Hindi and Urdu, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/hyderabad/"
+  },
+  {
+   "question": "How much do WhatsApp chatbots cost in Hyderabad?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/hyderabad/"
+  },
+  {
+   "question": "Which Hyderabad businesses do you work with?",
+   "answer": "Mostly it & saas companies, pharma & life-sciences companies, real estate developers & brokers, jewellers and hospitals, clinics & doctors, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/hyderabad/"
+  },
+  {
+   "question": "What does Meta charge for WhatsApp messages?",
+   "answer": "From 1 October 2026 in India, Meta charges about ₹0.8631 per marketing message and ₹0.115 per utility message, plus GST. Customer-initiated service replies include 1,000 free a month per number. Building and running the bot is a separate cost.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/hyderabad/"
+  },
+  {
+   "question": "Will my number get banned?",
+   "answer": "Not on the official WhatsApp Business API with opted-in contacts and approved templates. Unofficial tools that automate a personal WhatsApp account are what get numbers banned.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/hyderabad/"
+  },
+  {
+   "question": "Do you have an office in Chennai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Chennai businesses remotely over WhatsApp, calls and shared folders, and travel to Chennai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/chennai/"
+  },
+  {
+   "question": "Can you work in Tamil and English?",
+   "answer": "Yes. The assistant can understand and reply in Tamil and English, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/chennai/"
+  },
+  {
+   "question": "How much do WhatsApp chatbots cost in Chennai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/chennai/"
+  },
+  {
+   "question": "Which Chennai businesses do you work with?",
+   "answer": "Mostly it & saas companies, automotive & engineering firms, hospitals, clinics & doctors, jewellers and textile & apparel brands, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/chennai/"
+  },
+  {
+   "question": "What does Meta charge for WhatsApp messages?",
+   "answer": "From 1 October 2026 in India, Meta charges about ₹0.8631 per marketing message and ₹0.115 per utility message, plus GST. Customer-initiated service replies include 1,000 free a month per number. Building and running the bot is a separate cost.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/chennai/"
+  },
+  {
+   "question": "Will my number get banned?",
+   "answer": "Not on the official WhatsApp Business API with opted-in contacts and approved templates. Unofficial tools that automate a personal WhatsApp account are what get numbers banned.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/chennai/"
+  },
+  {
+   "question": "Do you have an office in Pune?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Pune businesses remotely over WhatsApp, calls and shared folders, and travel to Pune for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/pune/"
+  },
+  {
+   "question": "Can you work in English, Marathi and Hindi?",
+   "answer": "Yes. The assistant can understand and reply in English, Marathi and Hindi, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/pune/"
+  },
+  {
+   "question": "How much do WhatsApp chatbots cost in Pune?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/pune/"
+  },
+  {
+   "question": "Which Pune businesses do you work with?",
+   "answer": "Mostly it & saas companies, automotive & engineering firms, schools, colleges & coaching institutes, real estate developers & brokers and tech startups, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/pune/"
+  },
+  {
+   "question": "What does Meta charge for WhatsApp messages?",
+   "answer": "From 1 October 2026 in India, Meta charges about ₹0.8631 per marketing message and ₹0.115 per utility message, plus GST. Customer-initiated service replies include 1,000 free a month per number. Building and running the bot is a separate cost.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/pune/"
+  },
+  {
+   "question": "Will my number get banned?",
+   "answer": "Not on the official WhatsApp Business API with opted-in contacts and approved templates. Unofficial tools that automate a personal WhatsApp account are what get numbers banned.",
+   "source": "https://www.the5thkind.in/whatsapp-chatbot/pune/"
+  },
+  {
+   "question": "Can I meet your team in Bangalore?",
+   "answer": "Yes. Our studio is at 529, 8th Cross, Nanjappa Rd, Shantinagar, Bengaluru 560027. Clients are welcome to visit by appointment, and briefs can also happen on WhatsApp or a call.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/bangalore/"
+  },
+  {
+   "question": "Can you work in English, Kannada and Hindi?",
+   "answer": "Yes. The assistant can understand and reply in English, Kannada, Hindi, Tamil and Telugu, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/bangalore/"
+  },
+  {
+   "question": "How much do custom AI chatbots cost in Bangalore?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/bangalore/"
+  },
+  {
+   "question": "Which Bangalore businesses do you work with?",
+   "answer": "Mostly tech startups, it & saas companies, d2c brands, real estate developers & brokers and schools, colleges & coaching institutes, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/bangalore/"
+  },
+  {
+   "question": "What is a real example of your chatbot work?",
+   "answer": "Kora, the AI paper expert on mahaveerpapers.com. It answers which paper and GSM to use for a design, shows real products and takes free sample requests.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/bangalore/"
+  },
+  {
+   "question": "How is this different from a chatbot builder?",
+   "answer": "A builder gives you a template you fill in. We train the assistant on your catalogue, design its answers and keep improving it with you.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/bangalore/"
+  },
+  {
+   "question": "Do you have an office in Mumbai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Mumbai businesses remotely over WhatsApp, calls and shared folders, and travel to Mumbai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/mumbai/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Marathi?",
+   "answer": "Yes. The assistant can understand and reply in English, Hindi, Marathi and Gujarati, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/mumbai/"
+  },
+  {
+   "question": "How much do custom AI chatbots cost in Mumbai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/mumbai/"
+  },
+  {
+   "question": "Which Mumbai businesses do you work with?",
+   "answer": "Mostly media & entertainment, financial services, real estate developers & brokers, jewellers and diamond traders & manufacturers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/mumbai/"
+  },
+  {
+   "question": "What is a real example of your chatbot work?",
+   "answer": "Kora, the AI paper expert on mahaveerpapers.com. It answers which paper and GSM to use for a design, shows real products and takes free sample requests.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/mumbai/"
+  },
+  {
+   "question": "How is this different from a chatbot builder?",
+   "answer": "A builder gives you a template you fill in. We train the assistant on your catalogue, design its answers and keep improving it with you.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/mumbai/"
+  },
+  {
+   "question": "Do you have an office in Delhi NCR?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Delhi NCR businesses remotely over WhatsApp, calls and shared folders, and travel to Delhi NCR for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/delhi-ncr/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Punjabi?",
+   "answer": "Yes. The assistant can understand and reply in English, Hindi and Punjabi, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/delhi-ncr/"
+  },
+  {
+   "question": "How much do custom AI chatbots cost in Delhi NCR?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/delhi-ncr/"
+  },
+  {
+   "question": "Which Delhi NCR businesses do you work with?",
+   "answer": "Mostly it & saas companies, real estate developers & brokers, schools, colleges & coaching institutes, textile & apparel brands and jewellers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/delhi-ncr/"
+  },
+  {
+   "question": "What is a real example of your chatbot work?",
+   "answer": "Kora, the AI paper expert on mahaveerpapers.com. It answers which paper and GSM to use for a design, shows real products and takes free sample requests.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/delhi-ncr/"
+  },
+  {
+   "question": "How is this different from a chatbot builder?",
+   "answer": "A builder gives you a template you fill in. We train the assistant on your catalogue, design its answers and keep improving it with you.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/delhi-ncr/"
+  },
+  {
+   "question": "Do you have an office in Hyderabad?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Hyderabad businesses remotely over WhatsApp, calls and shared folders, and travel to Hyderabad for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/hyderabad/"
+  },
+  {
+   "question": "Can you work in English, Telugu and Hindi?",
+   "answer": "Yes. The assistant can understand and reply in English, Telugu, Hindi and Urdu, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/hyderabad/"
+  },
+  {
+   "question": "How much do custom AI chatbots cost in Hyderabad?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/hyderabad/"
+  },
+  {
+   "question": "Which Hyderabad businesses do you work with?",
+   "answer": "Mostly it & saas companies, pharma & life-sciences companies, real estate developers & brokers, jewellers and hospitals, clinics & doctors, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/hyderabad/"
+  },
+  {
+   "question": "What is a real example of your chatbot work?",
+   "answer": "Kora, the AI paper expert on mahaveerpapers.com. It answers which paper and GSM to use for a design, shows real products and takes free sample requests.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/hyderabad/"
+  },
+  {
+   "question": "How is this different from a chatbot builder?",
+   "answer": "A builder gives you a template you fill in. We train the assistant on your catalogue, design its answers and keep improving it with you.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/hyderabad/"
+  },
+  {
+   "question": "Do you have an office in Chennai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Chennai businesses remotely over WhatsApp, calls and shared folders, and travel to Chennai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/chennai/"
+  },
+  {
+   "question": "Can you work in Tamil and English?",
+   "answer": "Yes. The assistant can understand and reply in Tamil and English, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/chennai/"
+  },
+  {
+   "question": "How much do custom AI chatbots cost in Chennai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/chennai/"
+  },
+  {
+   "question": "Which Chennai businesses do you work with?",
+   "answer": "Mostly it & saas companies, automotive & engineering firms, hospitals, clinics & doctors, jewellers and textile & apparel brands, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/chennai/"
+  },
+  {
+   "question": "What is a real example of your chatbot work?",
+   "answer": "Kora, the AI paper expert on mahaveerpapers.com. It answers which paper and GSM to use for a design, shows real products and takes free sample requests.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/chennai/"
+  },
+  {
+   "question": "How is this different from a chatbot builder?",
+   "answer": "A builder gives you a template you fill in. We train the assistant on your catalogue, design its answers and keep improving it with you.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/chennai/"
+  },
+  {
+   "question": "Do you have an office in Pune?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Pune businesses remotely over WhatsApp, calls and shared folders, and travel to Pune for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/pune/"
+  },
+  {
+   "question": "Can you work in English, Marathi and Hindi?",
+   "answer": "Yes. The assistant can understand and reply in English, Marathi and Hindi, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/pune/"
+  },
+  {
+   "question": "How much do custom AI chatbots cost in Pune?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/pune/"
+  },
+  {
+   "question": "Which Pune businesses do you work with?",
+   "answer": "Mostly it & saas companies, automotive & engineering firms, schools, colleges & coaching institutes, real estate developers & brokers and tech startups, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/pune/"
+  },
+  {
+   "question": "What is a real example of your chatbot work?",
+   "answer": "Kora, the AI paper expert on mahaveerpapers.com. It answers which paper and GSM to use for a design, shows real products and takes free sample requests.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/pune/"
+  },
+  {
+   "question": "How is this different from a chatbot builder?",
+   "answer": "A builder gives you a template you fill in. We train the assistant on your catalogue, design its answers and keep improving it with you.",
+   "source": "https://www.the5thkind.in/ai-chatbot-development/pune/"
+  },
+  {
+   "question": "Can I meet your team in Bangalore?",
+   "answer": "Yes. Our studio is at 529, 8th Cross, Nanjappa Rd, Shantinagar, Bengaluru 560027. Clients are welcome to visit by appointment, and briefs can also happen on WhatsApp or a call.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/bangalore/"
+  },
+  {
+   "question": "Can you work in English, Kannada and Hindi?",
+   "answer": "Yes. The assistant can understand and reply in English, Kannada, Hindi, Tamil and Telugu, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/bangalore/"
+  },
+  {
+   "question": "How much does AI automation cost in Bangalore?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/bangalore/"
+  },
+  {
+   "question": "Which Bangalore businesses do you work with?",
+   "answer": "Mostly tech startups, it & saas companies, d2c brands, real estate developers & brokers and schools, colleges & coaching institutes, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/bangalore/"
+  },
+  {
+   "question": "What should a business automate first?",
+   "answer": "Usually the most repeated task with clear rules: quotations, invoices and payment reminders, or replies to common enquiries. We start with a free review of how your business runs.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/bangalore/"
+  },
+  {
+   "question": "Do I need to change my software?",
+   "answer": "No. We connect AI agents to the tools you already use, such as Google Sheets, your CRM, WhatsApp and your payment gateway.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/bangalore/"
+  },
+  {
+   "question": "Do you have an office in Mumbai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Mumbai businesses remotely over WhatsApp, calls and shared folders, and travel to Mumbai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/mumbai/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Marathi?",
+   "answer": "Yes. The assistant can understand and reply in English, Hindi, Marathi and Gujarati, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/mumbai/"
+  },
+  {
+   "question": "How much does AI automation cost in Mumbai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/mumbai/"
+  },
+  {
+   "question": "Which Mumbai businesses do you work with?",
+   "answer": "Mostly media & entertainment, financial services, real estate developers & brokers, jewellers and diamond traders & manufacturers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/mumbai/"
+  },
+  {
+   "question": "What should a business automate first?",
+   "answer": "Usually the most repeated task with clear rules: quotations, invoices and payment reminders, or replies to common enquiries. We start with a free review of how your business runs.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/mumbai/"
+  },
+  {
+   "question": "Do I need to change my software?",
+   "answer": "No. We connect AI agents to the tools you already use, such as Google Sheets, your CRM, WhatsApp and your payment gateway.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/mumbai/"
+  },
+  {
+   "question": "Do you have an office in Delhi NCR?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Delhi NCR businesses remotely over WhatsApp, calls and shared folders, and travel to Delhi NCR for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/delhi-ncr/"
+  },
+  {
+   "question": "Can you work in English, Hindi and Punjabi?",
+   "answer": "Yes. The assistant can understand and reply in English, Hindi and Punjabi, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/delhi-ncr/"
+  },
+  {
+   "question": "How much does AI automation cost in Delhi NCR?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/delhi-ncr/"
+  },
+  {
+   "question": "Which Delhi NCR businesses do you work with?",
+   "answer": "Mostly it & saas companies, real estate developers & brokers, schools, colleges & coaching institutes, textile & apparel brands and jewellers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/delhi-ncr/"
+  },
+  {
+   "question": "What should a business automate first?",
+   "answer": "Usually the most repeated task with clear rules: quotations, invoices and payment reminders, or replies to common enquiries. We start with a free review of how your business runs.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/delhi-ncr/"
+  },
+  {
+   "question": "Do I need to change my software?",
+   "answer": "No. We connect AI agents to the tools you already use, such as Google Sheets, your CRM, WhatsApp and your payment gateway.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/delhi-ncr/"
+  },
+  {
+   "question": "Do you have an office in Hyderabad?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Hyderabad businesses remotely over WhatsApp, calls and shared folders, and travel to Hyderabad for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/hyderabad/"
+  },
+  {
+   "question": "Can you work in English, Telugu and Hindi?",
+   "answer": "Yes. The assistant can understand and reply in English, Telugu, Hindi and Urdu, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/hyderabad/"
+  },
+  {
+   "question": "How much does AI automation cost in Hyderabad?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/hyderabad/"
+  },
+  {
+   "question": "Which Hyderabad businesses do you work with?",
+   "answer": "Mostly it & saas companies, pharma & life-sciences companies, real estate developers & brokers, jewellers and hospitals, clinics & doctors, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/hyderabad/"
+  },
+  {
+   "question": "What should a business automate first?",
+   "answer": "Usually the most repeated task with clear rules: quotations, invoices and payment reminders, or replies to common enquiries. We start with a free review of how your business runs.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/hyderabad/"
+  },
+  {
+   "question": "Do I need to change my software?",
+   "answer": "No. We connect AI agents to the tools you already use, such as Google Sheets, your CRM, WhatsApp and your payment gateway.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/hyderabad/"
+  },
+  {
+   "question": "Do you have an office in Chennai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Chennai businesses remotely over WhatsApp, calls and shared folders, and travel to Chennai for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/chennai/"
+  },
+  {
+   "question": "Can you work in Tamil and English?",
+   "answer": "Yes. The assistant can understand and reply in Tamil and English, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/chennai/"
+  },
+  {
+   "question": "How much does AI automation cost in Chennai?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/chennai/"
+  },
+  {
+   "question": "Which Chennai businesses do you work with?",
+   "answer": "Mostly it & saas companies, automotive & engineering firms, hospitals, clinics & doctors, jewellers and textile & apparel brands, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/chennai/"
+  },
+  {
+   "question": "What should a business automate first?",
+   "answer": "Usually the most repeated task with clear rules: quotations, invoices and payment reminders, or replies to common enquiries. We start with a free review of how your business runs.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/chennai/"
+  },
+  {
+   "question": "Do I need to change my software?",
+   "answer": "No. We connect AI agents to the tools you already use, such as Google Sheets, your CRM, WhatsApp and your payment gateway.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/chennai/"
+  },
+  {
+   "question": "Do you have an office in Pune?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Pune businesses remotely over WhatsApp, calls and shared folders, and travel to Pune for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/pune/"
+  },
+  {
+   "question": "Can you work in English, Marathi and Hindi?",
+   "answer": "Yes. The assistant can understand and reply in English, Marathi and Hindi, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/pune/"
+  },
+  {
+   "question": "How much does AI automation cost in Pune?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/pune/"
+  },
+  {
+   "question": "Which Pune businesses do you work with?",
+   "answer": "Mostly it & saas companies, automotive & engineering firms, schools, colleges & coaching institutes, real estate developers & brokers and tech startups, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/pune/"
+  },
+  {
+   "question": "What should a business automate first?",
+   "answer": "Usually the most repeated task with clear rules: quotations, invoices and payment reminders, or replies to common enquiries. We start with a free review of how your business runs.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/pune/"
+  },
+  {
+   "question": "Do I need to change my software?",
+   "answer": "No. We connect AI agents to the tools you already use, such as Google Sheets, your CRM, WhatsApp and your payment gateway.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/pune/"
+  },
+  {
+   "question": "Do you have an office in Ahmedabad?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Ahmedabad businesses remotely over WhatsApp, calls and shared folders, and travel to Ahmedabad for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/ahmedabad/"
+  },
+  {
+   "question": "Can you work in Gujarati, Hindi and English?",
+   "answer": "Yes. The assistant can understand and reply in Gujarati, Hindi and English, and hands over to your team in any language they speak.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/ahmedabad/"
+  },
+  {
+   "question": "How much does AI automation cost in Ahmedabad?",
+   "answer": "Pricing is the same wherever you are. It depends on scope: the number of films or posts, length, languages and integrations. We give a fixed quote after a free 15-minute call, with no obligation.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/ahmedabad/"
+  },
+  {
+   "question": "Which Ahmedabad businesses do you work with?",
+   "answer": "Mostly textile & apparel brands, pharma & life-sciences companies, manufacturers & b2b suppliers, jewellers and real estate developers & brokers, along with founders and personal brands.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/ahmedabad/"
+  },
+  {
+   "question": "What should a business automate first?",
+   "answer": "Usually the most repeated task with clear rules: quotations, invoices and payment reminders, or replies to common enquiries. We start with a free review of how your business runs.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/ahmedabad/"
+  },
+  {
+   "question": "Do I need to change my software?",
+   "answer": "No. We connect AI agents to the tools you already use, such as Google Sheets, your CRM, WhatsApp and your payment gateway.",
+   "source": "https://www.the5thkind.in/ai-automation-agency/ahmedabad/"
+  },
+  {
+   "question": "Where is your studio in Bengaluru?",
+   "answer": "Yes. Our studio is at 529, 8th Cross, Nanjappa Rd, Shantinagar, Bengaluru 560027, and clients can visit by appointment.",
+   "source": "https://www.the5thkind.in/locations/bangalore/"
+  },
+  {
+   "question": "What services do you offer to Bangalore businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/bangalore/"
+  },
+  {
+   "question": "Which languages do you work in for Bangalore?",
+   "answer": "English, Kannada, Hindi, Tamil and Telugu, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/bangalore/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/bangalore/"
+  },
+  {
+   "question": "Do you have an office in Mumbai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Mumbai businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/mumbai/"
+  },
+  {
+   "question": "What services do you offer to Mumbai businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/mumbai/"
+  },
+  {
+   "question": "Which languages do you work in for Mumbai?",
+   "answer": "English, Hindi, Marathi and Gujarati, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/mumbai/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/mumbai/"
+  },
+  {
+   "question": "Do you have an office in Delhi NCR?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Delhi NCR businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/delhi-ncr/"
+  },
+  {
+   "question": "What services do you offer to Delhi NCR businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/delhi-ncr/"
+  },
+  {
+   "question": "Which languages do you work in for Delhi NCR?",
+   "answer": "English, Hindi and Punjabi, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/delhi-ncr/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/delhi-ncr/"
+  },
+  {
+   "question": "Do you have an office in Hyderabad?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Hyderabad businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/hyderabad/"
+  },
+  {
+   "question": "What services do you offer to Hyderabad businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/hyderabad/"
+  },
+  {
+   "question": "Which languages do you work in for Hyderabad?",
+   "answer": "English, Telugu, Hindi and Urdu, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/hyderabad/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/hyderabad/"
+  },
+  {
+   "question": "Do you have an office in Chennai?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Chennai businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/chennai/"
+  },
+  {
+   "question": "What services do you offer to Chennai businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/chennai/"
+  },
+  {
+   "question": "Which languages do you work in for Chennai?",
+   "answer": "Tamil and English, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/chennai/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/chennai/"
+  },
+  {
+   "question": "Do you have an office in Pune?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Pune businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/pune/"
+  },
+  {
+   "question": "What services do you offer to Pune businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/pune/"
+  },
+  {
+   "question": "Which languages do you work in for Pune?",
+   "answer": "English, Marathi and Hindi, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/pune/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/pune/"
+  },
+  {
+   "question": "Do you have an office in Kolkata?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Kolkata businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/kolkata/"
+  },
+  {
+   "question": "What services do you offer to Kolkata businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/kolkata/"
+  },
+  {
+   "question": "Which languages do you work in for Kolkata?",
+   "answer": "Bengali, English and Hindi, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/kolkata/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/kolkata/"
+  },
+  {
+   "question": "Do you have an office in Ahmedabad?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Ahmedabad businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/ahmedabad/"
+  },
+  {
+   "question": "What services do you offer to Ahmedabad businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/ahmedabad/"
+  },
+  {
+   "question": "Which languages do you work in for Ahmedabad?",
+   "answer": "Gujarati, Hindi and English, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/ahmedabad/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/ahmedabad/"
+  },
+  {
+   "question": "Do you have an office in Jaipur?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Jaipur businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/jaipur/"
+  },
+  {
+   "question": "What services do you offer to Jaipur businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/jaipur/"
+  },
+  {
+   "question": "Which languages do you work in for Jaipur?",
+   "answer": "Hindi, English and Rajasthani, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/jaipur/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/jaipur/"
+  },
+  {
+   "question": "Do you have an office in Chandigarh?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Chandigarh businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/chandigarh/"
+  },
+  {
+   "question": "What services do you offer to Chandigarh businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/chandigarh/"
+  },
+  {
+   "question": "Which languages do you work in for Chandigarh?",
+   "answer": "Punjabi, Hindi and English, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/chandigarh/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/chandigarh/"
+  },
+  {
+   "question": "Do you have an office in Kochi?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Kochi businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/kochi/"
+  },
+  {
+   "question": "What services do you offer to Kochi businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/kochi/"
+  },
+  {
+   "question": "Which languages do you work in for Kochi?",
+   "answer": "Malayalam and English, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/kochi/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/kochi/"
+  },
+  {
+   "question": "Do you have an office in Indore?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Indore businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/indore/"
+  },
+  {
+   "question": "What services do you offer to Indore businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/indore/"
+  },
+  {
+   "question": "Which languages do you work in for Indore?",
+   "answer": "Hindi and English, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/indore/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/indore/"
+  },
+  {
+   "question": "Do you have an office in Lucknow?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Lucknow businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/lucknow/"
+  },
+  {
+   "question": "What services do you offer to Lucknow businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/lucknow/"
+  },
+  {
+   "question": "Which languages do you work in for Lucknow?",
+   "answer": "Hindi, Urdu and English, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/lucknow/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/lucknow/"
+  },
+  {
+   "question": "Do you have an office in Surat?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Surat businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/surat/"
+  },
+  {
+   "question": "What services do you offer to Surat businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/surat/"
+  },
+  {
+   "question": "Which languages do you work in for Surat?",
+   "answer": "Gujarati, Hindi and English, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/surat/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/surat/"
+  },
+  {
+   "question": "Do you have an office in Coimbatore?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Coimbatore businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/coimbatore/"
+  },
+  {
+   "question": "What services do you offer to Coimbatore businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/coimbatore/"
+  },
+  {
+   "question": "Which languages do you work in for Coimbatore?",
+   "answer": "Tamil and English, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/coimbatore/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/coimbatore/"
+  },
+  {
+   "question": "Do you have an office in Visakhapatnam?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Visakhapatnam businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/visakhapatnam/"
+  },
+  {
+   "question": "What services do you offer to Visakhapatnam businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/visakhapatnam/"
+  },
+  {
+   "question": "Which languages do you work in for Visakhapatnam?",
+   "answer": "Telugu, English and Hindi, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/visakhapatnam/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/visakhapatnam/"
+  },
+  {
+   "question": "Do you have an office in Nagpur?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Nagpur businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/nagpur/"
+  },
+  {
+   "question": "What services do you offer to Nagpur businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/nagpur/"
+  },
+  {
+   "question": "Which languages do you work in for Nagpur?",
+   "answer": "Marathi, Hindi and English, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/nagpur/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/nagpur/"
+  },
+  {
+   "question": "Do you have an office in Bhopal?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Bhopal businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/bhopal/"
+  },
+  {
+   "question": "What services do you offer to Bhopal businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/bhopal/"
+  },
+  {
+   "question": "Which languages do you work in for Bhopal?",
+   "answer": "Hindi, English and Urdu, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/bhopal/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/bhopal/"
+  },
+  {
+   "question": "Do you have an office in Bhubaneswar?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Bhubaneswar businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/bhubaneswar/"
+  },
+  {
+   "question": "What services do you offer to Bhubaneswar businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/bhubaneswar/"
+  },
+  {
+   "question": "Which languages do you work in for Bhubaneswar?",
+   "answer": "Odia, English and Hindi, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/bhubaneswar/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/bhubaneswar/"
+  },
+  {
+   "question": "Do you have an office in Thiruvananthapuram?",
+   "answer": "No. Our only studio is in Bengaluru. We work with Thiruvananthapuram businesses remotely and travel for shoots when a project needs one.",
+   "source": "https://www.the5thkind.in/locations/thiruvananthapuram/"
+  },
+  {
+   "question": "What services do you offer to Thiruvananthapuram businesses?",
+   "answer": "AI video production (product films, AI clone videos, ad films, 3D and character films, reel editing), social media management, jewellery marketing, custom AI chatbots, WhatsApp chatbots and AI business automation.",
+   "source": "https://www.the5thkind.in/locations/thiruvananthapuram/"
+  },
+  {
+   "question": "Which languages do you work in for Thiruvananthapuram?",
+   "answer": "Malayalam and English, for scripts, captions, voiceovers and chatbot replies.",
+   "source": "https://www.the5thkind.in/locations/thiruvananthapuram/"
+  },
+  {
+   "question": "How quickly can you start?",
+   "answer": "Usually within a week of a free 15-minute call and an approved scope. Short films are typically delivered within a week of an approved script.",
+   "source": "https://www.the5thkind.in/locations/thiruvananthapuram/"
   }
  ],
- "updated": "2026-11-13"
+ "updated": "2026-11-21"
 }

@@ -10,9 +10,12 @@
   "AI Clone Video",
   "AI Product Video",
   "AI Video Production",
+  "Jewellery Marketing: Social Media, Reels & Ads",
   "Reel Editing",
+  "Social Media Management",
   "WhatsApp Chatbot & Automation",
-  "AI Jewellery Photography & Campaign Films"
+  "AI Jewellery Photography & Campaign Films",
+  "AI Video Production (India)"
  ],
  "services": [
   {
@@ -58,10 +61,22 @@
    "description": "AI video production studio in Bangalore: AI product videos, AI clone videos, character films, ad films and reel edits. Story-first, delivered in days."
   },
   {
+   "name": "Jewellery Marketing: Social Media, Reels & Ads",
+   "group": "grow",
+   "url": "https://www.the5thkind.in/jewellery-marketing/",
+   "description": "Jewellery marketing from Bengaluru: Instagram management, jewellery reels and AI product films, festival campaigns and Meta ads for jewellery stores and brands."
+  },
+  {
    "name": "Reel Editing",
    "group": "make",
    "url": "https://www.the5thkind.in/reel-editing-services/",
    "description": "Professional reel and short-form video editing in Bangalore. We edit your existing footage with hooks, pacing, sound and captions built for retention."
+  },
+  {
+   "name": "Social Media Management",
+   "group": "grow",
+   "url": "https://www.the5thkind.in/social-media-management/",
+   "description": "Social media management in Bengaluru: strategy, monthly calendar, AI films and reels, posting, replies, Meta ads and monthly reports, run by one studio."
   },
   {
    "name": "WhatsApp Chatbot & Automation",
@@ -74,11 +89,17 @@
    "group": "make",
    "url": "https://www.the5thkind.in/jewellery/",
    "description": "Campaign films, model imagery and reels for jewellery brands, made from your product photos with every stone kept true. No shoot. A Bengaluru AI studio."
+  },
+  {
+   "name": "AI Video Production (India)",
+   "group": "make",
+   "url": "https://www.the5thkind.in/ai-video-production/",
+   "description": "AI video production company in India: product films, AI clone videos, ad films, 3D shorts and reels from a Bengaluru studio, for brands in every major city."
   }
  ],
  "contact": {
   "email": "uday.khandelwal@the5thkind.in",
   "whatsapp": "https://wa.me/918296008838"
  },
- "updated": "2026-11-13"
+ "updated": "2026-11-21"
 }

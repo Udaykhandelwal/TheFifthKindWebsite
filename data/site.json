@@ -1,0 +1,11 @@
+{
+ "_about": "Tracking and verification IDs. Paste real IDs here, run python3 tools/build.py, deploy. Empty = that tool doesn't load. If gtm_id is set, configure GA4 and Google Ads tags inside GTM and leave ga4_id/google_ads_id empty to avoid double counting.",
+ "gtm_id": "",
+ "ga4_id": "",
+ "google_ads_id": "",
+ "google_ads_labels": {"generate_lead": "", "whatsapp_click": "", "phone_click": "", "email_click": ""},
+ "clarity_id": "",
+ "bing_uet_id": "",
+ "bing_site_verification": "",
+ "google_site_verification": ""
+}

@@ -1,182 +1,19 @@
-/* The Fifth Kind — motion layer.
-   Sits on top of the existing dark theme (homepage inline CSS + site.css) and only adds movement.
-   Everything here switches off under prefers-reduced-motion. */
+/* The Fifth Kind — small shared additions on top of the original theme.
+   The scroll-scene / cursor / tilt layer was removed on 20 Nov 2026: the work should carry the page. */
 
-:root { --mx: 50%; --my: 50%; }
-
-/* 1. scroll progress bar */
-.m-progress { position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 10001; pointer-events: none;
-  background: linear-gradient(90deg, #f97316, #f59e0b 60%, #fbbf24); transform-origin: 0 50%; transform: scaleX(0); }
-
-/* 2. cursor light: a soft orange glow that follows the pointer over the dark page */
-.m-glow { position: fixed; left: 0; top: 0; width: 520px; height: 520px; margin: -260px 0 0 -260px; border-radius: 50%;
-  pointer-events: none; z-index: 1; opacity: 0; transition: opacity .4s;
-  background: radial-gradient(circle, rgba(249,115,22,.13) 0%, rgba(249,115,22,.05) 35%, transparent 70%);
-  will-change: transform; }
-.m-glow.on { opacity: 1; }
-
-/* 3. spotlight border on cards: a lit edge that tracks the pointer */
-.m-spot { position: relative; isolation: isolate; }
-.m-spot::before { content: ""; position: absolute; inset: -1px; border-radius: inherit; padding: 1px; pointer-events: none; z-index: 2;
-  background: radial-gradient(260px circle at var(--mx) var(--my), rgba(249,115,22,.85), rgba(245,158,11,.35) 40%, transparent 70%);
-  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude;
-  opacity: 0; transition: opacity .3s; }
-.m-spot::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; z-index: 0;
-  background: radial-gradient(380px circle at var(--mx) var(--my), rgba(249,115,22,.08), transparent 60%);
-  opacity: 0; transition: opacity .3s; }
-.m-spot:hover::before, .m-spot:hover::after { opacity: 1; }
-.m-spot > * { position: relative; z-index: 1; }
-
-/* 4. 3D tilt on the film cards */
-.m-tilt { transform-style: preserve-3d; transition: transform .45s cubic-bezier(.2,.7,.2,1), box-shadow .45s; will-change: transform; }
-.m-tilt.m-tilting { transition: transform .08s linear, box-shadow .3s; box-shadow: 0 30px 60px -20px rgba(0,0,0,.7), 0 0 0 1px rgba(249,115,22,.25); }
-.m-tilt .m-shine { position: absolute; inset: 0; pointer-events: none; z-index: 3; border-radius: inherit;
-  background: radial-gradient(500px circle at var(--mx) var(--my), rgba(255,255,255,.14), transparent 45%); opacity: 0; transition: opacity .3s; }
-.m-tilt.m-tilting .m-shine { opacity: 1; }
-
-/* 5. hover preview: silent loop fades in over the poster */
+/* hover preview: silent loop fades in over the poster */
 .show-card video.m-prev, .vid video.m-prev { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity .35s; z-index: 0; pointer-events: none; }
 .show-card.m-live video.m-prev, .vid.m-live video.m-prev { opacity: 1; }
 .show-card.playing video.m-prev, .vid.playing video.m-prev { display: none; }
 
-/* 6. headline words rise out of a blur, one after another */
-.m-words .m-w { display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(.45em) rotate(2deg);
-  animation: m-word .9s cubic-bezier(.2,.7,.2,1) forwards; animation-delay: calc(var(--i) * 70ms + 150ms); }
-.m-words em.m-w { display: inline; animation-name: m-word-inline; }
-@keyframes m-word-inline { from { opacity: 0; filter: blur(12px); } to { opacity: 1; filter: blur(0); } }
-@keyframes m-word { to { opacity: 1; filter: blur(0); transform: none; } }
-
-/* 7. the gradient words in headings drift slowly */
-h1 em, h2 em, .h1-look em, .days-badge em, .magnet h2 em, .consult h3 em {
-  background-size: 220% 100% !important; animation: m-shimmer 7s ease-in-out infinite alternate; }
-@keyframes m-shimmer { from { background-position: 0% 50%; } to { background-position: 100% 50%; } }
-
-/* 8. scene labels draw their rule when they arrive */
-.slate.m-draw::before { transform-origin: 0 50%; transform: scaleX(0); transition: transform .9s cubic-bezier(.2,.7,.2,1) .15s; }
-.slate.m-draw.in::before { transform: scaleX(1); }
-
-/* 9. reveal for inner pages (homepage already has .reveal) */
-.m-rv { opacity: 0; transform: translateY(26px); transition: opacity .8s cubic-bezier(.2,.7,.2,1), transform .8s cubic-bezier(.2,.7,.2,1); transition-delay: var(--d, 0ms); }
-.m-rv.m-in { opacity: 1; transform: none; }
-
-/* 10. magnetic buttons */
-.m-mag { transition: transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .2s, background .2s, color .2s, border-color .2s; will-change: transform; }
-
-/* 11. marquee pauses under the pointer */
-.marquee:hover .marquee-track { animation-play-state: paused; }
-
-/* 12. WhatsApp button breathes */
-.wa-float::after { content: ""; position: absolute; inset: 0; border-radius: 50%; border: 2px solid #25d366; animation: m-ring 2.6s ease-out infinite; pointer-events: none; }
-@keyframes m-ring { 0% { transform: scale(1); opacity: .7; } 80%, 100% { transform: scale(1.6); opacity: 0; } }
-
-/* 13. hero video drifts with the scroll */
-.hero-bg video { will-change: transform; }
-
-/* real icons that replaced the emoji (homepage) */
+/* audience tiles use real stills; tool logos sit on white */
 .aud .ic.ic-photo { width: 64px; height: 64px; border-radius: 14px; overflow: hidden; border: 1px solid rgba(255,255,255,.12); margin-bottom: 18px; font-size: 0; }
-.aud .ic.ic-photo img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s cubic-bezier(.2,.7,.2,1); }
-.aud:hover .ic.ic-photo img { transform: scale(1.12); }
+.aud .ic.ic-photo img { width: 100%; height: 100%; object-fit: cover; }
 .auto-list .ic.ic-logo { background: #fff !important; border-color: rgba(255,255,255,.2) !important; }
 .auto-list .ic.ic-logo img { width: 24px; height: 24px; object-fit: contain; }
-
-@media (hover: none), (max-width: 900px) { .m-glow { display: none; } }
-@media (prefers-reduced-motion: reduce) {
-  html:not(.m-force) .m-glow, html:not(.m-force) .m-progress { display: none; }
-  html:not(.m-force) .m-words .m-w, html:not(.m-force) .m-rv { opacity: 1 !important; filter: none !important; transform: none !important; animation: none !important; }
-  html:not(.m-force) h1 em, html:not(.m-force) h2 em, html:not(.m-force) .h1-look em { animation: none !important; }
-  html:not(.m-force) .wa-float::after { animation: none; }
-  html:not(.m-force) .m-tilt, html:not(.m-force) .m-mag { transform: none !important; }
-}
 
 /* wide films run as a full-row banner; a little taller on phones */
 @media (max-width: 760px) { .show-card.wide { aspect-ratio: 16 / 9 !important; } }
 
-/* ticker: the duplicate half is hidden from screen readers but keeps the flex spacing */
-.marquee-track .m-dup { display: contents; }
-
 /* phones: keep the logo on one line */
 @media (max-width: 480px) { header .logo .tag { display: none; } }
-
-/* =====================================================================
-   SCROLL SCENES (homepage) — layered on the original theme
-   ===================================================================== */
-
-/* smooth scrolling (Lenis) */
-html.lenis, html.lenis body { height: auto; }
-.lenis.lenis-smooth { scroll-behavior: auto !important; }
-.lenis.lenis-stopped { overflow: hidden; }
-
-/* hero becomes a cinema screen as you scroll */
-.hero-bg { transform-origin: 50% 45%; will-change: transform, border-radius; }
-
-/* statement: words light up with the scroll */
-.statement { padding: clamp(110px, 18vh, 200px) 0; position: relative; }
-.scrub { font-family: var(--display); font-weight: 800; letter-spacing: -.03em; line-height: 1.06;
-  font-size: clamp(32px, 5.2vw, 76px); max-width: 18ch; color: var(--paper); }
-.scrub em { font-family: var(--serif); font-style: italic; font-weight: 400; letter-spacing: 0; padding-right: .06em;
-  background: var(--grad); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
-.scrub .sw { opacity: .14; }
-html:not(.m-ready) .scrub .sw, .no-gsap .scrub .sw { opacity: 1; }
-
-/* pinned horizontal film reel */
-.reel-section { padding: 0 !important; overflow: hidden; }
-.reel-pin { min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; justify-content: center; padding: 84px 0 30px; }
-.reel-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; width: 100%; }
-.reel-head h2 { margin: 0; }
-.reel-head .lede { max-width: 400px; margin: 0; }
-.reel-track { display: flex; gap: 22px; padding: 30px 6vw 8px; width: max-content; will-change: transform; outline: none; }
-.reel-card { flex: 0 0 auto; width: calc(min(50vh, 560px) * 9 / 16); }
-.reel-card .veil h3 { font-size: 18px; }
-.reel-end { flex: 0 0 auto; width: calc(min(50vh, 560px) * 9 / 16); aspect-ratio: 9 / 16; border-radius: 16px; border: 1px dashed rgba(249,115,22,.5);
-  display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 14px; text-decoration: none; color: var(--paper);
-  font-family: var(--display); font-weight: 700; font-size: 22px; text-align: center; padding: 20px; transition: background .3s, border-color .3s; }
-.reel-end b { font-size: 54px; color: var(--orange); transition: transform .3s; }
-.reel-end:hover { background: rgba(249,115,22,.08); border-color: var(--orange); }
-.reel-end:hover b { transform: translateX(8px); }
-.reel-meter { display: flex; align-items: center; gap: 18px; margin-top: 26px; font-size: 12px; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
-.reel-bar { flex: 1; height: 2px; background: var(--line); position: relative; overflow: hidden; border-radius: 2px; }
-.reel-bar i { position: absolute; inset: 0; background: var(--grad); transform-origin: 0 50%; transform: scaleX(0); }
-/* without the pinned scene (phones, reduced motion): a native swipe row */
-.no-pin .reel-pin { min-height: 0; padding: 90px 0 60px; }
-.no-pin .reel-track { width: auto; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: 6vw; scrollbar-width: none; }
-.no-pin .reel-track::-webkit-scrollbar { display: none; }
-.no-pin .reel-card, .no-pin .reel-end { width: min(62vw, 300px); scroll-snap-align: start; }
-@media (max-width: 760px) { .reel-head { flex-direction: column; align-items: flex-start; gap: 16px; } }
-
-/* services: a film floats beside the cursor */
-.svc-float { position: fixed; left: 0; top: 0; width: 210px; aspect-ratio: 9 / 16; border-radius: 16px; overflow: hidden; pointer-events: none; z-index: 60;
-  opacity: 0; transform: translate3d(-50%, -50%, 0) scale(.6) rotate(-6deg); transition: opacity .25s, transform .35s cubic-bezier(.2,.7,.2,1);
-  box-shadow: 0 30px 80px rgba(0,0,0,.6), 0 0 0 1px rgba(249,115,22,.35); }
-.svc-float video { width: 100%; height: 100%; object-fit: cover; }
-.svc-float.on { opacity: 1; }
-
-/* process: a line that fills as you scroll */
-.steps { position: relative; }
-.steps-line { position: absolute; left: 0; right: 0; top: -22px; height: 2px; background: var(--line); border-radius: 2px; overflow: hidden; }
-.steps-line i { position: absolute; inset: 0; background: var(--grad); transform-origin: 0 50%; transform: scaleX(0); }
-
-/* headings rise out of a mask, line by line */
-.m-split .mw { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: .08em; margin-bottom: -.08em; }
-.m-split .mw > span { display: inline-block; will-change: transform; }
-
-/* film cards wipe open */
-.m-wipe { clip-path: inset(0 0 0 0 round 16px); }
-
-/* footer wordmark */
-.mega { font-family: var(--display); font-weight: 800; letter-spacing: -.05em; line-height: .82; white-space: nowrap; overflow: hidden;
-  font-size: clamp(54px, 15.6vw, 250px); text-align: center; padding: 0 0 50px; margin-top: -10px; color: transparent;
-  -webkit-text-stroke: 1px rgba(245,244,240,.22); user-select: none; }
-.mega span { display: inline-block; }
-.mega .o { -webkit-text-stroke: 0; background: var(--grad); -webkit-background-clip: text; background-clip: text; }
-
-/* cursor */
-.m-cursor, .m-ring { position: fixed; left: 0; top: 0; pointer-events: none; z-index: 10002; border-radius: 50%; opacity: 0; }
-.m-cursor { width: 7px; height: 7px; margin: -3.5px 0 0 -3.5px; background: var(--orange); }
-.m-ring { width: 38px; height: 38px; margin: -19px 0 0 -19px; border: 1px solid rgba(245,244,240,.45);
-  display: grid; place-items: center; font: 600 11px/1 var(--body); letter-spacing: .18em; text-transform: uppercase; color: #0a0a0f;
-  transition: width .3s cubic-bezier(.2,.7,.2,1), height .3s cubic-bezier(.2,.7,.2,1), margin .3s cubic-bezier(.2,.7,.2,1), background .3s, border-color .3s; }
-.m-ring b { opacity: 0; transition: opacity .2s; font-weight: 700; }
-.m-ring.play { width: 86px; height: 86px; margin: -43px 0 0 -43px; background: var(--orange); border-color: var(--orange); }
-.m-ring.play b { opacity: 1; }
-.m-ring.link { width: 58px; height: 58px; margin: -29px 0 0 -29px; border-color: var(--orange); }
-@media (hover: none), (max-width: 900px) { .m-cursor, .m-ring, .svc-float { display: none; } }
