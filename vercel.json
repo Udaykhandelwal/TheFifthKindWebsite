@@ -175,6 +175,16 @@
       "source": "/location/:city",
       "destination": "/locations/:city/",
       "permanent": true
+    },
+    {
+      "source": "/services/:service/:city/",
+      "destination": "/:service/:city/",
+      "permanent": true
+    },
+    {
+      "source": "/location/:city/",
+      "destination": "/locations/:city/",
+      "permanent": true
     }
   ]
 }
