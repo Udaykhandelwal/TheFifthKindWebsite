@@ -41,7 +41,31 @@ for key, s in svc.items():
     lp = url_for(s, "bangalore") if "bangalore" in s.get("cities", []) else s["page"]
     a.append(f"| {s['ads']['ad_group']} | {B}{lp} | {', '.join('['+x+']' for x in s['ads']['exact'])} | {', '.join(chr(34)+x+chr(34) for x in s['ads']['phrase'])} |")
 a += ["", "**Landing-page checklist (all Bangalore pages):** H1 matches the ad group; WhatsApp + call buttons above the fold; quote form (#quote) on the page; "
-      "proof films; FAQ answering price, office and language; page tagged `data-service`/`data-city` for GA4; mobile sticky WhatsApp/Call bar."]
+      "proof films; FAQ answering price, office and language; page tagged `data-service`/`data-city` for GA4; mobile sticky WhatsApp/Call bar.",
+      "",
+      "**Ad visitors (built in):** a visit with `gclid`, `gbraid`, `wbraid` or `utm_medium=cpc|ppc|paid` switches service pages to focus mode for the session "
+      "(top menu, breadcrumbs, city/related link blocks and footer link columns are hidden; WhatsApp, call and the quote form stay). "
+      "The click ID, UTM tags and landing page are added to every emailed form lead, so each lead shows whether it came from an ad. "
+      "Turn on auto-tagging in Google Ads so `gclid` is present.",
+      "",
+      "**Proof and prices:** add approved client quotes and starting prices to `data/proof.json`. Pages show them automatically; nothing appears while they are empty."]
+# Ad groups that have ready-made copy and their own negatives
+for key, s in svc.items():
+    ad = s["ads"]
+    if not (ad.get("headlines") or ad.get("negatives")):
+        continue
+    a += ["", f"## {ad['ad_group']}", ""]
+    if ad.get("negatives"):
+        a.append(f"**Ad-group negatives** (in addition to the shared list): {', '.join(ad['negatives'])}\n")
+    if ad.get("headlines"):
+        long_h = [h for h in ad["headlines"] if len(h) > 30]
+        long_d = [d for d in ad.get("descriptions", []) if len(d) > 90]
+        if long_h or long_d:
+            raise SystemExit(f"{key}: ad copy over Google's limits: {long_h + long_d}")
+        a.append("**Responsive search ad: headlines** (max 30 characters; pin the first to position 1)\n")
+        a += [f"{i}. {h}" for i, h in enumerate(ad["headlines"], 1)]
+        a.append("\n**Descriptions** (max 90 characters)\n")
+        a += [f"{i}. {d}" for i, d in enumerate(ad.get("descriptions", []), 1)]
 (D / "GOOGLE_ADS_BANGALORE.md").write_text("\n".join(a) + "\n")
 
 rows = ["# Page inventory\n", "| URL | Type | Title | Words |", "|---|---|---|---|"]

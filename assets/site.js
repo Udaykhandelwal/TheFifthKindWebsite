@@ -65,6 +65,25 @@
     else if (h.indexOf("mailto:") === 0) track("email_click", where);
   });
 
+  // ---------- ad attribution ----------
+  // Remember the ad click ID, UTM tags and landing page for this visit, so every form lead
+  // says where it came from (Google Ads auto-tagging adds gclid / gbraid / wbraid).
+  var ATTR_KEYS = ["gclid", "gbraid", "wbraid", "msclkid", "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content"];
+  var attr = {};
+  try {
+    attr = JSON.parse(sessionStorage.getItem("tfk_attr") || "{}");
+    var qs = new URLSearchParams(location.search), fresh = {};
+    ATTR_KEYS.forEach(function (k) { var v = qs.get(k); if (v) fresh[k] = v.slice(0, 200); });
+    if (Object.keys(fresh).length) {
+      fresh.landing_page = location.pathname;
+      attr = fresh;
+      sessionStorage.setItem("tfk_attr", JSON.stringify(attr));
+      if (fresh.gclid || fresh.gbraid || fresh.wbraid || fresh.msclkid || /^(cpc|ppc|paid)$/i.test(fresh.utm_medium || "")) {
+        sessionStorage.setItem("tfk_ad", "1");
+      }
+    }
+  } catch (e) {}
+
   // ---------- lead capture ----------
   // Called by forms. Opens WhatsApp immediately (so pop-up blockers allow it)
   // and saves the lead by email in the background.
@@ -73,6 +92,9 @@
     fields._subject = "New website lead — " + (fields.service || "the5thkind.in");
     fields.page = location.href;
     fields._template = "table";
+    for (var ak in attr) { if (!fields[ak]) fields[ak] = attr[ak]; }
+    fields.lead_source = (attr.gclid || attr.gbraid || attr.wbraid) ? "Google Ads"
+      : attr.msclkid ? "Microsoft Ads" : (attr.utm_source ? attr.utm_source + " / " + (attr.utm_medium || "") : "Direct / organic");
     try {
       fetch("https://formsubmit.co/ajax/" + LEAD_EMAIL, {
         method: "POST", keepalive: true,

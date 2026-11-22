@@ -146,6 +146,9 @@ def service_city_page(key, svc, cslug, c, services, cities, inds):
   <p style="margin-top:18px;color:var(--muted)">We deliver in {esc(join_list(langs))}. {esc(season_line)}</p>
 </div></section>''')
 
+    # approved client quotes + starting price (data/proof.json; renders nothing while empty)
+    body.append(f"{{{{proof:{key}}}}}")
+
     # quote form
     body.append(f'''<section class="block" id="quote"><div class="wrap narrow">
   <h2>Get a fixed quote</h2>
@@ -192,7 +195,7 @@ def service_city_page(key, svc, cslug, c, services, cities, inds):
     links = "".join(f'<a href="{u}">{esc(t)}<span>{esc(svc["name"])} for {esc(t)} businesses</span></a>' for t, u in other_cities[:10])
     links2 = "".join(f'<a href="{u}">{esc(t)}<span>See the service</span></a>' for t, u in same_city[:8])
     blog = "".join(f'<li><a href="{b}">{esc(b.strip("/").split("/")[-1].replace("-", " ").capitalize())}</a></li>' for b in svc.get("blog", []))
-    body.append(f'''<section class="block"><div class="wrap">
+    body.append(f'''<section class="block" data-ad-hide><div class="wrap">
   <h2>{esc(name)} in other cities</h2>
   <div class="related">{links}<a href="{svc["page"]}">All of India<span>{esc(name)}, the full service page</span></a></div>
   {f'<h2 style="margin-top:40px">More for {esc(cname)} businesses</h2><div class="related">{links2}<a href="/locations/{cslug}/">Everything we do in {esc(cname)}<span>Services, industries and FAQs</span></a></div>' if links2 else f'<p style="margin-top:20px"><a href="/locations/{cslug}/">Everything we do for {esc(cname)} businesses →</a></p>'}
@@ -385,7 +388,7 @@ def available_in_block(svc, key, cities):
                     for s in svc.get("cities", []))
     if not links:
         return ""
-    return (f'<section class="block"><div class="wrap"><h2>{esc(svc["name"])} by city</h2>'
+    return (f'<section class="block" data-ad-hide><div class="wrap"><h2>{esc(svc["name"])} by city</h2>'
             f'<p class="lede">Our studio is in Bengaluru. We also work with businesses in these cities: <a href="/locations/">all locations →</a></p>'
             f'<div class="related">{links}</div></div></section>\n')
 

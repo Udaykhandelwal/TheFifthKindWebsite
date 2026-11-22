@@ -195,3 +195,20 @@ footer.site { border-top: 1px solid var(--line); padding: 64px 0 110px; margin-t
 .matrix td a { text-decoration: none; font-weight: 700; }
 
 picture { display: contents; }
+
+/* client quotes + starting price ({{proof:...}} shortcode, data/proof.json) */
+.proof .testimonial { margin: 18px 0 0; padding: 22px 24px; border: 1px solid var(--line-strong); border-radius: 16px; background: rgba(255,255,255,.03); }
+.proof .testimonial p { font-size: 19px; line-height: 1.55; }
+.proof .testimonial cite { display: block; margin-top: 12px; font-style: normal; font-size: 14px; color: var(--muted); }
+.proof .price-from { margin-top: 22px; color: var(--muted); }
+.proof .price-from strong { color: var(--paper); }
+
+/* Focus mode for ad visitors on service pages: the head script adds .ad-visit after a
+   click from a Google/Bing ad. Keeps the offer, proof, WhatsApp/call and the quote form;
+   hides the menu and the links that send paid clicks elsewhere. */
+.ad-visit body[data-page-type^="service"] .nav > ul,
+.ad-visit body[data-page-type^="service"] .nav .menu,
+.ad-visit body[data-page-type^="service"] .crumbs,
+.ad-visit body[data-page-type^="service"] [data-ad-hide],
+.ad-visit body[data-page-type^="service"] footer.site .f-col { display: none !important; }
+.ad-visit body[data-page-type^="service"] .page-hero { padding-top: 40px; }

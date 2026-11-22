@@ -17,6 +17,7 @@ Shortcodes usable inside bodies:
     {{cta:Heading|Body}}     CTA band with custom copy
     {{related:slug,slug}}    related-page links
     {{form:Service name}}    lead form (saved + opens WhatsApp)
+    {{proof:service-key}}    approved client quotes + starting price from data/proof.json (empty = nothing shown)
 
 FAQ items written as <details class="q"><summary>Q</summary><div>A</div></details>
 are turned into FAQPage schema automatically.
@@ -42,6 +43,12 @@ SAME_AS = [
 ]
 
 ORG_ID = f"{BASE}/#business"
+
+# Runs in <head> before the page paints: a visit from a Google/Bing ad (click ID or paid UTM)
+# marks the session, and site.css then hides menus and side links on service pages (focus mode).
+AD_FLAG_JS = ('<script>(function(){try{var s=sessionStorage;'
+              'if(/[?&](gclid|gbraid|wbraid|msclkid)=|[?&]utm_medium=(cpc|ppc|paid)(&|$)/i.test(location.search))s.setItem("tfk_ad","1");'
+              'if(s.getItem("tfk_ad"))document.documentElement.classList.add("ad-visit")}catch(e){}})();</script>')
 
 VIDEOS = {
     # key: (file, poster, title, description, seconds, category, wide)
@@ -220,6 +227,31 @@ def lead_form(service):
 </form>'''
 
 
+def proof_block(key):
+    """{{proof:service-key}}: approved client quotes and a starting price from data/proof.json.
+    Renders nothing until real, approved content is added there."""
+    path = ROOT / "data/proof.json"
+    if not path.exists():
+        return ""
+    data = json.loads(path.read_text(encoding="utf-8"))
+    quotes = [t for t in data.get("testimonials", [])
+              if t.get("service") == key and t.get("approved") and t.get("quote", "").strip()]
+    price = (data.get("prices") or {}).get(key, "").strip()
+    if not quotes and not price:
+        return ""
+    out = ['<section class="block proof" data-proof><div class="wrap narrow">']
+    if quotes:
+        out.append("<h2>What clients say</h2>")
+        for t in quotes:
+            who = ", ".join(x for x in (t.get("name"), t.get("role"), t.get("company")) if x)
+            out.append(f'<blockquote class="testimonial"><p>“{esc(t["quote"].strip())}”</p>'
+                       f'{f"<cite>{esc(who)}</cite>" if who else ""}</blockquote>')
+    if price:
+        out.append(f'<p class="price-from"><strong>{esc(price)}</strong> · fixed quote after a free 15-minute call</p>')
+    out.append("</div></section>")
+    return "".join(out)
+
+
 def post_card(key, used_posts):
     alt, cap, client = POSTS[key]
     used_posts.append(key)
@@ -249,6 +281,7 @@ def expand(body, page, pages, used):
     body = body.replace("{{cta}}", cta_band(page=page))
     body = re.sub(r"\{\{related:([\w,/-]+)\}\}", lambda m: related(m[1].split(","), pages), body)
     body = re.sub(r"\{\{form:([^}]*)\}\}", lambda m: lead_form(m[1]), body)
+    body = re.sub(r"\{\{proof:([\w-]+)\}\}", lambda m: proof_block(m[1]), body)
     return body
 
 
@@ -413,6 +446,7 @@ def head_html(page, schema):
 <title>{esc(page["title"])}</title>
 <meta name="description" content="{esc(page["description"])}">
 <link rel="canonical" href="{url}">\n{verification_meta()}<script src="/assets/tracking-config.js"></script>
+{AD_FLAG_JS}
 <meta name="robots" content="{page.get("robots", "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1")}">
 <meta name="author" content="Uday Khandelwal, The Fifth Kind">
 <link rel="author" href="{BASE}/about/">
@@ -627,6 +661,8 @@ def update_home(pages):
     # tracking + verification on the hand-written homepage (idempotent)
     if 'src="/assets/tracking-config.js"' not in s:
         s = s.replace('<script src="/assets/site.js"', '<script src="/assets/tracking-config.js"></script>\n  <script src="/assets/site.js"', 1)
+    if "tfk_ad" not in s:
+        s = s.replace('<script src="/assets/tracking-config.js"></script>', '<script src="/assets/tracking-config.js"></script>\n  ' + AD_FLAG_JS, 1)
     s = re.sub(r'<body[^>]*>', '<body data-page-type="home" data-service="home" data-city="">', s, count=1)
     s = re.sub(r'\n?<meta name="(google-site-verification|msvalidate\.01)" content="[^"]*">', "", s)
     vm = verification_meta().strip()

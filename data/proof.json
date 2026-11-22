@@ -1,0 +1,15 @@
+{
+ "_about": "Client quotes and starting prices shown on service pages and their city pages. Only add quotes a client has approved in writing, word for word. A testimonial appears only when 'approved' is true and 'quote' is filled. A price appears only when filled. 'service' and price keys match data/services.json (e.g. whatsapp-chatbot, jewellery-marketing). Run python3 tools/build.py after editing.",
+ "testimonials": [
+  {"service": "whatsapp-chatbot", "quote": "", "name": "", "role": "", "company": "Mahaveer Papers", "approved": false},
+  {"service": "jewellery-marketing", "quote": "", "name": "", "role": "", "company": "Megha Jewellers", "approved": false}
+ ],
+ "prices": {
+  "_example": "Setup from ₹XX,XXX + Meta's message charges",
+  "whatsapp-chatbot": "",
+  "ai-chatbot-development": "",
+  "jewellery-marketing": "",
+  "social-media-management": "",
+  "ai-product-video": ""
+ }
+}
